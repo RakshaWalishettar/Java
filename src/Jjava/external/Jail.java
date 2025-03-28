@@ -1,4 +1,4 @@
-package java.external;
+package Jjava.external;
 
 public class Jail {
     private String name;

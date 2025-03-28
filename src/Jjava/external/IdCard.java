@@ -1,4 +1,4 @@
-package java.external;
+package Jjava.external;
 
 public class IdCard {
     private String material;

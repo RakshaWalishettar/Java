@@ -1,6 +1,9 @@
-package java.Mainmain;
+package Jjava.Main;
+import Jjava.external.*;
+import Jjava.external.Alien;
+import Jjava.external.Camera;
+import Jjava.external.Jail;
 
-import java.external.*;
 import java.external.constant.CameraType;
 import java.util.Date;
 import java.external.constant.SatelliteType;
