@@ -1,4 +1,4 @@
-package com.xworkz.inheritance.runner;
+package com.xworkz.Inheritance.external.Runner;
 
 import com.xworkz.inheritance.external.PickupTruck;
 import com.xworkz.inheritance.external.Truck;
