@@ -1,7 +1,7 @@
 package Assign.parameter.com;
 
 public class Pillow {
-    void sleep() {
+    public void sleep() {
         System.out.println("Sleeping on a pillow.");
     }
 }

@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Dogs;
-import com.xworkz.inheritance.external.GermanShepherd;
+import com.xworks.Inheritance.external.Dogs;
+import com.xworks.Inheritance.external.GermanShepherd;
 
 public class GermanShepherdRunner {
     public static void main(String[] args){

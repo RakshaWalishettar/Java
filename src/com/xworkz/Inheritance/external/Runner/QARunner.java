@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.QualityAssurance;
-import com.xworkz.inheritance.external.Tester;
+import com.xworks.Inheritance.external.QualityAssurance;
+import com.xworks.Inheritance.external.Tester;
 
 public class QARunner {
     public static void main(String[] args){

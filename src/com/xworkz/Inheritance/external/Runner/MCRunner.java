@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.MotorCycle;
-import com.xworkz.inheritance.external.Sportsbike;
+import com.xworks.Inheritance.external.MotorCycle;
+import com.xworks.Inheritance.external.Sportsbike;
 
 public class MCRunner {
     public static void main(String[] args){

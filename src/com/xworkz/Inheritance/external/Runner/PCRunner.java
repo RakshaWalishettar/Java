@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Cats;
-import com.xworkz.inheritance.external.PersianCat;
+import com.xworks.Inheritance.external.Cats;
+import com.xworks.Inheritance.external.PersianCat;
 
 public class PCRunner {
     public static void main (String[] args){

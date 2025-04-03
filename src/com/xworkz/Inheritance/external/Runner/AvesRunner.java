@@ -1,11 +1,12 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Aves;
-import com.xworkz.inheritance.external.Birds;
+import com.xworks.Inheritance.external.Aves;
+import com.xworks.Inheritance.external.Birds;
+
 
 public class AvesRunner {
     public static void main (String[] args){
-        Birds birds=new Birds();
-        Birds bird=new Aves();
+       Birds birds=new Birds();
+       Birds birds1=new Aves();
     }
 }

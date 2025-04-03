@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.PickupTruck;
-import com.xworkz.inheritance.external.Truck;
+import com.xworks.Inheritance.external.PickupTruck;
+import com.xworks.Inheritance.external.Truck;
 
 public class TruckRunner {
     public static void main(String [] args){

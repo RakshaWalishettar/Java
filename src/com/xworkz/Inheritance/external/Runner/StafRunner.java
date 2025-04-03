@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Engineer;
-import com.xworkz.inheritance.external.Staf;
+import com.xworks.Inheritance.external.Engineer;
+import com.xworks.Inheritance.external.Staf;
 
 public class StafRunner {
     public static void main(String[] args){

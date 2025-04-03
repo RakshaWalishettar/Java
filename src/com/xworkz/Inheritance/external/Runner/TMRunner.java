@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Designer;
-import com.xworkz.inheritance.external.Teamwork;
+import com.xworks.Inheritance.external.Designer;
+import com.xworks.Inheritance.external.Teamwork;
 
 public class TMRunner {
     public static void main(String[] args){

@@ -1,10 +1,10 @@
 package Assign.parameter.com;
 
 public class Camera {
-    void photo() {
+    public void photo() {
         System.out.println("Photo clicked.");
     }
-    void video() {
+    public void video() {
         System.out.println("Recording video.");
     }
 }

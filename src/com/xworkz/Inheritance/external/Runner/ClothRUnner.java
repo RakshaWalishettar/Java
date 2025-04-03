@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Clothing;
-import com.xworkz.inheritance.external.TShirt;
+import com.xworks.Inheritance.external.Clothing;
+import com.xworks.Inheritance.external.TShirt;
 
 public class ClothRUnner {
     public static void main(String[] args){

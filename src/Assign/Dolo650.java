@@ -1,7 +1,7 @@
 package Assign.parameter.com;
 
 public class Dolo650 {
-    void cause() {
+    public void cause() {
         System.out.println("Dolo650 is a fever tablet.");
     }
 

@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Knight;
-import com.xworkz.inheritance.external.Warrior;
+import com.xworks.Inheritance.external.Knight;
+import com.xworks.Inheritance.external.Warrior;
 
 public class WKRunner {
     public static void main(String[] args){

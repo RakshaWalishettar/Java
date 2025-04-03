@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Employee;
-import com.xworkz.inheritance.external.Manager;
+import com.xworks.Inheritance.external.Employee;
+import com.xworks.Inheritance.external.Manager;
 
 public class EmployeRunner {
     public static void main(String[] args){

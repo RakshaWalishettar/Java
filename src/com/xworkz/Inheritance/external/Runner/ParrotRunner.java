@@ -1,8 +1,8 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Bird;
+import com.xworks.Inheritance.external.Bird;
 
-import com.xworkz.inheritance.external.Parrot;
+import com.xworks.Inheritance.external.Parrot;
 
 public class ParrotRunner {
     public static void main(String[] args){

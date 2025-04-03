@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Car;
-import com.xworkz.inheritance.external.Vehical;
+import com.xworks.Inheritance.external.Car;
+import com.xworks.Inheritance.external.Vehical;
 
 public class Vehicalrunner {
     public static void main (String[] args){

@@ -1,7 +1,7 @@
-package Assign.parameter.com;
+package Assign;
 
 public class Human {
-    void fever(Dolo650 dolo650) {
+    void fever(Assign.parameter.com.Dolo650 dolo650) {
         if (dolo650 != null) {
             dolo650.cause();
             System.out.println("Taking Dolo650 for fever.");
@@ -10,7 +10,7 @@ public class Human {
         }
     }
 
-    void longHair(Barber barber) {
+    void longHair(Assign.parameter.com.Barber barber) {
         if (barber != null) {
             barber.cutHair();
             System.out.println("Cutting long hair.");
@@ -19,7 +19,7 @@ public class Human {
         }
     }
 
-    void Bill(Barber barber) {
+    void Bill(Assign.parameter.com.Barber barber) {
         if (barber != null) {
             barber.Bill();
             System.out.println("takes amount.");
@@ -28,7 +28,7 @@ public class Human {
         }
     }
 
-    void photo(Camera camera) {
+    void photo(Assign.parameter.com.Camera camera) {
         if (camera != null) {
             camera.photo();
             System.out.println("Clicking photo of human.");
@@ -36,7 +36,7 @@ public class Human {
             System.out.println("No camera available for taking photos.");
         }
     }
-    void record(Camera camera) {
+    void record(Assign.parameter.com.Camera camera) {
         if (camera != null) {
             camera.video();
             System.out.println("Clicking photo of human.");
@@ -45,7 +45,7 @@ public class Human {
         }
     }
 
-    void eat(Mango mango) {
+    void eat(Assign.parameter.com.Mango mango) {
         if (mango != null) {
             mango.season();
             System.out.println("Summer is the mango season.");
@@ -54,7 +54,7 @@ public class Human {
         }
     }
 
-    void sleepy(Pillow pillow) {
+    void sleepy(Assign.parameter.com.Pillow pillow) {
         if (pillow != null) {
             pillow.sleep();
             System.out.println("Human sleeping on pillow.");

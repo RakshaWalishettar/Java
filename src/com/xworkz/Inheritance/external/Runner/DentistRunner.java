@@ -1,7 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
-import com.xworkz.inheritance.external.Dentist;
-import com.xworkz.inheritance.external.Doctor;
+import com.xworks.Inheritance.external.Dentist;
+import com.xworks.Inheritance.external.Doctor;
 
 public class DentistRunner {
     public static void main (String[] args){
