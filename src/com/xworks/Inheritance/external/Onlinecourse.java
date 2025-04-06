@@ -1,23 +1,25 @@
 package com.xworks.Inheritance.external;
 
 public class Onlinecourse extends Course{
-    public void accessOnlineMaterial() {
+    public Onlinecourse(){
+        System.out.println("no args const");
+    }@Override
+    public void enroll() {
         System.out.println("Accessing online course materials...");
     }
-
-    public void joinLiveSession() {
+    @Override
+    public void startCourse() {
         System.out.println("Joining a live session...");
-    }
-
-    public void submitAssignment() {
+    }@Override
+    public void completeCourse() {
         System.out.println("Submitting an online assignment...");
     }
-
-    public void participateInDiscussion() {
+    @Override
+    public void getCertificate() {
         System.out.println("Participating in an online discussion...");
     }
-
-    public void takeQuiz() {
+    @Override
+    public void reviewCourse() {
         System.out.println("Taking an online quiz...");
     }
 }

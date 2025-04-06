@@ -4,29 +4,24 @@ public class Android extends Robot{
     public Android() {
         System.out.println("Android is created...");
     }
-
-    {
-        super.walk();
+    @Override
+    public void walk(){
         System.out.println("Android walks like a human...");
     }
-
-    {
-        super.talk();
+    @Override
+    public void talk(){
         System.out.println("Android can talk naturally...");
     }
-
-    {
-        super.recognizeVoice();
+    @Override
+    public void recognizeVoice(){
         System.out.println("Android uses AI to recognize voices...");
     }
-
-    {
-        super.performTask();
+    @Override
+    public void performTask(){
         System.out.println("Android is performing complex tasks...");
     }
-
-    {
-        super.recharge();
+    @Override
+    public void recharge(){
         System.out.println("Android is recharging wirelessly...");
     }
 }

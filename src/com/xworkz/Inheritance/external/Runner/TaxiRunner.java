@@ -5,7 +5,18 @@ import com.xworks.Inheritance.external.TaxiDriver;
 
 public class TaxiRunner {
     public static void main(String[] args) {
-        Driver driver = new TaxiDriver();
-        Driver driver1 = new Driver();
+        TaxiDriver taxiDriver = new TaxiDriver();
+        taxiDriver.pickUpPassenger();
+        taxiDriver.navigate();
+        taxiDriver.dropOffPassenger();
+        taxiDriver.calculateFare();
+
+
+        System.out.println("================================");
+        Driver driver = new Driver();
+        driver.calculateFare();
+        driver.dropOffPassenger();
+        driver.navigate();
+        driver.pickUpPassenger();
     }
 }

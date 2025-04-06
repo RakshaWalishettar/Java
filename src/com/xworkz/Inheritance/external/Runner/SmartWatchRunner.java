@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.SmartWatch;
 public class SmartWatchRunner {
     public static void main(String[] args){
         SmartGadget smartGadget=new SmartGadget();
-        SmartGadget smartGadget1=new SmartWatch();
+        smartGadget.trackSteps();
+        smartGadget.showTime();
+        smartGadget.receiveNotifications();
+        smartGadget.monitorHeartRate();
+        smartGadget.chargeBattery();
+
+        System.out.println("====================================");
+        SmartWatch smartWatch=new SmartWatch();
+        smartWatch.trackSteps();
+        smartWatch.showTime();
+        smartWatch.chargeBattery();
+        smartWatch.receiveNotifications();
+        smartWatch.monitorHeartRate();
     }
 }

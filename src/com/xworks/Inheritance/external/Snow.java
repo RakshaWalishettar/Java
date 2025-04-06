@@ -4,29 +4,28 @@ public class Snow extends Christmas{
     public Snow() {
         System.out.println("Snow: No-args constructor.");
     }
-
-    {
-        super.decorateTree();
+    @Override
+    public void decorateTree(){
         System.out.println("Snow: Adding snow-themed decorations.");
     }
 
-    {
-        super.exchangeGifts();
+    @Override
+    public void exchangeGifts(){
         System.out.println("Snow: Exchanging gifts with a snowy theme.");
     }
 
-    {
-        super.singCarols();
+    @Override
+    public void singCarols(){
         System.out.println("Snow: Singing carols in the snow.");
     }
 
-    {
-        super.cookDinner();
+    @Override
+    public void cookDinner(){
         System.out.println("Snow: Preparing a warm meal in the cold.");
     }
 
-    {
-        super.celebrate();
+    @Override
+    public void celebrate(){
         System.out.println("Snow: Celebrating with snow activities.");
     }
 }

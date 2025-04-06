@@ -6,7 +6,19 @@ import com.xworks.Inheritance.external.Shape;
 public class CircleRunner {
     public static void main(String[] args){
         Shape shape=new Shape();
-        Shape shape1=new Circle();
+        shape.rotate();
+        shape.resize();
+        shape.fillColor();
+        shape.calculateArea();
+        shape.calculateCircumference();
+
+        System.out.println("==================================");
+        Circle circle=new Circle();
+        circle.rotate();
+        circle.fillColor();
+        circle.resize();
+        circle.calculateArea();
+        circle.calculateCircumference();
     }
 
 }

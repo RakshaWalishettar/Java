@@ -5,28 +5,27 @@ public class Shark extends Fish{
         System.out.println("No-args constructor: Shark");
     }
 
-    {
-        super.swim();
+    @Override
+    public void swim(){
         System.out.println("Shark is swimming fast...");
     }
 
-    {
-        super.hunt();
+    @Override
+    public void hunt(){
         System.out.println("Shark is hunting prey...");
     }
-
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("Shark is eating aggressively...");
     }
 
-    {
-        super.sleep();
+    @Override
+    public void sleep(){
         System.out.println("Shark is resting...");
     }
 
-    {
-        super.breatheUnderwater();
+    @Override
+    public void breatheUnderwater(){
         System.out.println("Shark breathes through gills...");
     }
 }

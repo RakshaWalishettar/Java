@@ -1,27 +1,22 @@
 package com.xworks.Inheritance.external;
 
 public class Circle extends Shape{
-    public void Circle() {
+    public void circle() {
         System.out.println("the circle is the shape");
-    }
-    {
-        super.calculateArea();
+    }@Override
+    public void calculateArea(){
         System.out.println("Circle Area " );
-    }
-    {
-        super.calculateCircumference();
+    }@Override
+    public void calculateCircumference(){
         System.out.println("Circle Circumference ");
-    }
-    {
-        super.rotate();
+    }@Override
+    public void rotate(){
         System.out.println("Rotating circle...");
-    }
-    {
-        super.resize();
+    }@Override
+    public void resize(){
         System.out.println("Resizing circle...");
-    }
-    {
-        super.fillColor();
+    }@Override
+    public void fillColor(){
         System.out.println("Filling circle with color...");
     }
 }

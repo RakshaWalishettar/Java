@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Tablet;
 public class TabletRunner {
     public static void main(String [] args){
         Antibiotic antibiotic=new Antibiotic();
-        Antibiotic anti= new Tablet();
+        antibiotic.treatInfections();
+        antibiotic.reduceFever();
+        antibiotic.manageDosage();
+        antibiotic.killBacteria();
+        antibiotic.increaseImmunity();
+
+        System.out.println("==============================");
+        Tablet tablet= new Tablet();
+        tablet.treatInfections();
+        tablet.reduceFever();
+        tablet.manageDosage();
+        tablet.killBacteria();
+        tablet.increaseImmunity();
     }
 }

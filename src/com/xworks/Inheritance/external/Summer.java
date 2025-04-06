@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class Summer extends Hot{
-    public void summer() {
+    public Summer() {
         System.out.println("Summer: No-args constructor.");
     }
 
-    {
-        super.temperatureRise();
+    @Override
+    public void temperatureRise(){
         System.out.println("Summer: Days get hotter.");
     }
 
-    {
-        super.sunBurn();
+    @Override
+    public void sunBurn(){
         System.out.println("Summer: Skin burns easily.");
     }
 
-    {
-        super.dehydration();
+    @Override
+    public void dehydration(){
         System.out.println("Summer: Drink more water.");
     }
 
-    {
-        super.heatwaves();
+    @Override
+    public void heatwaves(){
         System.out.println("Summer: Heatwaves affect daily life.");
     }
 
-    {
-        super.sweating();
+    @Override
+    public void sweating(){
         System.out.println("Summer: Excessive sweating occurs.");
     }
 }

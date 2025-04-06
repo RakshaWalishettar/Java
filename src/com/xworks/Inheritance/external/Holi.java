@@ -1,23 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Holi extends Colour{
-    public void throwColours() {
+    public Holi(){
+        System.out.println("no arg const of holi");
+    }@Override
+    public void displayColour() {
         System.out.println("Throwing colours for Holi!");
     }
-
-    public void splashWater() {
+    @Override
+    public void mixColours() {
         System.out.println("Splashing water during Holi!");
     }
-
-    public void celebrateWithDance() {
+    @Override
+    public void paint() {
         System.out.println("Dancing and celebrating Holi!");
     }
-
-    public void prepareSweets() {
+    @Override
+    public void dry() {
         System.out.println("Preparing sweets for Holi!");
     }
-
-    public void playWithFriends() {
+    @Override
+    public void fade() {
         System.out.println("Playing Holi with friends!");
     }
 }

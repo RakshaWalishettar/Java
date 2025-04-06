@@ -5,28 +5,28 @@ public class Grocery extends Product {
         System.out.println("Grocery Constructor Called");
     }
 
-    {
-        super.getName();
+    @Override
+    public void getName(){
         System.out.println("Grocery Name: Fresh Apples");
     }
 
-    {
-        super.getPrice();
+    @Override
+    public void getPrice(){
         System.out.println("Grocery Price: $2.99 per lb");
     }
 
-    {
-        super.getCategory();
+    @Override
+    public void getCategory(){
         System.out.println("Grocery Category: Food");
     }
 
-    {
-        super.getExpiryDate();
+    @Override
+    public void getExpiryDate(){
         System.out.println("Grocery Expiry Date: 10 Days from Manufacture");
     }
 
-    {
-        super.getStockQuantity();
+    @Override
+    public void getStockQuantity(){
         System.out.println("Grocery Stock Quantity: 500");
     }
 

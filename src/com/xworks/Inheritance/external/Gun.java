@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Gun extends Weapon{
-    public void gun() {
+    public Gun() {
         System.out.println("Gun instance created");
     }
-
-    {
-        super.load();
+    @Override
+    public void load(){
         System.out.println("Gun is loading...");
     }
-
-    {
-        super.shoot();
+    @Override
+    public void shoot(){
         System.out.println("Gun is shooting...");
     }
-
-    {
-        super.reload();
+    @Override
+    public  void reload(){
         System.out.println("Gun is reloading...");
     }
-
-    {
-        super.aim();
+    @Override
+    public void aim(){
         System.out.println("Gun is aiming...");
     }
-
-    {
-        super.safetyLock();
+    @Override
+    public void safetyLock(){
         System.out.println("Gun safety lock engaged...");
     }
 }

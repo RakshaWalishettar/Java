@@ -2,27 +2,21 @@ package com.xworks.Inheritance.external;
 
 public class Parrot extends Bird{
     public Parrot() {
-        super();
         System.out.println("No-args constructor of Parrot");
-    }
-    {
-    super.breathing();
+    }@Override
+    public void breathing(){
         System.out.println("Parrot is breathing");
-    }
-    {
-    super.eating();
+    }@Override
+    public void eating(){
         System.out.println("Parrot is eating");
-    }
-    {
-    super.sleeping() ;
+    }@Override
+    public void sleeping(){
         System.out.println("Parrot is sleeping");
-    }
-    {
-    super.flying() ;
+    }@Override
+    public void flying(){
         System.out.println("Parrot is flying");
-    }
-    {
-    super.chirping();
+    }@Override
+    public void chirping(){
         System.out.println("Parrot is chirping");
     }
 

@@ -7,6 +7,18 @@ import com.xworks.Inheritance.external.Mammal;
 public class AnimalRunner {
     public static void main(String[] args){
         Mammal mammal=new Mammal();
-        Mammal mammal1=new Animal();
+       mammal.sleep();
+       mammal.makeSound();
+       mammal.eat();
+       mammal.walk();
+       mammal.giveBirth();
+
+       System.out.println("===========================");
+       Animal animal=new Animal();
+       animal.eat();
+       animal.walk();
+       animal.makeSound();
+       animal.giveBirth();
+       animal.sleep();
     }
 }

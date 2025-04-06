@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class GovernmentHospital extends Hospital{
-    public void governmentHospital() {
+    public GovernmentHospital() {
         System.out.println("GovernmentHospital constructor.");
     }
-
-    {
-        super.admitPatient();
+    @Override
+    public void admitPatient(){
         System.out.println("GovernmentHospital is admitting a patient with subsidized costs...");
     }
-
-    {
-        super.provideTreatment();
+    @Override
+    public void provideTreatment(){
         System.out.println("GovernmentHospital is providing free treatment...");
     }
-
-    {
-        super.dischargePatient();
+    @Override
+    public void dischargePatient(){
         System.out.println("GovernmentHospital is ensuring proper discharge procedures...");
     }
-
-    {
-        super.maintainRecords();
+    @Override
+    public void maintainRecords(){
         System.out.println("GovernmentHospital is maintaining digital patient records...");
     }
-
-    {
-        super.manageStaff();
+    @Override
+    public void manageStaff(){
         System.out.println("GovernmentHospital is managing government-appointed staff...");
     }
 }

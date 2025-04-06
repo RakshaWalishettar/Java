@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class India extends Country {
-    public void india() {
+    public India() {
         System.out.println("no-args constructor India");
     }
-
-    {
-        super.nationalAnthem();
+    @Override
+    public void nationalAnthem(){
         System.out.println("India's national anthem is 'Jana Gana Mana'.");
     }
-
-    {
-        super.nationalAnimal();
+    @Override
+    public void nationalAnimal(){
         System.out.println("India's national animal is the Tiger.");
     }
-
-    {
-        super.nationalLanguage();
+    @Override
+    public void nationalLanguage(){
         System.out.println("India's widely spoken language is Hindi.");
     }
-
-    {
-        super.nationalSport();
+    @Override
+    public void nationalSport(){
         System.out.println("India's national sport is Hockey.");
     }
-
-    {
-        super.nationalFlag();
+    @Override
+    public void nationalFlag(){
         System.out.println("India's national flag has three colors and the Ashoka Chakra.");
     }
 }

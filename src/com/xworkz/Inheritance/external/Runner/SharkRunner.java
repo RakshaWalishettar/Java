@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Shark;
 
 public class SharkRunner {
     public static void main(String[] args) {
-        Fish fish = new Shark();
-        Fish fish1 = new Fish();
+        Shark shark = new Shark();
+        shark.sleep();
+        shark.swim();
+        shark.hunt();
+        shark.breatheUnderwater();
+        shark.eat();
+
+        System.out.println("=======================================");
+        Fish fish = new Fish();
+        fish.sleep();
+        fish.swim();
+        fish.breatheUnderwater();
+        fish.hunt();
+        fish.eat();
     }
 }

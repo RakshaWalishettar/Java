@@ -4,29 +4,24 @@ public class PhotoEditor extends SoftwareTool{
     public PhotoEditor() {
         System.out.println("PhotoEditor: No-args constructor");
     }
-
-    {
-        super.openImage();
+    @Override
+    public void openImage(){
         System.out.println("PhotoEditor: Opening an image with advanced tools...");
     }
-
-    {
-        super.applyFilter();
+    @Override
+    public void applyFilter(){
         System.out.println("PhotoEditor: Applying high-quality filters...");
     }
-
-    {
-        super.cropImage();
+    @Override
+    public void cropImage(){
         System.out.println("PhotoEditor: Cropping image with precision...");
     }
-
-    {
-        super.adjustBrightness();
+    @Override
+    public void adjustBrightness(){
         System.out.println("PhotoEditor: Fine-tuning brightness...");
     }
-
-    {
-        super.saveImage();
+    @Override
+    public void saveImage(){
         System.out.println("PhotoEditor: Saving edited image...");
     }
 }

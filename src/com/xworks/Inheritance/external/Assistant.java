@@ -4,29 +4,24 @@ public class Assistant extends AI{
     public Assistant() {
         System.out.println("Assistant initialized.");
     }
-
-    {
-        super.recognizeSpeech();
+    @Override
+    public void recognizeSpeech(){
         System.out.println("Assistant is recognizing speech...");
     }
-
-    {
-        super.answerQuery();
+    @Override
+    public void answerQuery(){
         System.out.println("Assistant is answering a query...");
     }
-
-    {
-        super.playMusic();
+    @Override
+    public void playMusic(){
         System.out.println("Assistant is playing music...");
     }
-
-    {
-        super.scheduleTask();
+    @Override
+    public void scheduleTask(){
         System.out.println("Assistant is scheduling a task...");
     }
-
-    {
-        super.learnPattern();
+    @Override
+    public void learnPattern(){
         System.out.println("Assistant is learning patterns...");
     }
 }

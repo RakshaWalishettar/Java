@@ -4,29 +4,24 @@ public class Poet extends Write{
     public Poet() {
         System.out.println("No-args constructor Poet");
     }
-
-    {
-        super.write();
+    @Override
+    public void write(){
         System.out.println("Poet is writing poetry...");
     }
-
-    {
-        super.edit();
+    @Override
+    public void edit(){
         System.out.println("Poet is editing poetry...");
     }
-
-    {
-        super.publish();
+    @Override
+    public void publish(){
         System.out.println("Poet is publishing poetry...");
     }
-
-    {
-        super.research();
+    @Override
+    public void research(){
         System.out.println("Poet is researching themes...");
     }
-
-    {
-        super.read();
+    @Override
+    public void read(){
         System.out.println("Poet is reading literature...");
     }
 }

@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.StudioApartment;
 
 public class StudioApartmentRunner {
     public static void main(String[] args) {
-        Apartment apartment = new StudioApartment();
-        Apartment apartment1 = new Apartment();
+        StudioApartment studioApartment= new StudioApartment();
+        studioApartment.useElectricity();
+        studioApartment.provideShelter();
+        studioApartment.useWater();
+        studioApartment.payRent();
+        studioApartment.maintainApartment();
+
+        System.out.println("===================================");
+        Apartment apartment = new Apartment();
+        apartment.maintainApartment();
+        apartment.payRent();
+        apartment.provideShelter();
+        apartment.useElectricity();
+        apartment.useWater();
     }
 }

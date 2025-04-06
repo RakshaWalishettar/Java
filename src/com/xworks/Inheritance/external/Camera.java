@@ -4,29 +4,24 @@ public class Camera extends Capture{
     public Camera() {
         System.out.println("No-args constructor: Camera");
     }
-
-    {
-        super.takePhoto();
+    @Override
+    public void takePhoto(){
         System.out.println("Camera is taking a photo...");
     }
-
-    {
-        super.recordVideo();
+    @Override
+    public void recordVideo(){
         System.out.println("Camera is recording a video...");
     }
-
-    {
-        super.zoomIn();
+    @Override
+    public void zoomIn(){
         System.out.println("Camera is zooming in...");
     }
-
-    {
-        super.adjustBrightness();
+    @Override
+    public  void adjustBrightness(){
         System.out.println("Camera is adjusting brightness...");
     }
-
-    {
-        super.storeImages();
+    @Override
+    public void storeImages(){
         System.out.println("Camera is storing images...");
     }
 }

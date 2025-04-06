@@ -1,28 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Cricketer extends Player {
-    {
-        super.play();
+    public Cricketer(){
+        System.out.println("no arg const of Cricketer");
+    }@Override
+    public void play(){
         System.out.println("Cricketer is playing a cricket match.");
     }
-
-    {
-        super.train();
+    @Override
+    public void train(){
         System.out.println("Cricketer is practicing batting and bowling.");
     }
-
-    {
-        super.rest();
+    @Override
+    public void rest(){
         System.out.println("Cricketer is taking rest after a match.");
     }
-
-    {
-        super.compete();
+    @Override
+    public void compete(){
         System.out.println("Cricketer is competing in a tournament.");
     }
-
-    {
-        super.followRules();
+    @Override
+    public void followRules(){
         System.out.println("Cricketer follows the cricket rulebook.");
     }
 

@@ -6,6 +6,19 @@ import com.xworks.Inheritance.external.Fullstack;
 public class FullstackRunner {
     public static void main(String [] args){
         Developer developer=new Developer();
-        Developer develop= new Fullstack();
+        developer.performTesting();
+        developer.manageDevOps();
+        developer.collaborateWithTeam();
+        developer.developFrontend();
+        developer.developBackend();
+
+        System.out.println("=========================");
+        Fullstack fullstack= new Fullstack();
+        fullstack.developBackend();
+        fullstack.developFrontend();
+        fullstack.performTesting();
+        fullstack.manageDevOps();
+        fullstack.collaborateWithTeam();
+
     }
 }

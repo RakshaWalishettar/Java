@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Hospital;
 public class GHRunner {
     public static void main(String[] args){
         Hospital hospital=new Hospital();
-        Hospital hospital1=new GovernmentHospital();
+        hospital.provideTreatment();
+        hospital.manageStaff();
+        hospital.admitPatient();
+        hospital.dischargePatient();
+        hospital.maintainRecords();
+
+        System.out.println("==================================");
+        GovernmentHospital governmentHospital=new GovernmentHospital();
+        governmentHospital.admitPatient();
+        governmentHospital.maintainRecords();
+        governmentHospital.dischargePatient();
+        governmentHospital.manageStaff();
+        governmentHospital.provideTreatment();
     }
 }

@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class GlassWindow extends Window {
-    public void glassWindow() {
+    public GlassWindow() {
         System.out.println("GlassWindow constructor invoked");
     }
-
-    {
-        super.open();
+    @Override
+    public void open(){
         System.out.println("GlassWindow is opened smoothly");
     }
-
-    {
-        super.close();
+    @Override
+    public void close(){
         System.out.println("GlassWindow is closed securely");
     }
-
-    {
-        super.lock();
+    @Override
+    public void lock(){
         System.out.println("GlassWindow is locked with a modern mechanism");
     }
-
-    {
-        super.clean();
+    @Override
+    public void clean(){
         System.out.println("GlassWindow is cleaned with special glass cleaner");
     }
-
-    {
-        super.resize();
+    @Override
+    public void resize(){
         System.out.println("GlassWindow size adjusted precisely");
     }
 }

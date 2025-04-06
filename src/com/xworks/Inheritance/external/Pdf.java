@@ -4,29 +4,24 @@ public class Pdf extends Document{
     public Pdf() {
         System.out.println("PDF document created.");
     }
-
-    {
-        super.open();
+    @Override
+    public void open(){
         System.out.println("PDF file is opening...");
     }
-
-    {
-        super.read();
+    @Override
+    public void read(){
         System.out.println("Reading PDF file...");
     }
-
-    {
-        super.write();
+    @Override
+    public void write(){
         System.out.println("Writing to PDF...");
     }
-
-    {
-        super.save();
+    @Override
+    public void save(){
         System.out.println("Saving PDF file...");
     }
-
-    {
-        super.close();
+    @Override
+    public void close(){
         System.out.println("Closing PDF file...");
     }
 }

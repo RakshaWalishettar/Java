@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Icecream extends Cold{
-    public void iceCream() {
+    public Icecream() {
         System.out.println("IceCream instance created.");
     }
-
-    {
-        super.freeze();
+    @Override
+    public void freeze(){
         System.out.println("IceCream is frozen.");
     }
-
-    {
-        super.scoop();
+    @Override
+    public void scoop(){
         System.out.println("IceCream is scooped.");
     }
-
-    {
-        super.melt();
+    @Override
+    public void melt(){
         System.out.println("IceCream is melting.");
     }
-
-    {
-        super.flavorMix();
+    @Override
+    public void flavorMix(){
         System.out.println("IceCream is mixing flavors.");
     }
-
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("IceCream is being eaten.");
     }
 }

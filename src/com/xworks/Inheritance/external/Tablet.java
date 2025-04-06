@@ -5,28 +5,28 @@ public class Tablet extends Antibiotic{
         System.out.println("Tablet created (no-args constructor).");
     }
 
-    {
-        super.killBacteria();
+    @Override
+    public void killBacteria(){
         System.out.println("Tablet form is helping to kill bacteria.");
     }
 
-    {
-        super.treatInfections();
+    @Override
+    public void treatInfections(){
         System.out.println("Tablet is treating infections...");
     }
 
-    {
-        super.reduceFever();
+    @Override
+    public void reduceFever(){
         System.out.println("Tablet is reducing fever...");
     }
 
-    {
-        super.increaseImmunity();
+    @Override
+    public void increaseImmunity(){
         System.out.println("Tablet is increasing immunity...");
     }
 
-    {
-        super.manageDosage();
+    @Override
+    public void manageDosage(){
         System.out.println("Tablet is managing the correct dosage.");
     }
 }

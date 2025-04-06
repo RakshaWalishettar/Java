@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.DigitalClock;
 
 public class DCRunner {
     public static void main(String[] args) {
-        Clock clock = new DigitalClock(); // Polymorphism
+        DigitalClock digitalClock = new DigitalClock();
+        digitalClock.stopAlarm();
+        digitalClock.showTime();
+        digitalClock.tick();
+        digitalClock.display();
+        digitalClock.setAlarm();
+
+        System.out.println("==================");
         Clock clock1 = new Clock();
+        clock1.display();
+        clock1.setAlarm();
+        clock1.tick();
+        clock1.showTime();
+        clock1.stopAlarm();
     }
 }

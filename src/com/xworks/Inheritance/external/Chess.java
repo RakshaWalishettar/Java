@@ -1,32 +1,29 @@
 package com.xworks.Inheritance.external;
 
+import jdk.nashorn.internal.objects.annotations.Constructor;
+
 public class Chess extends BoardGame{
     public Chess() {
         System.out.println("No-args constructor: Chess");
     }
-
-    {
-        super.setupBoard();
+    @Override
+    public void setupBoard(){
         System.out.println("Chess: Setting up chess pieces...");
     }
-
-    {
-        super.startGame();
+    @Override
+    public void startGame(){
         System.out.println("Chess: White makes the first move...");
     }
-
-    {
-        super.makeMove();
+    @Override
+    public void makeMove(){
         System.out.println("Chess: Moving a piece...");
     }
-
-    {
-        super.checkWinCondition();
+    @Override
+    public void checkWinCondition(){
         System.out.println("Chess: Checking for checkmate or stalemate...");
     }
-
-    {
-        super.endGame();
+    @Override
+    public  void endGame(){
         System.out.println("Chess: Game over...");
     }
 }

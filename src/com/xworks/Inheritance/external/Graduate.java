@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Graduate extends Student{
-    public void GraduateStudent() {
+    public Graduate() {
         System.out.println("No-args constructor of GraduateStudent");
     }
-
-    {
-        super.study();
+    @Override
+    public void study(){
         System.out.println("GraduateStudent is studying advanced topics...");
     }
-
-    {
-        super.attendClasses();
+    @Override
+    public void attendClasses(){
         System.out.println("GraduateStudent is attending specialized classes...");
     }
-
-    {
-        super.submitAssignments();
+    @Override
+    public void submitAssignments(){
         System.out.println("GraduateStudent is submitting research papers...");
     }
-
-    {
-        super.takeExams();
+    @Override
+    public void takeExams(){
         System.out.println("GraduateStudent is taking thesis defense...");
     }
-
-    {
-        super.graduate();
+    @Override
+    public void graduate(){
         System.out.println("GraduateStudent is earning a postgraduate degree...");
     }
 }

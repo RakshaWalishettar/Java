@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Plaer extends Cricket{
-    public void  batsman() {
+    public Plaer() {
         System.out.println("Batsman no-arg constructor");
     }
-
-    {
-        super.play();
+    @Override
+    public void play(){
         System.out.println("Batsman plays cricket...");
     }
-
-    {
-        super.batting();
+    @Override
+    public void batting(){
         System.out.println("Batsman specializes in batting...");
     }
-
-    {
-        super.fielding();
+    @Override
+    public void fielding(){
         System.out.println("Batsman is fielding...");
     }
-
-    {
-        super.practice();
+    @Override
+    public void practice(){
         System.out.println("Batsman practices hard...");
     }
-
-    {
-        super.rest();
+    @Override
+    public void rest(){
         System.out.println("Batsman takes rest after training...");
     }
 }

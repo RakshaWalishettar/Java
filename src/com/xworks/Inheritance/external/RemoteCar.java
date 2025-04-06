@@ -1,29 +1,24 @@
 package com.xworks.Inheritance.external;
 
 public class RemoteCar extends Controller{
-    public void remoteCar() {
+    public RemoteCar() {
         System.out.println("RemoteCar is ready to be controlled.");
     }
-
-    {
-        super.accelerate();
+    @Override
+    public void accelerate(){
         System.out.println("RemoteCar is accelerating.");
-    }
-    {
-        super.brake();
+    }@Override
+    public void brake(){
         System.out.println("RemoteCar is braking.");
-    }
-    {
-        super.turnLeft();
+    }@Override
+    public void turnLeft(){
         System.out.println("RemoteCar is turning left.");
-    }
-    {
-        super.turnRight();
+    }@Override
+    public void turnRight(){
         System.out.println("RemoteCar is turning right.");
     }
-
-    {
-        super.stop();
+    @Override
+    public void stop(){
         System.out.println("RemoteCar has stopped.");
     }
 

@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class Type extends Shoes{
-    public void type() {
+    public Type() {
         System.out.println("Type of shoes is specified.");
     }
 
-    {
-        super.wear();
+    @Override
+    public void wear(){
         System.out.println("Type is being worn...");
     }
 
-    {
-        super.cleaning();
+    @Override
+    public void cleaning(){
         System.out.println("Type is being cleaned...");
     }
 
-    {
-        super.polish();
+    @Override
+    public void polish(){
         System.out.println("Type is being polished...");
     }
 
-    {
-        super.tieLaces();
+    @Override
+    public void tieLaces(){
         System.out.println("Type laces are being tied...");
     }
 
-    {
-        super.remove();
+    @Override
+    public void remove(){
         System.out.println("Type is being removed...");
     }
 

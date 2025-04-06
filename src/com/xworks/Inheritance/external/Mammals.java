@@ -1,32 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Mammals extends Dog{
-    public void mammals()
+    public Mammals()
     {
         System.out.println("no-args const of fullstack");
     }
-    {
-        super.dog();
+    public void dog(){
         System.out.println("runner dog of fullstack");
-    }
-    {
-        super.breathing();
+    }@Override
+    public void breathing(){
         System.out.println("runner breathing of fullstack");
-    }
-    {
-        super.eating();
+    }@Override
+    public void eating(){
         System.out.println("runner eating of fullstack");
-    }
-    {
-        super.sleeping();
+    }@Override
+    public void sleeping(){
         System.out.println("runner sleeping of fullstack");
-    }
-    {
-        super.barking();
+    }@Override
+    public void barking(){
         System.out.println("runner barking of fullstack");
-    }
-    {
-        super.wagging();
+    }@Override
+    public void wagging(){
         System.out.println("runner wagging of fullstack");
     }
 }

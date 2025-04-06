@@ -5,28 +5,28 @@ public class Snake extends Reptile {
         System.out.println("no-args const Snake");
     }
 
-    {
-        super.regulate_temperature();
+    @Override
+    public void regulate_temperature(){
         System.out.println("Snake is regulate_temperature ...");
     }
 
-    {
-        super.move();
+    @Override
+    public void move(){
         System.out.println("Snake is move...");
     }
 
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("Snake is eat..");
     }
 
-    {
-        super.sleep();
+    @Override
+    public void sleep(){
         System.out.println("Snake is sleep.");
     }
 
-    {
-        super.shed_skin();
+    @Override
+    public void shed_skin(){
         System.out.println("Snake shed_skin.");
     }
 }

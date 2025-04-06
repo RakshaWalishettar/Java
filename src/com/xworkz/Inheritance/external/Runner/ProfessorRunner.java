@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Teacher;
 
 public class ProfessorRunner {
     public static void main(String[] args) {
-        Teacher teacher = new Professor();
-        Teacher teacher1 = new Teacher();
+        Professor professor = new Professor();
+        professor.prepareLesson();
+        professor.teach();
+        professor.attendMeeting();
+        professor.gradePapers();
+        professor.evaluateStudents();
+
+        System.out.println("===================================");
+        Teacher teacher = new Teacher();
+        teacher.attendMeeting();
+        teacher.teach();
+        teacher.evaluateStudents();
+        teacher.gradePapers();
+        teacher.prepareLesson();
     }
 }

@@ -5,7 +5,24 @@ import com.xworks.Inheritance.external.Assistant;
 
 public class AssistanceRunner {
     public static void main(String[] args) {
-        AI ai = new Assistant();
-        AI ai1 = new AI();
+        AI ai = new AI();
+        ai.scheduleTask();
+        ai.recognizeSpeech();
+        ai.learnPattern();
+        ai.answerQuery();
+        ai.playMusic();
+
+        System.out.println("=============================");
+
+        Assistant assistant=new Assistant();
+        assistant.recognizeSpeech();
+        assistant.scheduleTask();
+        assistant.learnPattern();
+        assistant.playMusic();
+        assistant.answerQuery();
+
+
+
+
     }
 }

@@ -2,27 +2,26 @@ package com.xworks.Inheritance.external;
 
 public class Sorcerer extends Mage{
     public Sorcerer() {
-        super();
         System.out.println("No-args constructor of Sorcerer");
     }
-    {
-        super.breathing();
+    @Override
+    public void breathing(){
         System.out.println("Sorcerer breathing with magical energy");
     }
-    {
-        super.eating();
+    @Override
+    public void eating(){
         System.out.println("Sorcerer eating enchanted food");
     }
-    {
-        super.sleeping();
+    @Override
+    public void sleeping(){
         System.out.println("Sorcerer sleeping in a mystical trance");
     }
-    {
-        super.castingSpells();
+    @Override
+    public void castingSpells(){
         System.out.println("Sorcerer casting powerful spells");
     }
-    {
-        super.channelingMana();
+    @Override
+    public void channelingMana(){
         System.out.println("Sorcerer channeling mana at a higher level");
     }
 }

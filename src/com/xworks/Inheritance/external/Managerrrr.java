@@ -1,32 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Managerrrr extends HRManager{
-    public void manage()
+    public Managerrrr()
     {
         System.out.println("no-args const of manage");
     }
-    {
-        super.hr();
+    public void hr(){
         System.out.println("runner designer of manage");
-    }
-    {
-        super.assignTask();
+    }@Override
+    public void assignTask(){
         System.out.println("runner assignTask of manage");
-    }
-    {
-        super.conductMeeting();
+    }@Override
+    public void conductMeeting(){
         System.out.println("runner conductMeeting of manage");
-    }
-    {
-        super.approveLeave();
+    }@Override
+    public void approveLeave(){
         System.out.println("runner approveLeave of manage");
-    }
-    {
-        super.hireEmployee();
+    }@Override
+    public void hireEmployee(){
         System.out.println("runner hireEmployee of manage");
-    }
-    {
-        super.conductTraining();
+    }@Override
+    public void conductTraining(){
         System.out.println("runner conductTraining of manage");
     }
 }

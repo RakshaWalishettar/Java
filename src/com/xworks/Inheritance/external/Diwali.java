@@ -4,29 +4,24 @@ public class Diwali extends Festival{
     public void diwali() {
         System.out.println("no-args constructor Diwali");
     }
-
-    {
-        super.lightLamps();
+    @Override
+    public void lightLamps(){
         System.out.println("Diwali: Lighting diyas");
     }
-
-    {
-        super.burstCrackers();
+    @Override
+    public void burstCrackers(){
         System.out.println("Diwali: Enjoying fireworks");
     }
-
-    {
-        super.pray();
+    @Override
+    public void pray(){
         System.out.println("Diwali: Performing Lakshmi Puja");
     }
-
-    {
-        super.distributeSweets();
+    @Override
+    public void distributeSweets(){
         System.out.println("Diwali: Sharing sweets with loved ones");
     }
-
-    {
-        super.visitRelatives();
+    @Override
+    public void visitRelatives(){
         System.out.println("Diwali: Meeting family and friends");
     }
 }

@@ -4,29 +4,24 @@ public class Chair extends Furniture{
     public Chair() {
         System.out.println("Chair instance created");
     }
-
-    {
-        super.move();
+    @Override
+    public void move(){
         System.out.println("Chair is being moved...");
     }
-
-    {
-        super.supportWeight();
+    @Override
+    public void supportWeight(){
         System.out.println("Chair is supporting weight...");
     }
-
-    {
-        super.adjustHeight();
+    @Override
+    public void adjustHeight(){
         System.out.println("Chair height is being adjusted...");
     }
-
-    {
-        super.rotate();
+    @Override
+    public void rotate(){
         System.out.println("Chair is rotating...");
     }
-
-    {
-        super.fold();
+    @Override
+    public void fold(){
         System.out.println("Chair is being folded...");
     }
 }

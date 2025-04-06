@@ -2,32 +2,26 @@ package com.xworks.Inheritance.external;
 
 public class PersianCat extends Cats{
     public PersianCat() {
-        super();
         System.out.println("No-args constructor of PersianCat");
     }
-
-    {
-        super.breathing();
+    @Override
+    public void breathing(){
         System.out.println("PersianCat is breathing");
     }
-
-    {
-        super.eating();
+    @Override
+    public void eating(){
         System.out.println("PersianCat is eating");
     }
-
-    {
-        super.sleeping();
+    @Override
+    public void sleeping(){
         System.out.println("PersianCat is sleeping");
     }
-
-    {
-        super.meowing();
+    @Override
+    public void meowing(){
         System.out.println("PersianCat is meowing");
     }
-
-    {
-        super.purring();
+    @Override
+    public void purring(){
         System.out.println("PersianCat is purring");
     }
 }

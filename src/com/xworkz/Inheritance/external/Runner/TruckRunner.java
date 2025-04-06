@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Truck;
 
 public class TruckRunner {
     public static void main(String [] args){
-        PickupTruck pt=new Truck();
+        PickupTruck pt=new PickupTruck();
+        pt.towTrailer();
+        pt.toggleCover();
+        pt.openCargoBed();
+        pt.enableOffRoadMode();
+        pt.closeCargoBed();
+
+        System.out.println("=========================");
         Truck truck=new Truck();
+        truck.towTrailer();
+        truck.toggleCover();
+        truck.openCargoBed();
+        truck.closeCargoBed();
+        truck.enableOffRoadMode();
     }
 }

@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Manager;
 
 public class EmployeRunner {
     public static void main(String[] args){
-        Manager M=new Employee();
+        Employee employee=new Employee();
+        employee.workerDetails();
+        employee.assignDepartment();
+        employee.displayDetails();
+        employee.getAnnualSalary();
+        employee.setSalary();
+
+        System.out.println("=================================");
         Manager manager=new Manager();
+        manager.assignDepartment();
+        manager.displayDetails();
+        manager.getAnnualSalary();
+        manager.workerDetails();
+        manager.setSalary();
     }
 }

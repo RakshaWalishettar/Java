@@ -1,25 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Vehical extends Car {
-    public void vehical()
-    {
-        super.startEngine();
+    public Vehical(){
+        System.out.println("no args const");
+    }
+    @Override
+    public void startEngine(){
         System.out.println("runner startengine of vehical");
     }
-    {
-        super.stopEngine();
+    @Override
+    public void stopEngine(){
         System.out.println("runner stopengine of vehical");
     }
-    {
-        super.breakofCar();
+    @Override
+    public void breakofCar(){
         System.out.println("runner car has braek of vehical");
     }
-    {
-        super.speed();
+    @Override
+    public void speed(){
         System.out.println("runner the speed of vehical");
     }
-    {
-        super.horn();
+    @Override
+    public void horn(){
         System.out.println("runnner horn of vehical");
     }
 }

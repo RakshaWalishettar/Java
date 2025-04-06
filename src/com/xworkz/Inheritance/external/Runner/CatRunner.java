@@ -6,6 +6,19 @@ import com.xworks.Inheritance.external.Felidae;
 public class CatRunner {
     public static void main(String[] args){
         Felidae felidae=new Felidae();
-        Felidae F=new Cat();
+        felidae.sleeping();
+        felidae.hunting();
+        felidae.roaring();
+        felidae.breathing();
+        felidae.eating();
+
+        System.out.println("===================");
+
+        Cat cat=new Cat();
+        cat.hunting();
+        cat.roaring();
+        cat.breathing();
+        cat.eating();
+        cat.sleeping();
     }
 }

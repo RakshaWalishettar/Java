@@ -1,23 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Seller extends User{
-    public void listProduct() {
+    public Seller(){
+        System.out.println("no arg const");
+    }@Override
+    public void login() {
         System.out.println("Seller listed a product.");
     }
-
-    public void setPrice() {
+    @Override
+    public void logout() {
         System.out.println("Seller set the price.");
     }
-
-    public void processOrder() {
+    @Override
+    public void updateProfile() {
         System.out.println("Seller processed an order.");
     }
-
-    public void shipOrder() {
+    @Override
+    public void browseProducts() {
         System.out.println("Seller shipped the order.");
     }
-
-    public void receivePayment() {
+    @Override
+    public void contactSupport() {
         System.out.println("Seller received payment.");
     }
 }

@@ -1,28 +1,28 @@
 package com.xworks.Inheritance.external;
 
 public class Student2 extends Person{
-    public void study() {
+    public Student2() {
         System.out.println("Student is studying.");
     }
-    {
-        super.walk();
+    @Override
+    public void walk(){
         System.out.println("Student is walking to school.");
     }
-    {
-        super.talk();
+    @Override
+    public void talk(){
         System.out.println("Student is discussing lessons.");
     }
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("Student is eating lunch at school.");
     }
 
-    {
-        super.sleep();
+    @Override
+    public void sleep(){
         System.out.println("Student is sleeping after studying.");
     }
-    {
-        super.breathe();
+    @Override
+    public void breathe(){
         System.out.println("Student is breathing deeply to focus.");
     }
 }

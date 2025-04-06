@@ -4,29 +4,24 @@ public class Chips extends Snacks{
     public Chips() {
         System.out.println("Creating a Chips object.");
     }
-
-    {
-        super.openPacket();
+    @Override
+    public void openPacket(){
         System.out.println("Chips packet is opened.");
     }
-
-    {
-        super.crunch();
+    @Override
+    public void crunch(){
         System.out.println("Chips are crunchy.");
     }
-
-    {
-        super.flavor();
+    @Override
+    public void flavor(){
         System.out.println("Chips have a spicy flavor.");
     }
-
-    {
-        super.share();
+    @Override
+    public void share(){
         System.out.println("Sharing chips with friends.");
     }
-
-    {
-        super.finish();
+    @Override
+    public void finish(){
         System.out.println("Chips are finished.");
     }
 }

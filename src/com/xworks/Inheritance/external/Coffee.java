@@ -4,29 +4,24 @@ public class Coffee extends Drink{
     public Coffee() {
         System.out.println("No-args constructor for Coffee");
     }
-
-    {
-        super.brew();
+    @Override
+    public void brew(){
         System.out.println("Brewing coffee...");
     }
-
-    {
-        super.pour();
+    @Override
+    public void pour(){
         System.out.println("Pouring coffee...");
     }
-
-    {
-        super.addMilk();
+    @Override
+    public void addMilk(){
         System.out.println("Adding milk to coffee...");
     }
-
-    {
-        super.sweeten();
+    @Override
+    public void sweeten(){
         System.out.println("Sweetening coffee...");
     }
-
-    {
-        super.drink();
+    @Override
+    public void drink(){
         System.out.println("Drinking coffee...");
     }
 }

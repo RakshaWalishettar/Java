@@ -5,28 +5,28 @@ public class TaxiDriver extends Driver{
         System.out.println("No-args constructor TaxiDriver");
     }
 
-    {
-        super.drive();
+    @Override
+    public void drive(){
         System.out.println("TaxiDriver is driving...");
     }
 
-    {
-        super.navigate();
+    @Override
+    public void navigate(){
         System.out.println("TaxiDriver is navigating...");
     }
 
-    {
-        super.pickUpPassenger();
+    @Override
+    public void pickUpPassenger(){
         System.out.println("TaxiDriver is picking up a passenger...");
     }
 
-    {
-        super.dropOffPassenger();
+    @Override
+    public void dropOffPassenger(){
         System.out.println("TaxiDriver is dropping off a passenger...");
     }
 
-    {
-        super.calculateFare();
+    @Override
+    public void calculateFare(){
         System.out.println("TaxiDriver is calculating fare...");
     }
 

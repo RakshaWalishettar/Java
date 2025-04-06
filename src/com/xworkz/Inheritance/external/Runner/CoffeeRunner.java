@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Drink;
 public class CoffeeRunner {
     public static void main(String[] args){
         Drink drink=new Drink();
-        Drink drink1=new Coffee();
+        drink.sweeten();
+        drink.pour();
+        drink.brew();
+        drink.addMilk();
+        drink.drink();
+
+        System.out.println("=======================");
+        Coffee coffee=new Coffee();
+        coffee.sweeten();
+        coffee.drink();
+        coffee.addMilk();
+        coffee.pour();
+        coffee.brew();
     }
 }

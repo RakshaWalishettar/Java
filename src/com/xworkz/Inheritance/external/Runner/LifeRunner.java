@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.LifeInsurance;
 public class LifeRunner {
 public static void main(String [] args){
     Insurance insurance=new Insurance();
-    Insurance insurance1=new LifeInsurance();
+    insurance.terminatePolicy();
+    insurance.renewPolicy();
+    insurance.issuePolicy();
+    insurance.claimPolicy();
+    insurance.calculatePremium();
+
+    System.out.println("==========================================");
+    LifeInsurance lifeInsurance=new LifeInsurance();
+    lifeInsurance.renewPolicy();
+    lifeInsurance.issuePolicy();
+    lifeInsurance.claimPolicy();
+    lifeInsurance.terminatePolicy();
+    lifeInsurance.calculatePremium();
 }
 }

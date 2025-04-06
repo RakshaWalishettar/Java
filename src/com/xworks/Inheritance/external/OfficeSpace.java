@@ -4,29 +4,24 @@ public class OfficeSpace extends Property{
     public void officeSpace() {
         System.out.println("no-args constructor OfficeSpace");
     }
-
-    {
-        super.listForSale();
+    @Override
+    public void listForSale(){
         System.out.println("OfficeSpace is listed for sale...");
     }
-
-    {
-        super.rentOut();
+    @Override
+    public void rentOut(){
         System.out.println("OfficeSpace is being rented...");
     }
-
-    {
-        super.maintain();
+    @Override
+    public void maintain(){
         System.out.println("OfficeSpace is under maintenance...");
     }
-
-    {
-        super.payTaxes();
+    @Override
+    public void payTaxes(){
         System.out.println("OfficeSpace tax is being paid...");
     }
-
-    {
-        super.evaluateWorth();
+    @Override
+    public void evaluateWorth(){
         System.out.println("OfficeSpace worth is evaluated...");
     }
 }

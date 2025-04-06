@@ -4,29 +4,24 @@ public class DigitalClock extends Clock{
     public void digitalClock() {
         System.out.println("No-args constructor: DigitalClock");
     }
-
-    {
-        super.showTime();
+    @Override
+    public void showTime(){
         System.out.println("DigitalClock displays digital time...");
     }
-
-    {
-        super.tick();
+    @Override
+    public void tick(){
         System.out.println("DigitalClock operates silently...");
     }
-
-    {
-        super.setAlarm();
+    @Override
+    public void setAlarm(){
         System.out.println("DigitalClock alarm is set with a tune...");
     }
-
-    {
-        super.display();
+    @Override
+    public void display(){
         System.out.println("DigitalClock has an LED display...");
     }
-
-    {
-        super.stopAlarm();
+    @Override
+    public void stopAlarm(){
         System.out.println("DigitalClock alarm turned off...");
     }
 }

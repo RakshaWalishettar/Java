@@ -6,6 +6,19 @@ import com.xworks.Inheritance.external.Festival;
 public class DiwaliRunner {
     public static void main(String[] args){
         Festival fest=new Festival();
-        Festival festival=new Diwali();
+        fest.visitRelatives();
+        fest.lightLamps();
+        fest.pray();
+        fest.distributeSweets();
+        fest.burstCrackers();
+
+        System.out.println("============================");
+
+        Diwali diwali=new Diwali();
+        diwali.visitRelatives();
+        diwali.lightLamps();
+        diwali.distributeSweets();
+        diwali.pray();
+        diwali.burstCrackers();
     }
 }

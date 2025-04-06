@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Aves extends Birds{
-    public void aves()
+    public Aves()
     {
         System.out.println("no-args const of Aves");
-    }
-    {
-        super.birds();
-        System.out.println("runner designer of Aves");
-    }
-    {
-        super.fly();
+    }@Override
+    public void fly(){
         System.out.println("runner fly of Aves");
     }
-    {
-        super.sing();
+    @Override
+    public void sing(){
         System.out.println("runner sing of Aves");
     }
-    {
-        super.buildNest();
+    @Override
+    public void buildNest(){
         System.out.println("runner buildNest of Aves");
     }
-    {
-        super.migrate();
+    @Override
+    public void migrate(){
         System.out.println("runner migrate of Aves");
     }
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("runner eat of Aves");
     }
 }

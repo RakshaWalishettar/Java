@@ -1,28 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Creditcard extends Payment {
-    {
-        super.processPayment();
+    public Creditcard(){
+        System.out.println("no arg const of CC");
+    }@Override
+    public void processPayment(){
         System.out.println("Processing credit card payment...");
     }
-
-    {
-        super.refundPayment();
+    @Override
+    public void refundPayment(){
         System.out.println("Refunding credit card payment...");
     }
-
-    {
-        super.validatePayment();
+    @Override
+    public void validatePayment(){
         System.out.println("Validating credit card details...");
     }
-
-    {
-        super.confirmPayment();
+    @Override
+    public void confirmPayment(){
         System.out.println("Confirming credit card transaction...");
     }
-
-    {
-        super.cancelPayment();
+    @Override
+    public void cancelPayment(){
         System.out.println("Canceling credit card transaction...");
     }
 }

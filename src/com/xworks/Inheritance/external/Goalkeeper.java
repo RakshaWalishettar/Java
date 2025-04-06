@@ -1,27 +1,25 @@
 package com.xworks.Inheritance.external;
 
 public class Goalkeeper extends Footballer{
-    {
-        super.train();
+    public Goalkeeper(){
+        System.out.println("no arg const of Goalkeeper");
+    }@Override
+    public void train(){
         System.out.println("Goalkeeper is blocking the goal!");
     }
-
-    {
-        super.run() ;
+    @Override
+    public void running(){
         System.out.println("Goalkeeper dives to save the shot!");
     }
-
-    {
-        super.pass();
+    @Override
+    public void pass(){
         System.out.println("Goalkeeper distributes the ball to teammates");
-    }
-    {
-        super.shoot();
+    }@Override
+    public void shoot(){
         System.out.println("Goalkeeper commands the defensive line");
     }
-
-    {
-        super.rest() ;
+    @Override
+    public void rest(){
         System.out.println("Goalkeeper catches the incoming ball");
     }
 }

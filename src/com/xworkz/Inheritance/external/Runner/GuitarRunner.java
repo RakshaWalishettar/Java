@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.MusicalInstrument;
 
 public class GuitarRunner {
     public static void main(String[] args) {
-        MusicalInstrument instrument = new Guitar();
-        MusicalInstrument instrument1 = new MusicalInstrument();
+        Guitar guitar = new Guitar();
+        guitar.strum();
+        guitar.pluck();
+        guitar.playChord();
+        guitar.tune();
+        guitar.amplifySound();
+
+        System.out.println("===================================");
+        MusicalInstrument instrument = new MusicalInstrument();
+        instrument.amplifySound();
+        instrument.playChord();
+        instrument.pluck();
+        instrument.tune();
+        instrument.strum();
     }
 }

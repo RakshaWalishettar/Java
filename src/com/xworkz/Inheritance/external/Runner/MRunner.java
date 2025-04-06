@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Managerrrr;
 public class MRunner {
     public static void main(String [] args){
         HRManager hr=new HRManager();
-        HRManager mange=new Managerrrr();
+        hr.hireEmployee();
+        hr.approveLeave();
+        hr.assignTask();
+        hr.conductMeeting();
+        hr.conductTraining();
+
+        System.out.println("=============================");
+        Managerrrr mange=new Managerrrr();
+        mange.approveLeave();
+        mange.assignTask();
+        mange.conductMeeting();
+        mange.conductTraining();
+        mange.hireEmployee();
     }
 }

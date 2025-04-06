@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Gamming extends Laptop {
-    public void gamming() {
+    public Gamming() {
         System.out.println("no-args const Gamming");
     }
-
-    {
-        super.On();
+    @Override
+    public void On(){
         System.out.println("Gamming is booting up...");
     }
-
-    {
-        super.display();
+    @Override
+    public void display(){
         System.out.println("Gamming is shutting down...");
     }
-
-    {
-        super.specs();
+    @Override
+    public void specs(){
         System.out.println("Gamming is charging...");
     }
-
-    {
-        super.type();
+    @Override
+    public void type(){
         System.out.println("Gamming is now connected to the internet.");
     }
-
-    {
-        super.laptop();
+    @Override
+    public void laptop(){
         System.out.println("Gamming software is up-to-date.");
     }
 }

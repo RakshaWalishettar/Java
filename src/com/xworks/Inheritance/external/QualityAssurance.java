@@ -5,28 +5,22 @@ public class QualityAssurance extends Tester{
     {
         System.out.println("no-args const of QA");
     }
-    {
-        super.tester();
+    public void tester(){
         System.out.println("runner designer of QA");
-    }
-    {
-        super.executeTestCases();
+    }@Override
+    public void executeTestCases(){
         System.out.println("runner executeTestCases of QA");
-    }
-    {
-        super.reportBugs();
+    }@Override
+    public void reportBugs(){
         System.out.println("runner reportBugs of QA");
-    }
-    {
-        super.automateTesting();
+    }@Override
+    public void automateTesting(){
         System.out.println("runner automateTesting of QA");
-    }
-    {
-        super.performRegressionTesting();
+    }@Override
+    public void performRegressionTesting(){
         System.out.println("runner performRegressionTesting of QA");
-    }
-    {
-        super.reviewRequirements();
+    }@Override
+    public void reviewRequirements(){
         System.out.println("runner reviewRequirements of QA");
     }
 }

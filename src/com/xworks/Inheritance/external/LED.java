@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class LED extends LightSouce{
-    public void lED() {
+    public LED() {
         System.out.println("No-args constructor LED");
     }
-
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
         System.out.println("LED is turned on.");
     }
-
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
         System.out.println("LED is turned off.");
     }
-
-    {
-        super.adjustBrightness();
+    @Override
+    public void adjustBrightness(){
         System.out.println("LED brightness adjusted.");
     }
-
-    {
-        super.emitLight();
+    @Override
+    public void emitLight(){
         System.out.println("LED emitting light...");
     }
-
-    {
-        super.consumeEnergy();
+    @Override
+    public void consumeEnergy(){
         System.out.println("LED consume energy");
     }
 }

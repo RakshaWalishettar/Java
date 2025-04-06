@@ -1,32 +1,25 @@
 package com.xworks.Inheritance.external;
 
 public class Fullstack extends Developer{
-    public void fullstack()
+    public Fullstack()
     {
         System.out.println("no-args const of fullstack");
     }
-    {
-        super.developer();
-        System.out.println("runner designer of fullstack");
-    }
-    {
-        super.developFrontend();
+    @Override
+    public void developFrontend(){
         System.out.println("runner developFrontend of fullstack");
-    }
-    {
-        super.developBackend();
+    }@Override
+    public void developBackend(){
         System.out.println("runner developBackend of fullstack");
-    }
-    {
-        super.manageDevOps();
+    }@Override
+    public void manageDevOps(){
         System.out.println("runner manageDevOps of fullstack");
-    }
-    {
-        super.performTesting();
+    }@Override
+    public void performTesting(){
         System.out.println("runner performTesting of fullstack");
     }
-    {
-        super.collaborateWithTeam();
+    @Override
+    public void collaborateWithTeam(){
         System.out.println("runner collaborateWithTeam of fullstack");
     }
 }

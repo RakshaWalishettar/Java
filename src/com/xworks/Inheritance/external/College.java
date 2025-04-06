@@ -4,29 +4,24 @@ public class College extends University{
     public College() {
         System.out.println("No-args constructor of College");
     }
-
-    {
-        super.conductExams();
+    @Override
+    public void conductExams(){
         System.out.println("College is conducting exams...");
     }
-
-    {
-        super.scheduleClasses();
+    @Override
+    public void scheduleClasses(){
         System.out.println("College is scheduling classes...");
     }
-
-    {
-        super.manageFaculty();
+    @Override
+    public void manageFaculty(){
         System.out.println("College is managing faculty...");
     }
-
-    {
-        super.admitStudents();
+    @Override
+    public void admitStudents(){
         System.out.println("College is admitting students...");
     }
-
-    {
-        super.organizeEvents();
+    @Override
+    public void organizeEvents(){
         System.out.println("College is organizing events...");
     }
 }

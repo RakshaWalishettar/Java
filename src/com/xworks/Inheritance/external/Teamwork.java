@@ -1,32 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Teamwork extends Designer{
-    public void TW()
+    public Teamwork()
     {
         System.out.println("no-args const of TM");
-    }
-    {
-        super.designer();
+    }@Override
+    public void designer(){
         System.out.println("runner designer of teamwork");
-    }
-    {
-        super.createDesign();
+    }@Override
+    public void createDesign(){
         System.out.println("runner createDesign of TM");
-    }
-    {
-        super.reviseDesign();
+    }@Override
+    public void reviseDesign(){
         System.out.println("runner reviseDesign of TM");
-    }
-    {
-        super.presentDesign();
+    }@Override
+    public void presentDesign(){
         System.out.println("runner presentDesign of TM");
-    }
-    {
-        super.collaborateWithDevelopers();
+    }@Override
+    public void collaborateWithDevelopers(){
         System.out.println("runner collaborateWithDevelopers of TM");
-    }
-    {
-        super.conductUserTesting();
+    }@Override
+    public void conductUserTesting(){
         System.out.println("runner conductUserTesting of TM");
     }
 }

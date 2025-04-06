@@ -1,28 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class GermanShepherd extends Dogs {
-    public void GS() {
+    public GermanShepherd() {
         System.out.println("the no-agr conts og GS");
-        {
-
-            super.breathing();
-            System.out.println("German Shepherd is breathing strongly");
-        }
-        {
-            super.eating();
-            System.out.println("German Shepherd is eating vigorously");
-        }
-        {
-            super.sleeping();
-            System.out.println("German Shepherd is sleeping calmly");
-        }
-        {
-            super.barking();
-            System.out.println("German Shepherd is barking loudly");
-        }
-        {
-            super.wagging();
-            System.out.println("German Shepherd is wagging its tail happily");
-        }
+    }
+    @Override
+    public void breathing() {
+        System.out.println("German Shepherd is breathing strongly");
+    }
+    @Override
+    public void eating() {
+        System.out.println("German Shepherd is eating vigorously");
+    }
+    @Override
+    public void sleeping() {
+        System.out.println("German Shepherd is sleeping calmly");
+    }
+    @Override
+    public void barking() {
+        System.out.println("German Shepherd is barking loudly");
+    }
+    @Override
+    public void wagging() {
+        System.out.println("German Shepherd is wagging its tail happily");
     }
 }

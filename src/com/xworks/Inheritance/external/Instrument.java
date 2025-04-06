@@ -13,10 +13,6 @@ public class Instrument {
         System.out.println("Instrument: Playing a chord...");
     }
 
-    public void adjustVolume() {
-        System.out.println("Instrument: Adjusting volume...");
-    }
-
     public void perform() {
         System.out.println("Instrument: Performing...");
     }

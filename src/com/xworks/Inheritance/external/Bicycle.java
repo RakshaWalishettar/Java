@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Bicycle extends RoadVehical{
-    public void Bicycle() {
+    public Bicycle() {
         System.out.println("Bicycle object created.");
     }
-
-    {
-        super.move();
+    @Override
+    public void move(){
         System.out.println("Bicycle is pedaling...");
     }
-
-    {
-        super.stop();
+    @Override
+    public void stop(){
         System.out.println("Bicycle is applying brakes...");
     }
-
-    {
-        super.maintain();
+    @Override
+    public void maintain(){
         System.out.println("Bicycle is being repaired...");
     }
-
-    {
-        super.load();
+    @Override
+    public void load(){
         System.out.println("Bicycle is carrying small loads...");
     }
-
-    {
-        super.fuel();
+    @Override
+    public void fuel(){
         System.out.println("Bicycle does not require fuel!");
     }
 

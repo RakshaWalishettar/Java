@@ -6,7 +6,20 @@ import com.xworks.Inheritance.external.Write;
 
 public class PoetRunner {
     public static void main(String[] args) {
-        Write writer = new Poet();
-        Write writer1 = new Write();
+        Poet poet = new Poet();
+        poet.research();
+        poet.read();
+        poet.publish();
+        poet.edit();
+
+
+        System.out.println("========================");
+        Write writer = new Write();
+        writer.research();
+        writer.read();
+        writer.edit();
+        writer.publish();
+
+
     }
 }

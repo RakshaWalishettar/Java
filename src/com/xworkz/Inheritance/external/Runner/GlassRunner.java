@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Window;
 
 public class GlassRunner {
     public static void main(String[] args) {
-        Window window = new GlassWindow();
+        GlassWindow glassWindow= new GlassWindow();
+        glassWindow.resize();
+        glassWindow.lock();
+        glassWindow.close();
+        glassWindow.clean();
+        glassWindow.open();
+
+        System.out.println("===============================");
         Window window1 = new Window();
+        window1.resize();
+        window1.open();
+        window1.close();
+        window1.clean();
+        window1.lock();
     }
 }

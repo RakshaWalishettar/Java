@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Flower extends Plant{
-    public void flower() {
+    public Flower() {
         System.out.println("no-args const Flower");
     }
-
-    {
-        super.grow();
+    @Override
+    public void grow(){
         System.out.println("Flower is growing...");
     }
-
-    {
-        super.photosynthesize();
+    @Override
+    public void photosynthesize(){
         System.out.println("Flower is photosynthesizing...");
     }
-
-    {
-        super.absorbWater();
+    @Override
+    public void absorbWater(){
         System.out.println("Flower is absorbing water...");
     }
-
-    {
-        super.releaseOxygen();
+    @Override
+    public void releaseOxygen(){
         System.out.println("Flower is releasing oxygen...");
     }
-
-    {
-        super.bloom();
+    @Override
+    public void bloom(){
         System.out.println("Flower is blooming...");
     }
 }

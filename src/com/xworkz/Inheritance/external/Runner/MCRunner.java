@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Sportsbike;
 
 public class MCRunner {
     public static void main(String[] args){
-        Sportsbike sb=new MotorCycle();
+        MotorCycle motorCycle=new MotorCycle();
+        motorCycle.turboBoost();
+        motorCycle.raceMode();
+        motorCycle.quickShift();
+        motorCycle.leanIntoCurve();
+        motorCycle.launchControl();
+
+        System.out.println("====================================");
         Sportsbike sportsbike=new Sportsbike();
+        sportsbike.turboBoost();
+        sportsbike.raceMode();
+        sportsbike.quickShift();
+        sportsbike.launchControl();
+        sportsbike.leanIntoCurve();
     }
 }

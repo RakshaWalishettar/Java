@@ -7,6 +7,19 @@ import com.xworks.Inheritance.external.Birds;
 public class AvesRunner {
     public static void main (String[] args){
        Birds birds=new Birds();
-       Birds birds1=new Aves();
+       birds.migrate();
+       birds.buildNest();
+       birds.eat();
+       birds.fly();
+       birds.sing();
+
+       System.out.println("==============");
+
+       Aves aves=new Aves();
+       aves.sing();
+       aves.migrate();
+       aves.fly();
+       aves.eat();
+       aves.buildNest();
     }
 }

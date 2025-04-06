@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Student;
 
 public class GraduateRunner {
     public static void main(String[] args) {
-        Student student = new Graduate(); // Upcasting
+        Graduate graduate = new Graduate();
+        graduate.submitAssignments();
+        graduate.takeExams();
+        graduate.attendClasses();
+        graduate.GraduateStudent();
+        graduate.study();
+
+        System.out.println("================================================");
         Student student1 = new Student();
+        student1.attendClasses();
+        student1.graduate();
+        student1.study();
+        student1.submitAssignments();
+        student1.takeExams();
     }
 }

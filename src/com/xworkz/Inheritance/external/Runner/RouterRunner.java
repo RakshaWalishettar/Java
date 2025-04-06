@@ -5,7 +5,20 @@ import com.xworks.Inheritance.external.Router;
 
 public class RouterRunner {
     public static void main(String[] args) {
-        NetworkDevice device = new Router();
-        NetworkDevice device1 = new NetworkDevice();
+        Router router = new Router();
+        router.reset();
+        router.powerOn();
+        router.powerOff();
+        router.connect();
+        router.disconnect();
+        router.connect();
+
+        System.out.println("============================================");
+        NetworkDevice device = new NetworkDevice();
+        device.reset();
+        device.connect();
+        device.disconnect();
+        device.powerOn();
+        device.powerOff();
     }
 }

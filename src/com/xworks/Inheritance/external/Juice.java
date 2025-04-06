@@ -1,28 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Juice extends Fruit{
-    {
-        super.extract();
+    public Juice(){
+        System.out.println("no arg const of juice");
+    }@Override
+    public void extract(){
         System.out.println("Juice extraction completed.");
     }
-
-    {
-        super.blend();
+    @Override
+    public void blend(){
         System.out.println("Juice is blended smoothly.");
     }
-
-    {
-        super.serveCold();
+    @Override
+    public void serveCold(){
         System.out.println("Juice is served cold.");
     }
-
-    {
-        super.addIce();
+    @Override
+    public void addIce(){
         System.out.println("Juice with ice is ready.");
     }
-
-    {
-        super.drink();
+    @Override
+    public void drink(){
         System.out.println("Enjoy your fresh juice!");
     }
 }

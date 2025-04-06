@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class Washingmachine extends Appliance {
-    public void  WashingMachine() {
+    public Washingmachine() {
         System.out.println("No-args constructor WashingMachine");
     }
 
-    {
-        super.wash();
+    @Override
+    public void wash(){
         System.out.println("WashingMachine is washing...");
     }
 
-    {
-        super.rinse();
+    @Override
+    public void rinse(){
         System.out.println("WashingMachine is rinsing...");
     }
 
-    {
-        super.spin();
+    @Override
+    public void spin(){
         System.out.println("WashingMachine is spinning...");
     }
 
-    {
-        super.drain();
+    @Override
+    public void drain(){
         System.out.println("WashingMachine is draining...");
     }
 
-    {
-        super.beep();
+    @Override
+    public void beep(){
         System.out.println("WashingMachine is beeping...");
     }
 }

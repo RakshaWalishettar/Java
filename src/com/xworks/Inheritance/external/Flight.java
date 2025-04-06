@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class Flight extends Transport{
-    public void flight() {
+    public Flight() {
         System.out.println("Train is being initialized");
     }
-
-    {
-        super.move();
+    @Override
+    public void move(){
         System.out.println("Train is moving on tracks");
     }
 
-    {
-        super.fuel();
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+    @Override
+    public void fuel(){
         System.out.println("Train is refueling at station");
     }
-
-    {
-        super.stop();
+    @Override
+    public void stop(){
         System.out.println("Train is stopping at a station");
     }
-
-    {
-        super.capacity();
+    @Override
+    public void capacity(){
         System.out.println("Train has passenger capacity");
     }
-
-    {
-        super.service();
+    @Override
+    public void service(){
         System.out.println("Train is undergoing maintenance");
     }
 }

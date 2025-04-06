@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.LightSouce;
 
 public class LEDRunner {
     public static void main(String[] args) {
-        LightSouce lightSource = new LED();
-        LightSouce lightSource1 = new LightSouce();
+        LED led = new LED();
+        led.turnOff();
+        led.emitLight();
+        led.consumeEnergy();
+        led.adjustBrightness();
+        led.turnOn();
+
+        System.out.println("======================================");
+        LightSouce lightSource = new LightSouce();
+        lightSource.turnOn();
+        lightSource.turnOff();
+        lightSource.emitLight();
+        lightSource.adjustBrightness();
+        lightSource.consumeEnergy();
     }
 }

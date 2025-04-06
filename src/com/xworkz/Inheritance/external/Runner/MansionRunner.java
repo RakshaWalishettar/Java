@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Mansion;
 
 public class MansionRunner {
     public static void main(String[] args) {
-        Building building = new Mansion();
-        Building building1 = new Building();
+        Mansion mansion= new Mansion();
+        mansion.openWindows();
+        mansion.lockDoors();
+        mansion.insulate();
+        mansion.provideShelter();
+        mansion.haveRooms();
+
+        System.out.println("===================================");
+        Building building = new Building();
+        building.provideShelter();
+        building.openWindows();
+        building.lockDoors();
+        building.insulate();
+        building.haveRooms();
     }
 }

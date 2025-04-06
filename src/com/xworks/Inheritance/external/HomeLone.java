@@ -1,32 +1,24 @@
 package com.xworks.Inheritance.external;
 
 public class HomeLone extends Lone{
-    public void Homeloneimal()
+    public HomeLone()
     {
         System.out.println("no-args const of Homelone");
-    }
-    {
-        super.calculate_equity();
+    }@Override
+    public void calculate_equity(){
         System.out.println("runner calculate_equity of Homelone");
-    }
-    {
-        super.property_tax();
+    }@Override
+    public void property_tax(){
         System.out.println("runner property_tax of Homelone");
-    }
-    {
-        super.total_monthly_cost();
+    }@Override
+    public void total_monthly_cost(){
         System.out.println("runner total_monthly_cost of Homelone");
-    }
-    {
-        super.refinance();
+    }@Override
+    public void refinance(){
         System.out.println("runner refinance of Homelone");
-    }
-    {
-        super.sign();
+    }@Override
+    public void sign(){
         System.out.println("runner sign of Homelone");
     }
-    {
-        super.lone();
-        System.out.println("no-args const of Homelone");
-    }
+
 }

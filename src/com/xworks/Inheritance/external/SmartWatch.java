@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class SmartWatch extends SmartGadget{
-    public void Smartwatch() {
+    public SmartWatch() {
         System.out.println("Smartwatch is initialized");
     }
 
-    {
-        super.trackSteps();
+    @Override
+    public void trackSteps(){
         System.out.println("Smartwatch is tracking steps...");
     }
 
-    {
-        super.monitorHeartRate();
+    @Override
+    public void monitorHeartRate(){
         System.out.println("Smartwatch is monitoring heart rate...");
     }
 
-    {
-        super.showTime();
+    @Override
+    public void showTime(){
         System.out.println("Smartwatch is displaying time...");
     }
 
-    {
-        super.receiveNotifications();
+    @Override
+    public void receiveNotifications(){
         System.out.println("Smartwatch is receiving notifications...");
     }
 
-    {
-        super.chargeBattery();
+    @Override
+    public void chargeBattery(){
         System.out.println("Smartwatch is charging battery...");
     }
 }

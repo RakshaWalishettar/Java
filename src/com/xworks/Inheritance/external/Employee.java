@@ -1,28 +1,28 @@
 package com.xworks.Inheritance.external;
 
 public class Employee extends Manager{
-    public void employee()
+    public Employee()
     {
         System.out.println("no-args const of car");
     }
-    {
-        super.displayDetails();
+    @Override
+    public void displayDetails(){
         System.out.println("runner displayDetails of employe");
     }
-    {
-        super.getAnnualSalary();
+    @Override
+    public void getAnnualSalary(){
         System.out.println("runner getAnnualSalary of employe");
     }
-    {
-        super.setSalary();
+    @Override
+    public void setSalary(){
         System.out.println("runner setSalary of employe");
     }
-    {
-        super.workerDetails();
+    @Override
+    public void workerDetails(){
         System.out.println("runner workerDetails of employe");
     }
-    {
-        super.assignDepartment();
+    @Override
+    public void assignDepartment(){
         System.out.println("runner assignDepartment of employe");
     }
 }

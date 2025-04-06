@@ -1,28 +1,28 @@
 package com.xworks.Inheritance.external;
 
 public class Staf extends Engineer{
-    public void staf()
+    public Staf()
     {
         System.out.println("no-args const of staf");
     }
-    {
-        super.getSpecialization();
+    @Override
+    public void getSpecialization(){
         System.out.println("runner getSpecialization of staf");
     }
-    {
-        super.workOnProject();
+    @Override
+    public void workOnProject(){
         System.out.println("runner workOnProject of staf");
     }
-    {
-        super.attendMeeting();
+    @Override
+    public void attendMeeting(){
         System.out.println("runner attendMeeting of staf");
     }
-    {
-        super.writeCode();
+    @Override
+    public void writeCode(){
         System.out.println("runner writeCode of staf");
     }
-    {
-        super.debugSoftware();
+    @Override
+    public void debugSoftware(){
         System.out.println("runner debugSoftware of staf");
     }
 }

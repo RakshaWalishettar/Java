@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Security;
 public class HealthRunner {
     public static void main(String[] args){
         Security security=new Security();
-        Security security1=new HealthInsurance();
+        security.renewPolicy();
+        security.payPremium();
+        security.getReimbursement();
+        security.claimHospitalBills();
+        security.coverMedicalExpense();
+
+        System.out.println("================================");
+        HealthInsurance healthInsurance=new HealthInsurance();
+        healthInsurance.renewPolicy();
+        healthInsurance.payPremium();
+        healthInsurance.getReimbursement();
+        healthInsurance.claimHospitalBills();
+        healthInsurance.coverMedicalExpense();
     }
 }

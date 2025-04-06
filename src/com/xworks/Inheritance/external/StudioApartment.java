@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class StudioApartment extends Apartment{
-    public void studioApartment() {
+    public StudioApartment() {
         System.out.println("No-args constructor StudioApartment");
     }
 
-    {
-        super.provideShelter();
+    @Override
+    public void provideShelter(){
         System.out.println("StudioApartment provides compact shelter...");
     }
 
-    {
-        super.payRent();
+    @Override
+    public void payRent(){
         System.out.println("StudioApartment has lower rent...");
     }
 
-    {
-        super.useElectricity();
+    @Override
+    public void useElectricity(){
         System.out.println("StudioApartment uses less electricity...");
     }
 
-    {
-        super.useWater();
+    @Override
+    public void useWater(){
         System.out.println("StudioApartment consumes less water...");
     }
 
-    {
-        super.maintainApartment();
+    @Override
+    public void maintainApartment(){
         System.out.println("StudioApartment requires minimal maintenance...");
     }
 }

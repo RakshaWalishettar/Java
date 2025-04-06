@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.University;
 
 public class CollegeRunner {
     public static void main(String[] args) {
-        University university = new College();
+        College college = new College();
+        college.scheduleClasses();
+        college.manageFaculty();
+        college.conductExams();
+        college.admitStudents();
+        college.organizeEvents();
+
+        System.out.println("============================");
         University university1 = new University();
+        university1.admitStudents();
+        university1.conductExams();
+        university1.manageFaculty();
+        university1.scheduleClasses();
+        university1.organizeEvents();
     }
 }

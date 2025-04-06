@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Helicopter extends Aircraft{
-    public void helicopter() {
+    public Helicopter() {
         System.out.println("No-args constructor Helicopter");
     }
-
-    {
-        super.fly();
+    @Override
+    public void fly(){
         System.out.println("Helicopter is flying...");
     }
-
-    {
-        super.land();
+    @Override
+    public void land(){
         System.out.println("Helicopter is landing...");
     }
-
-    {
-        super.refuel();
+    @Override
+    public void refuel(){
         System.out.println("Helicopter is refueling...");
     }
-
-    {
-        super.hover();
+    @Override
+    public void hover(){
         System.out.println("Helicopter is hovering...");
     }
-
-    {
-        super.loadPassengers();
+    @Override
+    public void loadPassengers(){
         System.out.println("Helicopter is loading passengers...");
     }
 }

@@ -1,32 +1,32 @@
 package com.xworks.Inheritance.external;
 
 public class Stand extends Table{
-    public void stand() {
+    public Stand() {
         System.out.println("No-args constructor for Stand");
     }
 
-    {
-        super.expand();
+    @Override
+    public void expand(){
         System.out.println("Stand is expanding...");
     }
 
-    {
-        super.fold();
+    @Override
+    public void fold(){
         System.out.println("Stand is folding...");
     }
 
-    {
-        super.supportObjects();
+    @Override
+    public void supportObjects(){
         System.out.println("Stand is supporting objects...");
     }
 
-    {
-        super.adjustHeight();
+    @Override
+    public void adjustHeight(){
         System.out.println("Stand height is being adjusted...");
     }
 
-    {
-        super.decorate();
+    @Override
+    public void decorate(){
         System.out.println("Stand is being decorated...");
     }
 }

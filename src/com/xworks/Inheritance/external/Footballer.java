@@ -5,7 +5,7 @@ public class Footballer {
         System.out.println("Footballer is training");
     }
 
-    public void run() {
+    public void running() {
         System.out.println("Footballer is running");
     }
 

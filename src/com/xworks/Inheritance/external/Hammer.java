@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Hammer extends Tool{
-    public void  Hammer() {
+    public Hammer() {
         System.out.println("Hammer created.");
     }
 
-    {
-        super.use();
+    @Override
+    public void use(){
         System.out.println("Hammer is striking.");
     }
 
-    {
-        super.carry();
+    @Override
+    public void carry(){
         System.out.println("Hammer is lifted.");
     }
 
-    {
-        super.store();
+    @Override
+    public void store(){
         System.out.println("Hammer is dropped.");
     }
 
-    {
-        super.repair();
+    @Override
+    public void repair(){
         System.out.println("Hammer is being repaired.");
-    }
-
-    {
-        super.store();
-        System.out.println("Hammer is stored safely.");
     }
 }

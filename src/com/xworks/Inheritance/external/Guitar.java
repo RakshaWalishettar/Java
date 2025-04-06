@@ -4,29 +4,24 @@ public class Guitar extends MusicalInstrument{
     public Guitar() {
         System.out.println("Guitar instance created");
     }
-
-    {
-        super.strum();
+    @Override
+    public void strum(){
         System.out.println("Guitar is strumming...");
     }
-
-    {
-        super.tune();
+    @Override
+    public void tune(){
         System.out.println("Guitar is tuning...");
     }
-
-    {
-        super.pluck();
+    @Override
+    public void pluck(){
         System.out.println("Guitar is plucking...");
     }
-
-    {
-        super.playChord();
+    @Override
+    public void playChord(){
         System.out.println("Guitar is playing chords...");
     }
-
-    {
-        super.amplifySound();
+    @Override
+    public void amplifySound(){
         System.out.println("Guitar is amplifying sound...");
     }
 }

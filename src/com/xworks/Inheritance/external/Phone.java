@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Phone extends Gadget {
-   public void phone() {
+   public Phone() {
         System.out.println("no-args const phone");
     }
-
-    {
-        super.turnOn();
+    @Override
+    public void turnOn(){
         System.out.println("Phone is booting up...");
     }
-
-    {
-        super.turnOff();
+    @Override
+    public void turnOff(){
         System.out.println("Phone is shutting down...");
     }
-
-    {
-        super.charge();
+    @Override
+    public void charge(){
         System.out.println("Phone is charging...");
     }
-
-    {
-        super.connectToWiFi();
+    @Override
+    public void connectToWiFi(){
         System.out.println("Phone is now connected to the internet.");
     }
-
-    {
-        super.updateSoftware();
+    @Override
+    public void updateSoftware(){
         System.out.println("Phone software is up-to-date.");
     }
 }

@@ -5,7 +5,20 @@ import com.xworks.Inheritance.external.Washingmachine;
 
 public class WashingRunner {
     public static void main(String[] args) {
-        Appliance appliance = new Washingmachine();
+        Washingmachine washingmachine = new Washingmachine();
+        washingmachine.rinse();
+        washingmachine.drain();
+        washingmachine.spin();
+        washingmachine.beep();
+        washingmachine.wash();
+
+
+        System.out.println("==============================");
         Appliance appliance1 = new Appliance();
+        appliance1.beep();
+        appliance1.wash();
+        appliance1.rinse();
+        appliance1.drain();
+        appliance1.spin();
     }
 }

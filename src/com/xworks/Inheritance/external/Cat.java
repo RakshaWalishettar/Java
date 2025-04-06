@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class Cat extends Felidae{
-    public Cat()
-    {
-        super();
-        System.out.println("No-args constructor of Cat");
+    public Cat(){
+        System.out.println("no args const of cat");
     }
-    {
-        super.breathing();
+    @Override
+    public  void breathing(){
         System.out.println("Cat is breathing");
     }
-    {
-        super.eating();
+    @Override
+    public void eating(){
         System.out.println("Cat is eating");
     }
-
-    {
-        super.sleeping();
+    @Override
+    public void sleeping(){
         System.out.println("Cat is sleeping");
     }
-
-    {
-        super.roaring();
+    @Override
+    public  void roaring(){
         System.out.println("Cat is meowing");
     }
-    {
-
-        super.hunting() ;
+    @Override
+    public void hunting(){
         System.out.println("Cat is scratching");
     }
 }

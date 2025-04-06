@@ -1,28 +1,28 @@
 package com.xworks.Inheritance.external;
 
 public class MotorCycle extends Sportsbike {
-    public void MC()
+    public MotorCycle()
     {
         System.out.println("no-args const of car");
     }
-    {
-        super.turboBoost();
+    @Override
+    public void turboBoost(){
         System.out.println("runner openCargoBed of truck");
     }
-    {
-        super.leanIntoCurve();
+    @Override
+    public void leanIntoCurve(){
         System.out.println("runner closeCargoBed of truck");
     }
-    {
-        super.quickShift();
+    @Override
+    public void quickShift(){
         System.out.println("runner toggleCover of truck");
     }
-    {
-        super.launchControl();
+    @Override
+    public void launchControl(){
         System.out.println("runner enableOffRoadMode of truck");
     }
-    {
-        super.raceMode();
+    @Override
+    public void raceMode(){
         System.out.println("runner towTrailer of truck");
     }
 }

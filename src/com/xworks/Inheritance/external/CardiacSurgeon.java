@@ -1,27 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class CardiacSurgeon extends Surgeon {
-    public void CS() {
+    public CardiacSurgeon() {
         System.out.println("no-args const in CS");
-        {
-            super.performSurgery();
-            System.out.println("Performing heart surgery.");
-        }
-        {
-            super.conductHeartTransplant();
-            System.out.println("Conducting heart transplant surgery.");
-        }
-        {
-            super.interpretECG();
-            System.out.println("Interpreting ECG results.");
-        }
-        {
-            super.performBypassSurgery();
-            System.out.println("Performing coronary artery bypass surgery.");
-        }
-        {
-            super.monitorCardiacPatients();
-            System.out.println("Monitoring post-surgery cardiac patients.");
-        }
+    }
+    @Override
+    public void performSurgery() {
+        System.out.println("Performing heart surgery.");
+    }
+    @Override
+    public void conductHeartTransplant() {
+        System.out.println("Conducting heart transplant surgery.");
+    }
+    @Override
+    public void interpretECG() {
+        System.out.println("Interpreting ECG results.");
+    }
+    @Override
+    public void performBypassSurgery() {
+        System.out.println("Performing coronary artery bypass surgery.");
+    }
+    @Override
+    public void monitorCardiacPatients() {
+        System.out.println("Monitoring post-surgery cardiac patients.");
     }
 }

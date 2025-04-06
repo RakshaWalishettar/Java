@@ -2,27 +2,24 @@ package com.xworks.Inheritance.external;
 
 public class TShirt extends Clothing{
     public TShirt() {
-        super.clothing();
         System.out.println("no-args constructor of TShirt");
     }
-    {
-        super.covering();
+    public void clothing(){
+        System.out.println("runner of the t-shirt");
+    }
+    public void covering(){
         System.out.println("TShirt covers the upper body");
     }
-    {
-        super.protecting();
+    public void protecting(){
         System.out.println("TShirt protects from sunlight");
     }
-    {
-        super.fashion();
+    public void fashion(){
         System.out.println("TShirt is a trendy fashion choice");
     }
-    {
-        super.comfort();
+    public void comfort(){
         System.out.println("TShirt provides comfort in summer");
     }
-    {
-        super.identity();
+    public void identity(){
         System.out.println("TShirt represents casual style");
     }
 }

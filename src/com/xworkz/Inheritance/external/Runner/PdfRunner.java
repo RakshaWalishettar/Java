@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Pdf;
 
 public class PdfRunner {
     public static void main(String[] args) {
-        Document doc = new Pdf();  // Creating a Pdf instance using Document reference
-        Document doc1 = new Document();
+        Pdf pdf = new Pdf();
+        pdf.write();
+        pdf.read();
+        pdf.open();
+        pdf.close();
+        pdf.save();
+
+        System.out.println("=================================");
+        Document doc = new Document();
+        doc.write();
+        doc.read();
+        doc.open();
+        doc.save();
+        doc.close();
     }
 }

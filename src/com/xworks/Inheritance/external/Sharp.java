@@ -5,28 +5,28 @@ public class Sharp extends Sword{
         System.out.println("Sharp sword created.");
     }
 
-    {
-        super.swing();
+    @Override
+    public void swing(){
         System.out.println("Sharp sword swings faster...");
     }
 
-    {
-        super.stab();
+    @Override
+    public void stab(){
         System.out.println("Sharp sword stabs deeply...");
     }
 
-    {
-        super.block();
+    @Override
+    public void block(){
         System.out.println("Sharp sword blocks effectively...");
     }
 
-    {
-        super.sharpen();
+    @Override
+    public void sharpen(){
         System.out.println("Sharp sword remains razor-sharp...");
     }
 
-    {
-        super.attack();
+    @Override
+    public void attack(){
         System.out.println("Sharp sword delivers a powerful attack...");
     }
 }

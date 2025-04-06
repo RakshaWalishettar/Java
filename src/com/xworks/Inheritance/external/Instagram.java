@@ -1,28 +1,21 @@
 package com.xworks.Inheritance.external;
 
 public class Instagram extends SocialMedia{
-public void instagram() {
-    System.out.println("no args const");
-    {
-        super.createAccount();
+public Instagram() {
+    System.out.println("no args const");}
+    public void createAccount(){
         System.out.println("createaccount on instagram");
-    }
-    {
-        super.login();
+    }@Override
+    public void login(){
         System.out.println("login on instagram");
-    }
-    {
-        super.logout();
+    }@Override
+    public void logout(){
         System.out.println("logout on instagram");
-    }
-    {
-        super.browseContent();
+    }@Override
+    public void browseContent(){
         System.out.println("browseContent on instagram");
-    }
-    {
-        super.deleteAccount();
+    }@Override
+    public void deleteAccount(){
         System.out.println("deleteAccount on instagram");
-    }
-
     }
 }

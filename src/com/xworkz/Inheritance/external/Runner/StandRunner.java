@@ -5,7 +5,19 @@ import com.xworks.Inheritance.external.Table;
 
 public class StandRunner {
     public static void main(String[] args) {
-        Table table = new Stand();  // Upcasting: Stand "is a" Table
-        Table table1 = new Table();
+        Stand stand = new Stand();
+        stand.supportObjects();
+        stand.expand();
+        stand.decorate();
+        stand.adjustHeight();
+        stand.fold();
+
+        System.out.println("=============================");
+        Table table = new Table();
+        table.supportObjects();
+        table.expand();
+        table.decorate();
+        table.adjustHeight();
+        table.fold();
     }
 }

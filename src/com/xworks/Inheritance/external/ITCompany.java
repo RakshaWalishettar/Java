@@ -1,32 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class ITCompany extends Company{
-    public void ITCompany() {
+    public ITCompany() {
         System.out.println("No-args constructor ITCompany.");
     }
-
-    {
-        super.hire();
+    @Override
+    public void hire(){
         System.out.println("ITCompany is hiring specialized IT employees...");
     }
-
-    {
-        super.fire();
+    @Override
+    public void fire(){
         System.out.println("ITCompany is handling employee terminations...");
     }
-
-    {
-        super.developSoftware();
+    @Override
+    public void developSoftware(){
         System.out.println("ITCompany is actively developing software...");
     }
-
-    {
-        super.maintainServers();
+    @Override
+    public void maintainServers(){
         System.out.println("ITCompany is ensuring server uptime...");
     }
-
-    {
-        super.manageProjects();
+    @Override
+    public void manageProjects(){
         System.out.println("ITCompany is managing software development projects...");
     }
 }

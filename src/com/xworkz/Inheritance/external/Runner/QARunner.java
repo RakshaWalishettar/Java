@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Tester;
 public class QARunner {
     public static void main(String[] args){
         Tester tester=new Tester();
-        Tester test=new QualityAssurance();
+        tester.reviewRequirements();
+        tester.reportBugs();
+        tester.performRegressionTesting();
+        tester.executeTestCases();
+        tester.automateTesting();
+
+        System.out.println("=============================================");
+        QualityAssurance qualityAssurance=new QualityAssurance();
+        qualityAssurance.performRegressionTesting();
+        qualityAssurance.reviewRequirements();
+        qualityAssurance.reportBugs();
+        qualityAssurance.automateTesting();
+        qualityAssurance.executeTestCases();
     }
 }

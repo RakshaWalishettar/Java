@@ -2,32 +2,31 @@ package com.xworks.Inheritance.external;
 
 public class Knight extends Warrior{
     public Knight() {
-        super();
-        System.out.println("No-args constructor of Knight");
+        System.out.println("no args const of knight");
     }
 
-    {
-        super.fighting();
+    @Override
+    public void fighting(){
         System.out.println("Knight is fighting with honor");
     }
 
-    {
-        super.defending();
+    @Override
+    public void defending(){
         System.out.println("Knight is defending the kingdom");
     }
 
-    {
-        super.riding();
+    @Override
+    public void riding(){
         System.out.println("Knight is riding a horse");
     }
 
-    {
-        super.training();
+    @Override
+    public void training(){
         System.out.println("Knight is training for battle");
     }
 
-    {
-        super.strategizing();
+    @Override
+    public void strategizing(){
         System.out.println("Knight is planning warfare strategies");
     }
 

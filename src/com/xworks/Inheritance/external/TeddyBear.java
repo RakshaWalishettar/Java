@@ -1,27 +1,27 @@
 package com.xworks.Inheritance.external;
 
 public class TeddyBear extends Toy{
-    public void teddyBear() {
+    public TeddyBear() {
         System.out.println("TeddyBear is created.");
     }
-    {
-        super.hug();
+    @Override
+    public void hug(){
         System.out.println("TeddyBear gives a warm hug!");
     }
-    {
-        super.squeeze();
+    @Override
+    public void squeeze(){
         System.out.println("TeddyBear is being gently squeezed.");
     }
-    {
-        super.wash();
+    @Override
+    public void wash(){
         System.out.println("TeddyBear is being washed with care.");
     }
-    {
-        super.sitUpright();
+    @Override
+    public void sitUpright(){
         System.out.println("TeddyBear is sitting upright on the shelf.");
     }
-    {
-        super.decorateRoom();
+    @Override
+    public void decorateRoom(){
         System.out.println("TeddyBear is decorating the room beautifully.");
     }
 

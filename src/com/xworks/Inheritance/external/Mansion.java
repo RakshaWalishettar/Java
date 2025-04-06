@@ -4,29 +4,24 @@ public class Mansion extends Building{
     public Mansion() {
         System.out.println("Mansion: No-args constructor");
     }
-
-    {
-        super.provideShelter();
+    @Override
+    public void provideShelter(){
         System.out.println("Mansion provides luxurious shelter...");
     }
-
-    {
-        super.lockDoors();
+    @Override
+    public void lockDoors(){
         System.out.println("Mansion has secure doors...");
     }
-
-    {
-        super.openWindows();
+    @Override
+    public void openWindows(){
         System.out.println("Mansion has large open windows...");
     }
-
-    {
-        super.haveRooms();
+    @Override
+    public void haveRooms(){
         System.out.println("Mansion has many spacious rooms...");
     }
-
-    {
-        super.insulate();
+    @Override
+    public void insulate(){
         System.out.println("Mansion has premium insulation...");
     }
 }

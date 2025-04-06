@@ -6,6 +6,18 @@ import com.xworks.Inheritance.external.Toy;
 public class TeddyBearRunner {
 public static void main(String[] args){
     Toy toy=new Toy();
-    Toy toy1=new TeddyBear();
+    toy.squeeze();
+    toy.decorateRoom();
+    toy.sitUpright();
+    toy.wash();
+    toy.hug();
+
+    System.out.println("==============================");
+    TeddyBear teddyBear=new TeddyBear();
+    teddyBear.sitUpright();
+    teddyBear.squeeze();
+    teddyBear.squeeze();
+    teddyBear.hug();
+    teddyBear.wash();
 }
 }

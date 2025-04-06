@@ -1,28 +1,26 @@
 package com.xworks.Inheritance.external;
 
 public class Pizza extends Food{
-    {
-        super.bake();
+    public Pizza(){
+        System.out.println("no args const");
+    }@Override
+    public void bake(){
         System.out.println("Pizza is being baked");
     }
-
-    {
-        super.addToppings();
+    @Override
+    public void addToppings(){
         System.out.println("Adding toppings to Pizza");
     }
-
-    {
-        super.slice();
+    @Override
+    public void slice(){
         System.out.println("Slicing the Pizza");
     }
-
-    {
-        super.serve();
+    @Override
+    public void serve(){
         System.out.println("Serving the Pizza");
     }
-
-    {
-        super.eat();
+    @Override
+    public void eat(){
         System.out.println("Eating the Pizza");
     }
 }

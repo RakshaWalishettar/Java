@@ -5,28 +5,28 @@ public class Star extends Sky{
         System.out.println("No-args constructor Star");
     }
 
-    {
-        super.emitLight();
+    @Override
+    public void emitLight(){
         System.out.println("Star is emitting light...");
     }
 
-    {
-        super.generateHeat();
+    @Override
+    public void generateHeat(){
         System.out.println("Star is generating heat...");
     }
 
-    {
-        super.fuseHydrogen();
+    @Override
+    public void fuseHydrogen(){
         System.out.println("Star is fusing hydrogen...");
     }
 
-    {
-        super.explodeSupernova();
+    @Override
+    public void explodeSupernova(){
         System.out.println("Star is exploding into a supernova...");
     }
 
-    {
-        super.collapse();
+    @Override
+    public void collapse(){
         System.out.println("Star is collapsing...");
     }
 }

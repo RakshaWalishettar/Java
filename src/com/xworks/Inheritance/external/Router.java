@@ -4,29 +4,24 @@ public class Router extends NetworkDevice{
     public Router() {
         System.out.println("Router is initialized.");
     }
-
-    {
-        super.powerOn();
+    @Override
+    public void powerOn(){
         System.out.println("Router is powering on...");
     }
-
-    {
-        super.connect();
+    @Override
+    public void connect(){
         System.out.println("Router is connecting to the internet...");
     }
-
-    {
-        super.disconnect();
+    @Override
+    public void disconnect(){
         System.out.println("Router is disconnecting from the internet...");
     }
-
-    {
-        super.reset();
+    @Override
+    public void reset(){
         System.out.println("Router is performing a factory reset...");
     }
-
-    {
-        super.powerOff();
+    @Override
+    public void powerOff(){
         System.out.println("Router is shutting down...");
     }
 }
