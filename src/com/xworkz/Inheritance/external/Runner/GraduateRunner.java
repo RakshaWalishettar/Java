@@ -9,7 +9,7 @@ public class GraduateRunner {
         graduate.submitAssignments();
         graduate.takeExams();
         graduate.attendClasses();
-        graduate.GraduateStudent();
+        graduate.graduate();
         graduate.study();
 
         System.out.println("================================================");
