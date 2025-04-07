@@ -24,4 +24,7 @@ public class Coffee extends Drink{
     public void drink(){
         System.out.println("Drinking coffee...");
     }
+    public void hot(){
+        System.out.println("hot coffee");
+    }
 }

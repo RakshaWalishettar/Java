@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Clinical;
 import com.xworks.Inheritance.external.HealthInsurance;
 import com.xworks.Inheritance.external.Security;
 
@@ -19,5 +20,10 @@ public class HealthRunner {
         healthInsurance.getReimbursement();
         healthInsurance.claimHospitalBills();
         healthInsurance.coverMedicalExpense();
+
+        System.out.println("=============================");
+        Clinical clinical=new Clinical();
+        clinical.precaustion(security);
+        clinical.precaustion(clinical);
     }
 }

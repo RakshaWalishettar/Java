@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Coffee;
+import com.xworks.Inheritance.external.Cup;
 import com.xworks.Inheritance.external.Drink;
 
 public class CoffeeRunner {
@@ -19,5 +20,11 @@ public class CoffeeRunner {
         coffee.addMilk();
         coffee.pour();
         coffee.brew();
+
+        System.out.println("=======================");
+
+        Cup cup=new Cup();
+        cup.hot(drink);
+        cup.hot(cup);
     }
 }

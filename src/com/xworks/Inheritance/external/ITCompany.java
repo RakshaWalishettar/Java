@@ -24,4 +24,7 @@ public class ITCompany extends Company{
     public void manageProjects(){
         System.out.println("ITCompany is managing software development projects...");
     }
+    public void fungames(){
+        System.out.println("runner the fungames");
+    }
 }

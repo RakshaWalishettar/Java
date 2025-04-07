@@ -24,4 +24,7 @@ public class Chair extends Furniture{
     public void fold(){
         System.out.println("Chair is being folded...");
     }
+    public void sit(){
+        System.out.println("the chair runner");
+    }
 }

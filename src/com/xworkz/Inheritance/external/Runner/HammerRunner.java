@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Hammer;
+import com.xworks.Inheritance.external.Nail;
 import com.xworks.Inheritance.external.Tool;
 
 public class HammerRunner {
@@ -19,5 +20,10 @@ public class HammerRunner {
         hammer.repair();
         hammer.use();
         hammer.carry();
+
+        System.out.println("===========================");
+        Nail nail=new Nail();
+        nail.beat(tool);
+        nail.beat(nail);
     }
 }

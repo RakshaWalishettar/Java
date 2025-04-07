@@ -24,4 +24,7 @@ public class Gun extends Weapon{
     public void safetyLock(){
         System.out.println("Gun safety lock engaged...");
     }
+    public void bullet(){
+        System.out.println("the runner bullet");
+    }
 }

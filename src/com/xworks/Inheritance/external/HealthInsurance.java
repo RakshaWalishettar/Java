@@ -20,4 +20,7 @@ public class HealthInsurance extends Security{
     public void getReimbursement(){
         System.out.println("HealthInsurance: Processing reimbursement after claim approval.");
     }
+    public void precaustion(){
+        System.out.println("the precaution is must");
+    }
 }

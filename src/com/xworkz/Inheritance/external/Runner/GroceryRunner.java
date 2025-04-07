@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 
 import com.xworks.Inheritance.external.Grocery;
+import com.xworks.Inheritance.external.Prchase;
 import com.xworks.Inheritance.external.Product;
 
 public class GroceryRunner {
@@ -20,5 +21,11 @@ public class GroceryRunner {
         product1.getName();
         product1.getStockQuantity();
         product1.getPrice();
+
+        System.out.println("=================================");
+
+        Prchase prchase=new Prchase();
+        prchase.customer(prchase);
+        prchase.customer(product1);
     }
 }

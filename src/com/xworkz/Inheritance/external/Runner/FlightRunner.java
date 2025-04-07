@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Brand;
 import com.xworks.Inheritance.external.Flight;
 import com.xworks.Inheritance.external.Transport;
 
@@ -19,5 +20,10 @@ public class FlightRunner {
         transport1.fuel();
         transport1.move();
         transport1.stop();
+
+        System.out.println("===================================");
+        Brand brand=new Brand();
+        brand.crash(transport1);
+        brand.crash(brand);
     }
 }

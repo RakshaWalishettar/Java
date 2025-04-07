@@ -22,4 +22,7 @@ public class Goalkeeper extends Footballer{
     public void rest(){
         System.out.println("Goalkeeper catches the incoming ball");
     }
+    public void boots(){
+        System.out.println("the runner is the boots");
+    }
 }

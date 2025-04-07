@@ -24,4 +24,7 @@ public class Bag extends School{
     public void carryWaterBottle(){
         System.out.println("Bag is carrying a water bottle...");
     }
+    public void napkin(){
+        System.out.println("Bag is carrying a napkin");
+    }
 }

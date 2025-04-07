@@ -24,4 +24,7 @@ public class Ccar extends Electriccar{
     public  void stop(){
         System.out.println("runner stop of car");
     }
+    public void mirror(){
+        System.out.println("all car has mirror");
+    }
 }

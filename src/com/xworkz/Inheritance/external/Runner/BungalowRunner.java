@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Bungalow;
+import com.xworks.Inheritance.external.Construction;
 import com.xworks.Inheritance.external.House;
 
 public class BungalowRunner {
@@ -20,5 +21,13 @@ public class BungalowRunner {
         bungalow.openDoor();
         bungalow.lockMainGate();
         bungalow.turnOnLights();
+
+        System.out.println("===========================");
+        Construction construction=new Construction();
+        construction.lockMainGate();
+        construction.closeWindow();
+        construction.openDoor();
+        construction.paintWalls();
+        construction.turnOnLights();
     }
 }

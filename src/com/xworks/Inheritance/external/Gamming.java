@@ -24,5 +24,8 @@ public class Gamming extends Laptop {
     public void laptop(){
         System.out.println("Gamming software is up-to-date.");
     }
+    public void device(){
+        System.out.println("runner the device");
+    }
 }
 

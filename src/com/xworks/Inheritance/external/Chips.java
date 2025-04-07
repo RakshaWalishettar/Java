@@ -24,4 +24,7 @@ public class Chips extends Snacks{
     public void finish(){
         System.out.println("Chips are finished.");
     }
+    public void masala(){
+        System.out.println("running masala");
+    }
 }

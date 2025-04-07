@@ -1,27 +1,36 @@
 package com.xworks.Inheritance.external;
 
-public class Android extends Robot{
+public class Android extends Robot {
     public Android() {
         System.out.println("Android is created...");
     }
+
     @Override
-    public void walk(){
+    public void walk() {
         System.out.println("Android walks like a human...");
     }
+
     @Override
-    public void talk(){
+    public void talk() {
         System.out.println("Android can talk naturally...");
     }
+
     @Override
-    public void recognizeVoice(){
+    public void recognizeVoice() {
         System.out.println("Android uses AI to recognize voices...");
     }
+
     @Override
-    public void performTask(){
+    public void performTask() {
         System.out.println("Android is performing complex tasks...");
     }
+
     @Override
-    public void recharge(){
+    public void recharge() {
         System.out.println("Android is recharging wirelessly...");
+    }
+
+    public void moves() {
+        System.out.println("Android is moves....");
     }
 }

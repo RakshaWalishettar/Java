@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Clock;
 import com.xworks.Inheritance.external.DigitalClock;
+import com.xworks.Inheritance.external.Hang;
 
 public class DCRunner {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class DCRunner {
         clock1.tick();
         clock1.showTime();
         clock1.stopAlarm();
+
+        System.out.println("==================");
+        Hang hang=new Hang();
+        hang.battery(clock1);
+        hang.battery(hang);
     }
 }

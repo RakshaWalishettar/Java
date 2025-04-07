@@ -24,4 +24,7 @@ public class Assistant extends AI{
     public void learnPattern(){
         System.out.println("Assistant is learning patterns...");
     }
+    public void dancing(){
+        System.out.println("Assistant is dancing");
+    }
 }

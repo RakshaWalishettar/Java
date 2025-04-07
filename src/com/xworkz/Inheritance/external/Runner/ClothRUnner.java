@@ -1,6 +1,8 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Clothing;
+import com.xworks.Inheritance.external.Payment;
+import com.xworks.Inheritance.external.Print;
 import com.xworks.Inheritance.external.TShirt;
 
 public class ClothRUnner {
@@ -20,5 +22,11 @@ public class ClothRUnner {
         tShirt.covering();
         tShirt.protecting();
         tShirt.identity();
+
+        System.out.println("===================================");
+
+        Print print=new Print();
+        print.fold(cloth);
+        print.fold(print);
     }
 }

@@ -24,4 +24,7 @@ public class India extends Country {
     public void nationalFlag(){
         System.out.println("India's national flag has three colors and the Ashoka Chakra.");
     }
+    public void varityoffood(){
+        System.out.println("the food varity runner");
+    }
 }

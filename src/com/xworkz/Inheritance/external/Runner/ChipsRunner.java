@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Chips;
+import com.xworks.Inheritance.external.Flavour;
 import com.xworks.Inheritance.external.Snacks;
 
 public class ChipsRunner {
@@ -20,5 +21,9 @@ public class ChipsRunner {
         chips.finish();
         chips.share();
 
+        System.out.println("==============================");
+        Flavour flavour=new Flavour();
+        flavour.masala(snacks);
+        flavour.masala(flavour);
     }
 }

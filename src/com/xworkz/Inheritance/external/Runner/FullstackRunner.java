@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Developer;
 import com.xworks.Inheritance.external.Fullstack;
+import com.xworks.Inheritance.external.Java;
 
 public class FullstackRunner {
     public static void main(String [] args){
@@ -19,6 +20,12 @@ public class FullstackRunner {
         fullstack.performTesting();
         fullstack.manageDevOps();
         fullstack.collaborateWithTeam();
+
+        System.out.println("========================");
+
+        Java java=new Java();
+        java.course(developer);
+        java.course(java);
 
     }
 }

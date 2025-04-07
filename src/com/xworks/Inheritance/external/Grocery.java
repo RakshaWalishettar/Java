@@ -29,5 +29,8 @@ public class Grocery extends Product {
     public void getStockQuantity(){
         System.out.println("Grocery Stock Quantity: 500");
     }
+    public void customer(){
+        System.out.println("the runner customer");
+    }
 
 }

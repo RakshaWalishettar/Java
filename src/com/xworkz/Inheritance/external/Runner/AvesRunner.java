@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Aves;
 import com.xworks.Inheritance.external.Birds;
+import com.xworks.Inheritance.external.Egg;
 
 
 public class AvesRunner {
@@ -21,5 +22,13 @@ public class AvesRunner {
        aves.fly();
        aves.eat();
        aves.buildNest();
+
+       System.out.println("=======================");
+       Egg egg=new Egg();
+       egg.sound(birds);
+       egg.sound(egg);
+
+
+
     }
 }

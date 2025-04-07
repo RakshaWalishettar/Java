@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Flower;
 import com.xworks.Inheritance.external.Plant;
+import com.xworks.Inheritance.external.Varity;
 
 public class FlowerRunner {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class FlowerRunner {
         plant1.bloom();
         plant1.releaseOxygen();
         plant1.photosynthesize();
+
+        System.out.println("===========================================");
+        Varity varity=new Varity();
+        varity.petal(plant1);
+        varity.petal(varity);
     }
 }

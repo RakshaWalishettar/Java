@@ -24,4 +24,7 @@ public class Helicopter extends Aircraft{
     public void loadPassengers(){
         System.out.println("Helicopter is loading passengers...");
     }
+    public void limitseat(){
+        System.out.println("the runner limitseat");
+    }
 }

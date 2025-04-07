@@ -26,4 +26,7 @@ public class Chess extends BoardGame{
     public  void endGame(){
         System.out.println("Chess: Game over...");
     }
+    public void coins(){
+        System.out.println("runner coins of chess");
+    }
 }

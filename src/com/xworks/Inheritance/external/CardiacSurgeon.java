@@ -24,4 +24,7 @@ public class CardiacSurgeon extends Surgeon {
     public void monitorCardiacPatients() {
         System.out.println("Monitoring post-surgery cardiac patients.");
     }
+    public void hospital(){
+        System.out.println("the runner hospital");
+    }
 }

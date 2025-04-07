@@ -24,4 +24,7 @@ public class Icecream extends Cold{
     public void eat(){
         System.out.println("IceCream is being eaten.");
     }
+    public void Dbc(){
+        System.out.println("the runner of DbC");
+    }
 }

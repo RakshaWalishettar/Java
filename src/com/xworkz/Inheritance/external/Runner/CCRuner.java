@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Amount;
 import com.xworks.Inheritance.external.Creditcard;
 import com.xworks.Inheritance.external.Payment;
 
@@ -13,10 +14,16 @@ public static void main(String [] args){
     payment.cancelPayment();
 
     System.out.println("==============================");
-    Payment pay=new Creditcard();
+    Creditcard pay=new Creditcard();
     pay.cancelPayment();
     pay.confirmPayment();
     pay.processPayment();
     pay.validatePayment();
     pay.refundPayment();
+
+    System.out.println("==========================");
+
+    Amount amount=new Amount();
+    amount.withdraw(payment);
+    amount.withdraw(amount);
 }}

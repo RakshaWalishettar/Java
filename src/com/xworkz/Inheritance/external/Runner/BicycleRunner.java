@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Bicycle;
 import com.xworks.Inheritance.external.RoadVehical;
+import com.xworks.Inheritance.external.Wheels;
 
 import java.awt.*;
 
@@ -22,5 +23,12 @@ public class BicycleRunner {
         bicycle.move();
         bicycle.fuel();
         bicycle.load();
+
+        System.out.println("======================");
+
+        Wheels wheel=new Wheels();
+       wheel.peddel(bicycle);
+       wheel.peddel(wheel);
+
     }
 }

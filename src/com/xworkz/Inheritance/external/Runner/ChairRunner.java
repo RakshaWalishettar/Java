@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Chair;
 import com.xworks.Inheritance.external.Furniture;
+import com.xworks.Inheritance.external.Size;
 
 public class ChairRunner {
     public static void main(String[] args) {
@@ -19,6 +20,12 @@ public class ChairRunner {
         chair.move();
         chair.rotate();
         chair.supportWeight();
+
+        System.out.println("============================");
+
+        Size size=new Size();
+        size.sit(furniture1);
+        size.sit(size);
     }
 
 }

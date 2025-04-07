@@ -24,4 +24,7 @@ public class Camera extends Capture{
     public void storeImages(){
         System.out.println("Camera is storing images...");
     }
+    public void lens() {
+        System.out.println("it has the lens");
+    }
 }

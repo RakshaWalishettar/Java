@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Aircraft;
 import com.xworks.Inheritance.external.Helicopter;
+import com.xworks.Inheritance.external.Landing;
 
 public class HelicopterRunner {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class HelicopterRunner {
         aircraft.hover();
         aircraft.loadPassengers();
         aircraft.refuel();
+
+        System.out.println("===================================");
+        Landing landing=new Landing();
+        landing.limiseat(aircraft);
+        landing.limiseat(landing);
     }
 }

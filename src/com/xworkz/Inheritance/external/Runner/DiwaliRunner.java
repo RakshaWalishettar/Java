@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Deepa;
 import com.xworks.Inheritance.external.Diwali;
 import com.xworks.Inheritance.external.Festival;
 
@@ -20,5 +21,10 @@ public class DiwaliRunner {
         diwali.distributeSweets();
         diwali.pray();
         diwali.burstCrackers();
+
+        System.out.println("============================");
+        Deepa deepa=new Deepa();
+        deepa.dress(fest);
+        deepa.dress(deepa);
     }
 }

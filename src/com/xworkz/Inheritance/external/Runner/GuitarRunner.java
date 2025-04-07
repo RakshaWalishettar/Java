@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Guitar;
 import com.xworks.Inheritance.external.MusicalInstrument;
+import com.xworks.Inheritance.external.Types;
 
 public class GuitarRunner {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class GuitarRunner {
         instrument.pluck();
         instrument.tune();
         instrument.strum();
+
+        System.out.println("=============================");
+        Types types=new Types();
+        types.string(instrument);
+        types.string(types);
     }
 }

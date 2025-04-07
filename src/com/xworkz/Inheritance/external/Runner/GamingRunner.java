@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Gamming;
 import com.xworks.Inheritance.external.Laptop;
+import com.xworks.Inheritance.external.Playstation;
 
 public class GamingRunner {
     public static void main(String[] args){
@@ -18,5 +19,9 @@ public class GamingRunner {
         gamming.On();
         gamming.type();
 
+        System.out.println("======================================");
+        Playstation playstation=new Playstation();
+        playstation.device(laptop);
+        playstation.device(playstation);
     }
 }

@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Book;
 import com.xworks.Inheritance.external.EBook;
+import com.xworks.Inheritance.external.Subscrition;
 
 public class ERunner {
     public static void main(String[] args){
@@ -19,6 +20,11 @@ public class ERunner {
         book1.close();
         book1.bookmark();
         book1.getDetails();
+
+        System.out.println("===========================");
+        Subscrition subscrition=new Subscrition();
+        subscrition.digital(book1);
+        subscrition.digital(subscrition);
     }
 
 }

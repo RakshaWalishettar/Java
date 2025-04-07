@@ -22,4 +22,7 @@ public class Fullstack extends Developer{
     public void collaborateWithTeam(){
         System.out.println("runner collaborateWithTeam of fullstack");
     }
+    public void course(){
+        System.out.println("the runner of the course");
+    }
 }

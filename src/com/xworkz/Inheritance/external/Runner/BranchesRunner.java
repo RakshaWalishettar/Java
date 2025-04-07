@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Branches;
 import com.xworks.Inheritance.external.Tree;
+import com.xworks.Inheritance.external.Woood;
 
 public class BranchesRunner {
     public static void main(String[] args) {
@@ -20,5 +21,11 @@ public class BranchesRunner {
         branches.growLeaves();
         branches.provideShade();
         branches.supportWildlife();
+
+        System.out.println("=============================");
+
+        Woood woood=new Woood();
+        woood.many(tree1);
+        woood.many(woood);
     }
 }

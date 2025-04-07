@@ -22,4 +22,7 @@ public class TShirt extends Clothing{
     public void identity(){
         System.out.println("TShirt represents casual style");
     }
+    public void fold(){
+        System.out.println("running the fold");
+    }
 }

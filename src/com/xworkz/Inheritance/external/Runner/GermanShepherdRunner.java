@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Breed;
 import com.xworks.Inheritance.external.Dogs;
 import com.xworks.Inheritance.external.GermanShepherd;
 
@@ -20,5 +21,11 @@ public class GermanShepherdRunner {
         germanShepherd.breathing();
         germanShepherd.eating();
         germanShepherd.wagging();
+
+        System.out.println("==================================");
+
+        Breed breed=new Breed();
+        breed.type(dog);
+        breed.type(breed);
     }
 }

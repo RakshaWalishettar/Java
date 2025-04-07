@@ -24,4 +24,7 @@ public class Aves extends Birds{
     public void eat(){
         System.out.println("runner eat of Aves");
     }
+    public void sound(){
+        System.out.println("runner nest of Aves");
+    }
 }

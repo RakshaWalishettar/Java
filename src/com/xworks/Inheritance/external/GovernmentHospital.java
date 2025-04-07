@@ -24,4 +24,7 @@ public class GovernmentHospital extends Hospital{
     public void manageStaff(){
         System.out.println("GovernmentHospital is managing government-appointed staff...");
     }
+    public void clean(){
+        System.out.println("runner in hospita");
+    }
 }

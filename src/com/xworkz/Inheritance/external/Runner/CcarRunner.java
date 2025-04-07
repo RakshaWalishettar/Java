@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Ccar;
 import com.xworks.Inheritance.external.Electriccar;
+import com.xworks.Inheritance.external.Headlight;
 
 public class CcarRunner {
     public static void main(String[] args){
@@ -19,5 +20,10 @@ public class CcarRunner {
         EC.stop();
         EC.chargingbattery();
         EC.displayinfo();
+
+        System.out.println("=================================");
+        Headlight headlight=new Headlight();
+        headlight.mirror(headlight);
+        headlight.mirror(car);
     }
 }

@@ -29,4 +29,7 @@ public class Flight extends Transport{
     public void service(){
         System.out.println("Train is undergoing maintenance");
     }
+    public void crash(){
+        System.out.println("the runner crash");
+    }
 }

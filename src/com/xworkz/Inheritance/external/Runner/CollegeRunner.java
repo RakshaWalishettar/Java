@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Bunk;
 import com.xworks.Inheritance.external.College;
 import com.xworks.Inheritance.external.University;
 
@@ -19,5 +20,11 @@ public class CollegeRunner {
         university1.manageFaculty();
         university1.scheduleClasses();
         university1.organizeEvents();
+
+        System.out.println("============================");
+
+        Bunk bunk=new Bunk();
+        bunk.games(university1);
+        bunk.games(bunk);
     }
 }

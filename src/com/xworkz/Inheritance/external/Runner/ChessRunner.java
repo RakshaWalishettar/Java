@@ -2,6 +2,8 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.BoardGame;
 import com.xworks.Inheritance.external.Chess;
+import com.xworks.Inheritance.external.Map;
+import com.xworks.Inheritance.external.Moves;
 
 public class ChessRunner {
     public static void main(String[] args) {
@@ -20,5 +22,11 @@ public class ChessRunner {
         game2.startGame();
         game2.makeMove();
         game2.setupBoard();
+
+        System.out.println("==================================");
+
+        Moves moves=new Moves();
+        moves.coins(moves);
+        moves.coins(chess);
     }
 }

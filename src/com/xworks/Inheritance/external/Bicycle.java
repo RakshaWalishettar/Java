@@ -24,5 +24,8 @@ public class Bicycle extends RoadVehical{
     public void fuel(){
         System.out.println("Bicycle does not require fuel!");
     }
+    public void peddel(){
+        System.out.println("has the peddel");
+    }
 
 }

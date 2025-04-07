@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 
 import com.xworks.Inheritance.external.Animal;
+import com.xworks.Inheritance.external.HaveEyes;
 import com.xworks.Inheritance.external.Mammal;
 
 public class AnimalRunner {
@@ -20,5 +21,10 @@ public class AnimalRunner {
        animal.makeSound();
        animal.giveBirth();
        animal.sleep();
+       System.out.println("===============================");
+
+        HaveEyes eyes=new HaveEyes();
+        eyes.run(mammal);
+        eyes.run(eyes);
     }
 }

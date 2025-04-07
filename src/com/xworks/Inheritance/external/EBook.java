@@ -19,4 +19,7 @@ public class EBook extends Book{
     public void getDetails(){
         System.out.println("getDetails of eBook.");
     }
+    public void digital(){
+        System.out.println("runner digital");
+    }
 }

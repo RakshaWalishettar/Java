@@ -25,4 +25,7 @@ public class Employee extends Manager{
     public void assignDepartment(){
         System.out.println("runner assignDepartment of employe");
     }
+    public void Weekend(){
+        System.out.println("runner weekend");
+    }
 }

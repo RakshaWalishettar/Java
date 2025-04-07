@@ -24,4 +24,7 @@ public class Graduate extends Student{
     public void graduate(){
         System.out.println("GraduateStudent is earning a postgraduate degree...");
     }
+    public void university(){
+        System.out.println("the runner university");
+    }
 }

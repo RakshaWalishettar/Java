@@ -24,4 +24,7 @@ public class Dollar extends Currency{
     public void serveAsUnit(){
         System.out.println("Dollar serves as a global unit of account...");
     }
+    public void Money(){
+        System.out.println("the runner is money");
+    }
 }

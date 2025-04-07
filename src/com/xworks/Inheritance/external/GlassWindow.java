@@ -24,4 +24,7 @@ public class GlassWindow extends Window {
     public void resize(){
         System.out.println("GlassWindow size adjusted precisely");
     }
+    public void broke(){
+        System.out.println("the broke runner");
+    }
 }

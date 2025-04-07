@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Circle;
+import com.xworks.Inheritance.external.NoEdge;
 import com.xworks.Inheritance.external.Shape;
 
 public class CircleRunner {
@@ -19,6 +20,11 @@ public class CircleRunner {
         circle.resize();
         circle.calculateArea();
         circle.calculateCircumference();
+
+        System.out.println("==================================");
+        NoEdge noEdge=new NoEdge();
+        noEdge.radius(shape);
+        noEdge.radius(noEdge);
     }
 
 }

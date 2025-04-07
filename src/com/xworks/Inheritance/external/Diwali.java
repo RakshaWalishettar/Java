@@ -24,4 +24,7 @@ public class Diwali extends Festival{
     public void visitRelatives(){
         System.out.println("Diwali: Meeting family and friends");
     }
+    public void dress(){
+        System.out.println("the runner of the dress");
+    }
 }

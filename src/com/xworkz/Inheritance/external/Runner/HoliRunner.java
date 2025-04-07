@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Colour;
 import com.xworks.Inheritance.external.Holi;
+import com.xworks.Inheritance.external.Waterballon;
 
 public class HoliRunner {
     public static void main(String[] args){
@@ -19,5 +20,10 @@ public class HoliRunner {
         holi.paint();
         holi.mixColours();
         holi.fade();
+
+        System.out.println("===============================");
+        Waterballon waterballon=new Waterballon();
+        waterballon.pichkari(colour);
+        waterballon.pichkari(waterballon);
     }
 }

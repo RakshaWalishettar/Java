@@ -24,4 +24,7 @@ public class Guitar extends MusicalInstrument{
     public void amplifySound(){
         System.out.println("Guitar is amplifying sound...");
     }
+    public void string(){
+        System.out.println("the runner strings");
+    }
 }

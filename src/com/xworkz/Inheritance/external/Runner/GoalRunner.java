@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Footballer;
 import com.xworks.Inheritance.external.Goalkeeper;
+import com.xworks.Inheritance.external.SafetyKit;
 
 public class GoalRunner {
     public static void main(String[] args) {
@@ -18,6 +19,11 @@ public class GoalRunner {
         player1.shoot();
         player1.rest();
         player1.pass();
+
+        System.out.println("================");
+        SafetyKit safetyKit=new SafetyKit();
+        safetyKit.boots(safetyKit);
+        safetyKit.boots(player1);
 
     }
 }

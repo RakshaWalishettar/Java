@@ -24,4 +24,7 @@ public class Hammer extends Tool{
     public void repair(){
         System.out.println("Hammer is being repaired.");
     }
+    public void beat(){
+        System.out.println("the runner cut");
+    }
 }

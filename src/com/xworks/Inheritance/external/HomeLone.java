@@ -20,5 +20,8 @@ public class HomeLone extends Lone{
     public void sign(){
         System.out.println("runner sign of Homelone");
     }
+    public void applyloan(){
+        System.out.println("the runner applyloan");
+    }
 
 }

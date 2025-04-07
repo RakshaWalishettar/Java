@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Camera;
 import com.xworks.Inheritance.external.Capture;
+import com.xworks.Inheritance.external.Click;
 
 public class CameraRunner {
     public static void main(String[] args) {
@@ -20,5 +21,11 @@ public class CameraRunner {
         camera.storeImages();
         camera.takePhoto();
         camera.zoomIn();
+
+        System.out.println("============================");
+
+        Click click=new Click();
+        click.lens(click);
+        click.lens(capture1);
     }
 }

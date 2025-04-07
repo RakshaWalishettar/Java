@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Employee;
 import com.xworks.Inheritance.external.Manager;
+import com.xworks.Inheritance.external.Stress;
 
 public class EmployeRunner {
     public static void main(String[] args){
@@ -19,5 +20,10 @@ public class EmployeRunner {
         manager.getAnnualSalary();
         manager.workerDetails();
         manager.setSalary();
+
+        System.out.println("=================================");
+        Stress stress=new Stress();
+        stress.weekend(manager);
+        stress.weekend(stress);
     }
 }

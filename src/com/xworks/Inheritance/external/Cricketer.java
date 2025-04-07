@@ -23,5 +23,8 @@ public class Cricketer extends Player {
     public void followRules(){
         System.out.println("Cricketer follows the cricket rulebook.");
     }
+    public void hit(){
+        System.out.println("runner six of hit");
+    }
 
 }

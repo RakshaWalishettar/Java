@@ -23,4 +23,7 @@ public class Creditcard extends Payment {
     public void cancelPayment(){
         System.out.println("Canceling credit card transaction...");
     }
+    public void withdarw(){
+        System.out.println("runner withdraw");
+    }
 }

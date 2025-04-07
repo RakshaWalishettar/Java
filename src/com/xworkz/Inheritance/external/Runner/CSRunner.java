@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.CardiacSurgeon;
+import com.xworks.Inheritance.external.HeartAttack;
 import com.xworks.Inheritance.external.Surgeon;
 
 public class CSRunner {
@@ -20,5 +21,11 @@ public class CSRunner {
         cardiacSurgeon.interpretECG();
         cardiacSurgeon.performSurgery();
         cardiacSurgeon.performBypassSurgery();
+
+        System.out.println("========================");
+
+        HeartAttack heartAttack=new HeartAttack();
+        heartAttack.hospital(surgeon);
+        heartAttack.hospital(heartAttack);
     }
 }

@@ -24,4 +24,8 @@ public class College extends University{
     public void organizeEvents(){
         System.out.println("College is organizing events...");
     }
+    public void games(){
+        System.out.println("runner the games");
+
+    }
 }

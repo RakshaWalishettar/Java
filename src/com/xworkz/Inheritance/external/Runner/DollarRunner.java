@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Currency;
 import com.xworks.Inheritance.external.Dollar;
+import com.xworks.Inheritance.external.Paper;
 
 public class DollarRunner {
     public static void main(String[] args) {
@@ -20,5 +21,10 @@ public class DollarRunner {
         currency1.measureValue();
         currency1.serveAsUnit();
         currency1.storeValue();
+
+        System.out.println("==================================");
+        Paper paper=new Paper();
+        paper.money(currency1);
+        paper.money(paper);
     }
 }

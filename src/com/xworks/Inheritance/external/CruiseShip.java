@@ -29,4 +29,7 @@ public class CruiseShip extends Ship{
     public void hostEvents(){
         System.out.println("CruiseShip hosts entertainment events.");
     }
+    public void rooms(){
+        System.out.println("runner the room");
+    }
 }

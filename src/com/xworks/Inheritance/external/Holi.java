@@ -23,4 +23,7 @@ public class Holi extends Colour{
     public void fade() {
         System.out.println("Playing Holi with friends!");
     }
+    public void pichkari(){
+        System.out.println("runner pichkari");
+    }
 }

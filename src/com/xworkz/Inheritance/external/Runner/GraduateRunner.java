@@ -1,5 +1,6 @@
 package com.xworkz.Inheritance.external.Runner;
 
+import com.xworks.Inheritance.external.Department;
 import com.xworks.Inheritance.external.Graduate;
 import com.xworks.Inheritance.external.Student;
 
@@ -19,5 +20,10 @@ public class GraduateRunner {
         student1.study();
         student1.submitAssignments();
         student1.takeExams();
+
+        System.out.println("=============================");
+        Department department=new Department();
+        department.university(student1);
+        department.university(department);
     }
 }

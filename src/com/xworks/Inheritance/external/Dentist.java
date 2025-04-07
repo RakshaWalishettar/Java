@@ -19,4 +19,7 @@ public class Dentist extends Doctor{
     public void maintainingRecords(){
         System.out.println("Dentist is maintaining dental patient records");
     }
+    public void operate(){
+        System.out.println("running the operate");
+    }
 }

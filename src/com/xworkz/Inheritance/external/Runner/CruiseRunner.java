@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.CruiseShip;
 import com.xworks.Inheritance.external.Ship;
+import com.xworks.Inheritance.external.Water;
 
 public class CruiseRunner {
     public static void main(String[] args) {
@@ -20,5 +21,10 @@ public class CruiseRunner {
         ship1.hostEvents();
         ship1.sail();
         ship1.dockAtPort();
+
+        System.out.println("==================================");
+        Water water=new Water();
+        water.room(ship1);
+        water.room(water);
     }
 }

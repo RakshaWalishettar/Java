@@ -19,4 +19,7 @@ public class Circle extends Shape{
     public void fillColor(){
         System.out.println("Filling circle with color...");
     }
+    public void radius(){
+        System.out.println("running radius of circle");
+    }
 }

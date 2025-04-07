@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.AI;
 import com.xworks.Inheritance.external.Assistant;
+import com.xworks.Inheritance.external.Techno;
 
 public class AssistanceRunner {
     public static void main(String[] args) {
@@ -20,6 +21,13 @@ public class AssistanceRunner {
         assistant.learnPattern();
         assistant.playMusic();
         assistant.answerQuery();
+
+        System.out.println("=================================");
+
+        Techno techno=new Techno();
+        techno.dancing(assistant);
+        techno.dancing(techno);
+
 
 
 

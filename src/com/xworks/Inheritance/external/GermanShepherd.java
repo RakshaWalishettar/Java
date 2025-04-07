@@ -24,4 +24,8 @@ public class GermanShepherd extends Dogs {
     public void wagging() {
         System.out.println("German Shepherd is wagging its tail happily");
     }
+    public void type()
+    {
+        System.out.println("running type of the dog");
+    }
 }

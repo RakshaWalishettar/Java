@@ -6,10 +6,6 @@ public class Animal extends Mammal{
         System.out.println("no-args const of Animal");
     }
     @Override
-    public void mammal(){
-        System.out.println("runner designer of Animal");
-    }
-    @Override
     public void walk(){
         System.out.println("runner walk of Animal");
     }
@@ -26,5 +22,8 @@ public class Animal extends Mammal{
     }@Override
     public void makeSound(){
         System.out.println("runner makeSound of Animal");
+    }
+    public void run(){
+        System.out.println("runner run of Animals");
     }
 }

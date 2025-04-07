@@ -24,4 +24,7 @@ public class DigitalClock extends Clock{
     public void stopAlarm(){
         System.out.println("DigitalClock alarm turned off...");
     }
+    public void battery(){
+        System.out.println("running of battery ");
+    }
 }

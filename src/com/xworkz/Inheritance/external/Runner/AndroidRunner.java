@@ -1,6 +1,7 @@
 package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Android;
+import com.xworks.Inheritance.external.CleaningRobo;
 import com.xworks.Inheritance.external.Robot;
 
 public class AndroidRunner {
@@ -20,5 +21,10 @@ public class AndroidRunner {
         android.recognizeVoice();
         android.performTask();
         android.recharge();
+        System.out.println("===========================");
+
+        CleaningRobo cleaningRobo=new CleaningRobo();
+        cleaningRobo.moves(robot1);
+        cleaningRobo.moves(cleaningRobo);
     }
 }

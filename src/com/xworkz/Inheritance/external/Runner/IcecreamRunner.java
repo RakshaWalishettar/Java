@@ -2,6 +2,7 @@ package com.xworkz.Inheritance.external.Runner;
 
 import com.xworks.Inheritance.external.Cold;
 import com.xworks.Inheritance.external.Icecream;
+import com.xworks.Inheritance.external.Shop;
 
 public class IcecreamRunner {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class IcecreamRunner {
         cold.melt();
         cold.freeze();
         cold.scoop();
+
+        System.out.println("======================================");
+        Shop shop=new Shop();
+        shop.Dbc(cold);
+        shop.Dbc(shop);
     }
 }
