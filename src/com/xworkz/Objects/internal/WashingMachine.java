@@ -15,6 +15,10 @@ public class WashingMachine {
     public String toString() {
         return "WashingMachine [brand=" + brand + ", loadType=" + loadType + ", capacity=" + capacity + "]";
     }
-
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 
 }

@@ -15,4 +15,9 @@ public class Calculator {
     public String toString() {
         return "Calculator [brand=" + brand + ", modelCode=" + modelCode + ", batteryLife=" + batteryLife + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 22;
+    }
 }

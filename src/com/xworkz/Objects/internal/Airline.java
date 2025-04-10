@@ -15,5 +15,11 @@ public class Airline {
     public String toString() {
         return "Airline [airlineName=" + airlineName + ", classType=" + classType + ", passengers=" + passengers + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 002;
+    }
+
 
 }

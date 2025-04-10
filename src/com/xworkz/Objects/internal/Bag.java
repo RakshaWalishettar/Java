@@ -15,5 +15,10 @@ public class Bag {
     public String toString() {
         return "Bag [color=" + color + ", size=" + size + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 007;
+    }
 
 }

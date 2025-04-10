@@ -15,4 +15,9 @@ public class Juicer {
     public String toString() {
         return "Juicer [brand=" + brand + ", bladeType=" + bladeType + ", speedLevels=" + speedLevels + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

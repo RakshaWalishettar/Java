@@ -15,4 +15,9 @@ public class Banana {
     public String toString() {
         return "Banana [type=" + type + ", level=" + level + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 10;
+    }
 }

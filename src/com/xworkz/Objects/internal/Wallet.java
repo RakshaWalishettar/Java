@@ -15,4 +15,9 @@ public class Wallet {
     public String toString() {
         return "Wallet [leather=" + leather + ", quality=" + quality + ", slots=" + slots + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

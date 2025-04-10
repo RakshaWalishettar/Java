@@ -15,4 +15,9 @@ public class Mouse {
     public String toString() {
         return "Mouse [brand=" + brand + ", dpiLevel=" + dpiLevel + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

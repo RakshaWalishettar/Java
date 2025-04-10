@@ -15,4 +15,9 @@ public class SmartWatch {
     public String toString() {
         return "SmartWatch [brand=" + brand + ", displayType=" + displayType + ", batteryHours=" + batteryHours + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,4 +15,9 @@ public class University {
     public String toString() {
         return "University [name=" + name + ", accreditation=" + accreditation + ", students=" + students + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

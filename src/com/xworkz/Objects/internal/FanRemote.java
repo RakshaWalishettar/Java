@@ -15,4 +15,9 @@ public class FanRemote {
     public String toString() {
         return "FanRemote [brand=" + brand + ", mode=" + mode + ", buttons=" + buttons + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 38;
+    }
 }

@@ -15,4 +15,9 @@ public class BottelCap {
     public String toString() {
         return "BottleCap [material=" + material + ", shape=" + shape + ", diameter=" + diameter + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 16;
+    }
 }

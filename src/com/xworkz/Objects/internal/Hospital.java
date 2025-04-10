@@ -15,4 +15,9 @@ public class Hospital {
     public String toString() {
         return "Hospital [name=" + name + ", type=" + type + ", beds=" + beds + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 47;
+    }
 }

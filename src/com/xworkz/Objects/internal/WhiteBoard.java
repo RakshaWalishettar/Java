@@ -15,4 +15,9 @@ public class WhiteBoard {
     public String toString() {
         return "WhiteBoard [size=" + size + ", surfaceType=" + surfaceType + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

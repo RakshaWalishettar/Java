@@ -15,5 +15,9 @@ public class HeadPhone {
     public String toString() {
         return "Headphones [brand=" + brand + ", connectivity=" + connectivity + ", batteryLife=" + batteryLife + "]";
     }
-
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 46;
+    }
 }

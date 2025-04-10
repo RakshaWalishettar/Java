@@ -15,5 +15,10 @@ public class Bank {
     public String toString() {
         return "Bank [name=" + name + ", branchCode=" + branchCode + ", accounts=" + accounts + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 11;
+    }
 }
 

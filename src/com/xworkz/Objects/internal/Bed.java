@@ -15,5 +15,10 @@ public class Bed {
     public String toString() {
         return "Bed [size=" + size + ", name=" + name + ", material=" + material + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 13;
+    }
 
 }

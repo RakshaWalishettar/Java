@@ -15,4 +15,9 @@ public class Printer {
     public String toString() {
         return "Printer [model=" + model + ", type=" + type + ", printSpeed=" + printSpeed + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

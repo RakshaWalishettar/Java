@@ -15,4 +15,9 @@ public class Lab {
     public String toString() {
         return "Lab [name=" + name + ", category=" + category + ", equipment=" + equipment + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

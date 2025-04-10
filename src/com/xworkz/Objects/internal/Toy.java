@@ -15,4 +15,9 @@ public class Toy {
     public String toString() {
         return "Toy [type=" + type + ", colorCode=" + colorCode + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

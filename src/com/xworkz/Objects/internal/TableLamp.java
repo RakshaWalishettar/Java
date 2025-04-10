@@ -15,4 +15,9 @@ public class TableLamp {
     public String toString() {
         return "TableLamp [color=" + color + ", brightness=" + brightness + ", height=" + height + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

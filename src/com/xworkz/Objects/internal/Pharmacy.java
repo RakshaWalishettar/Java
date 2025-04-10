@@ -15,4 +15,9 @@ public class Pharmacy {
     public String toString() {
         return "Pharmacy [name=" + name + ", license=" + license + ", medicines=" + medicines + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,5 +15,10 @@ public class Mango {
     public String toString() {
         return "Mango [color=" + color + ", weight=" + weight + ", sweetnessLevel=" + sweetnessLevel + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 
 }

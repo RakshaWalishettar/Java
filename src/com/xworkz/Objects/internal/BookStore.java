@@ -15,4 +15,9 @@ public class BookStore {
     public String toString() {
         return "BookStore [name=" + name + ", section=" + section + ", booksAvailable=" + booksAvailable + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 15;
+    }
 }

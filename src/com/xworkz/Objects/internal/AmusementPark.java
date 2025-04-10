@@ -15,4 +15,9 @@ public class AmusementPark {
     public String toString() {
         return "AmusementPark [name=" + name + ", zone=" + zone + ", rides=" + rides + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 004;
+    }
 }

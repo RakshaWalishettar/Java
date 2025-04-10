@@ -15,5 +15,10 @@ public class Rama {
     public String toString() {
         return "Rama [age=" + age + ", name=" + name + ", schoolname=" + schoolname + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }
 

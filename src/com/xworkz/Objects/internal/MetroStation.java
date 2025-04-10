@@ -15,4 +15,9 @@ public class MetroStation {
     public String toString() {
         return "MetroStation [name=" + name + ", line=" + line + ", frequency=" + frequency + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

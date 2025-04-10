@@ -15,5 +15,9 @@ public class Theater {
     public String toString() {
         return "Theater [name=" + name + ", screenType=" + screenType + ", seats=" + seats + "]";
     }
-
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,4 +15,9 @@ public class Watch {
     public String toString() {
         return "Watch [model=" + model + ", version=" + version + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

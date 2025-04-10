@@ -15,4 +15,9 @@ public class ElectricKettle {
     public String toString() {
         return "ElectricKettle [brand=" + brand + ", material=" + material + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 34;
+    }
 }

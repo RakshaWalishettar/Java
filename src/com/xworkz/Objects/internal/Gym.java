@@ -15,4 +15,9 @@ public class Gym {
     public String toString() {
         return "Gym [gymName=" + gymName + ", membershipType=" + membershipType + ", trainers=" + trainers + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 45;
+    }
 }

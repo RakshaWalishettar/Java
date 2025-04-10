@@ -15,5 +15,10 @@ public class Temple {
     public String toString() {
         return "Temple [name=" + name + ", deity=" + deity + ", visitors=" + visitors + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 
 }

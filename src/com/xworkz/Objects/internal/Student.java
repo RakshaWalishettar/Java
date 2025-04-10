@@ -15,4 +15,9 @@ public class Student {
     public String toString() {
         return "Student [name=" + name + ", grade=" + grade + ", rollNo=" + rollNo + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,4 +15,9 @@ public class FireStation {
     public String toString() {
         return "FireStation [location=" + location + ", zone=" + zone + ", vehicles=" + vehicles + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 41;
+    }
 }

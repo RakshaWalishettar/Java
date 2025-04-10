@@ -15,4 +15,9 @@ public class Calender {
     public String toString() {
         return "Calendar [year=" + year + ", format=" + format + ", pages=" + pages + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 23;
+    }
 }

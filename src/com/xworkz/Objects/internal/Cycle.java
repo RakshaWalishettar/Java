@@ -15,4 +15,9 @@ public class Cycle {
     public String toString() {
         return "Cycle [brand=" + brand + ", type=" + type + ", gear=" + gear + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 31;
+    }
 }

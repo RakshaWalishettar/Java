@@ -15,4 +15,9 @@ public class Airport {
     public String toString() {
         return "Airport [name=" + name + ", terminal=" + terminal + ", flights=" + flights + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 003;
+    }
 }

@@ -15,4 +15,9 @@ public class Book {
     public String toString() {
         return "Book [model=" + model + ", rating=" + rating + ", value=" + value + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 14;
+    }
 }

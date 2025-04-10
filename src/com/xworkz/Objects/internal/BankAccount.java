@@ -15,4 +15,9 @@ public class BankAccount {
     public String toString() {
         return "BankAccount [holderName=" + holderName + ", accountType=" + accountType + ", balance=" + balance + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 12;
+    }
 }

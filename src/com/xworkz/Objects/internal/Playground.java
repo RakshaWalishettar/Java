@@ -15,4 +15,9 @@ public class Playground {
     public String toString() {
         return "Playground [name=" + name + ", section=" + section + ", games=" + games + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

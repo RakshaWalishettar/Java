@@ -15,4 +15,9 @@ public class Bridge {
     public String toString() {
         return "Bridge [name=" + name + ", type=" + type + ", length=" + length + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 18;
+    }
 }

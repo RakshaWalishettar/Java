@@ -15,4 +15,9 @@ public class Festival {
     public String toString() {
         return "Festival [name=" + name + ", type=" + type + ", days=" + days + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 40;
+    }
 }

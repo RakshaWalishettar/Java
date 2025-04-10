@@ -15,4 +15,9 @@ public class ConventionCenter {
     public String toString() {
         return "ConventionCenter [name=" + name + ", hall=" + hall + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 28;
+    }
 }

@@ -15,4 +15,9 @@ public class Ball {
     public String toString() {
         return "Ball [brand=" + brand + ", size=" + size + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 9;
+    }
 }

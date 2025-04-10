@@ -15,5 +15,9 @@ public class WaterPurifier {
     public String toString() {
         return "WaterPurifier [brand=" + brand + ", filterType=" + filterType + ", tankCapacity=" + tankCapacity + "]";
     }
-
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

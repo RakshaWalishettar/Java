@@ -15,4 +15,9 @@ public class Employee {
     public String toString() {
         return "Employee [name=" + name + ", gender=" + gender + ", id=" + id + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 35;
+    }
 }

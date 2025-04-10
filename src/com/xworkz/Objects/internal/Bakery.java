@@ -15,4 +15,9 @@ public class Bakery {
     public String toString() {
         return "Bakery [name=" + name + ", specialty=" + specialty + ", items=" + items + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 8;
+    }
 }

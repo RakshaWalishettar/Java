@@ -15,4 +15,9 @@ public class Aquarium {
     public String toString() {
         return "Aquarium [name=" + name + ", zone=" + zone + ", species=" + species + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 006;
+    }
 }

@@ -15,5 +15,10 @@ public class Course {
     public String toString() {
         return "Course [courseName=" + courseName + ", level=" + level + ", duration=" + duration + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 29;
+    }
 
 }

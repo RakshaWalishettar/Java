@@ -15,4 +15,9 @@ public class Speaker {
     public String toString() {
         return "Speaker [model=" + model + ", power=" + power + ", volume=" + volume + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

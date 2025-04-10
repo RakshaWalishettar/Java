@@ -15,4 +15,9 @@ public class Garden {
     public String toString() {
         return "Garden [name=" + name + ", type=" + type + ", plants=" + plants + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 43;
+    }
 }

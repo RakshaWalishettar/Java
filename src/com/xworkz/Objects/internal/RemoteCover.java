@@ -15,4 +15,9 @@ public class RemoteCover {
     public String toString() {
         return "RemoteCover [material=" + material + ", colorCode=" + colorCode + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

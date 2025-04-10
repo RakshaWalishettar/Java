@@ -15,4 +15,9 @@ public class Bottle {
     public String toString() {
         return "Bottle [type=" + type + ", capacity=" + capacity + "L, isReusable=" + isReusable + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 17;
+    }
 }

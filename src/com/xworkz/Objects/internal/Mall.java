@@ -15,4 +15,9 @@ public class Mall {
     public String toString() {
         return "Mall [name=" + name + ", area=" + area + ", shops=" + shops + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,4 +15,9 @@ public class Refrigerator {
     public String toString() {
         return "Refrigerator [brand=" + brand + ", energyRating=" + energyRating + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

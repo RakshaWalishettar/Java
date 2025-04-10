@@ -15,4 +15,9 @@ public class Pen {
     public String toString() {
         return "Pen [color=" + color + ", size=" + size + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

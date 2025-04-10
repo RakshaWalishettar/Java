@@ -15,4 +15,9 @@ public class Gallery {
     public String toString() {
         return "Gallery [name=" + name + ", artType=" + artType + ", pieces=" + pieces + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 42;
+    }
 }

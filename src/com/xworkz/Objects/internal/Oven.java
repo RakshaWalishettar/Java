@@ -15,4 +15,9 @@ public class Oven {
     public String toString() {
         return "Oven [brand=" + brand + ", fuelType=" + fuelType + ", volume=" + volume + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

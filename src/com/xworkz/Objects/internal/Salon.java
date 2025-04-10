@@ -15,4 +15,9 @@ public class Salon {
     public String toString() {
         return "Salon [name=" + name + ", serviceType=" + serviceType + ", stylists=" + stylists + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

@@ -15,4 +15,9 @@ public class Studio {
     public String toString() {
         return "Studio [name=" + name + ", medium=" + medium + ", artists=" + artists + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

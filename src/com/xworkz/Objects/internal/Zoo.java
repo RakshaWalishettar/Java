@@ -15,4 +15,9 @@ public class Zoo {
     public String toString() {
         return "Zoo [name=" + name + ", zone=" + zone + ", animals=" + animals + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

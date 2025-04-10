@@ -15,4 +15,9 @@ public class Fan {
     public String toString() {
         return "Fan [brand=" + brand + ", speedLevels=" + speedLevels + ", hasRemote=" + hasRemote + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 37;
+    }
 }

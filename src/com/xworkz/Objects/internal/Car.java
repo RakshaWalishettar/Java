@@ -15,4 +15,9 @@ public class Car {
     public String toString() {
         return "Car [brand=" + brand + ", grade=" + grade + ", cost=" + cost + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 25;
+    }
 }

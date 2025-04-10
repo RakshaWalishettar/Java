@@ -15,4 +15,9 @@ public class Farm {
     public String toString() {
         return "Farm [name=" + name + ", cropType=" + cropType + ", acres=" + acres + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 39;
+    }
 }

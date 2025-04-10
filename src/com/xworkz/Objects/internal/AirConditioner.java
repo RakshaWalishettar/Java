@@ -1,5 +1,7 @@
 package com.xworkz.Objects.internal;
 
+import java.util.Objects;
+
 public class AirConditioner {
     private String brand;
     private char coolingType;
@@ -15,4 +17,11 @@ public class AirConditioner {
     public String toString() {
         return "AirConditioner [brand=" + brand + ", coolingType=" + coolingType + ", tonnage=" + tonnage + "]";
     }
+
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 001;
+    }
+
 }

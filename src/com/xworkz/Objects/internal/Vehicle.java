@@ -15,4 +15,9 @@ public class Vehicle {
     public String toString() {
         return "Vehicle [type=" + type + ", fuel=" + fuel + ", wheels=" + wheels + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

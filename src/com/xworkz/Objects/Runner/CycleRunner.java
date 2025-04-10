@@ -4,7 +4,11 @@ import com.xworkz.Objects.internal.Cycle;
 
 public class CycleRunner {
     public static void main(String[] args) {
-        Cycle c = new Cycle("Hero", 'M', 18);
-        System.out.println(c);
+        Cycle cycle = new Cycle("Hero", 'M', 18);
+        System.out.println(cycle);
+
+        int code = cycle.hashCode(); // Get the hash code from the object
+        System.out.println("HashCode: " + code);
+        System.out.println("Original identityHashCode: " + System.identityHashCode(cycle));
     }
 }

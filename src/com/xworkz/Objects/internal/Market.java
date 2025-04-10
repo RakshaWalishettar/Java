@@ -15,4 +15,9 @@ public class Market {
     public String toString() {
         return "Market [name=" + name + ", marketType=" + marketType + ", vendors=" + vendors + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

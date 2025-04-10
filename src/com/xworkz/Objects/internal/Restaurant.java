@@ -15,4 +15,9 @@ public class Restaurant {
     public String toString() {
         return "Restaurant [name=" + name + ", cuisine=" + cuisine + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

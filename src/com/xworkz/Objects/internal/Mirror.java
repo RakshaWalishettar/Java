@@ -15,4 +15,9 @@ public class Mirror {
     public String toString() {
         return "Mirror [shape=" + shape + ", frameType=" + frameType + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

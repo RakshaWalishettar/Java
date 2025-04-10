@@ -15,5 +15,10 @@ public class School {
     public String toString() {
         return "School [name=" + name + ", board=" + board + ", students=" + students + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 
 }

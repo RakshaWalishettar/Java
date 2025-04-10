@@ -15,4 +15,9 @@ public class Hostel {
     public String toString() {
         return "Hostel [name=" + name + ", type=" + type + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 48;
+    }
 }

@@ -15,4 +15,9 @@ public class Phone {
     public String toString() {
         return "Phone [color=" + color + ", size=" + size + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

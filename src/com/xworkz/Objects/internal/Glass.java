@@ -15,4 +15,9 @@ public class Glass {
     public String toString() {
         return "Glass [shape=" + shape + ", thickness=" + thickness + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 44;
+    }
 }

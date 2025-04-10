@@ -15,4 +15,9 @@ public class Toaster {
     public String toString() {
         return "Toaster [brand=" + brand + ", slots=" + slots + ", wattage=" + wattage + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

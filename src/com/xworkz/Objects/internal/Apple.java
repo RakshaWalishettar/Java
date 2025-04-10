@@ -14,4 +14,9 @@ public class Apple {
     public String toString() {
         return "Apple [name=" + name + ", size=" + size + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 005;
+    }
 }

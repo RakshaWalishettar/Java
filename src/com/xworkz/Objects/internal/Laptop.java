@@ -15,4 +15,9 @@ public class Laptop {
     public String toString() {
         return "Laptop [brand=" + brand + ", grade=" + grade + ", cost=" + cost + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

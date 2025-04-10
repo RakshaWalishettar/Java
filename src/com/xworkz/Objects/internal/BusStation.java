@@ -15,4 +15,9 @@ public class BusStation {
     public String toString() {
         return "BusStation [name=" + name + ", platform=" + platform + ", buses=" + buses + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 20;
+    }
 }

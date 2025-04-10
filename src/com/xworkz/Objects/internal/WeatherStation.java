@@ -15,4 +15,9 @@ public class WeatherStation {
     public String toString() {
         return "WeatherStation [name=" + name + ", region=" + region + ", sensors=" + sensors + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

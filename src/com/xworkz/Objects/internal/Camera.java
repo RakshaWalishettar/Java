@@ -15,5 +15,10 @@ public class Camera {
     public String toString() {
         return "Camera [brand=" + brand + ", resolution=" + resolution + ", zoom=" + zoom + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 24;
+    }
 
 }

@@ -15,4 +15,9 @@ public class Factory {
     public String toString() {
         return "Factory [name=" + name + ", productType=" + productType + ", workers=" + workers + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 36;
+    }
 }

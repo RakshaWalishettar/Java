@@ -15,4 +15,9 @@ public class PetStore {
     public String toString() {
         return "PetStore [name=" + name + ", animalType=" + animalType + ", pets=" + pets + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

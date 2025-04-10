@@ -15,4 +15,9 @@ public class Microwave {
     public String toString() {
         return "Microwave [brand=" + brand + ", feature=" + feature + ", wattage=" + wattage + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

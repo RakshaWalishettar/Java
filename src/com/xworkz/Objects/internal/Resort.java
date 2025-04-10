@@ -15,4 +15,9 @@ public class Resort {
     public String toString() {
         return "Resort [name=" + name + ", rating=" + rating + ", rooms=" + rooms + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

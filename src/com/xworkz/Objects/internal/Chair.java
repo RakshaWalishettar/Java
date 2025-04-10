@@ -15,4 +15,9 @@ public class Chair {
     public String toString() {
         return "Chair [type=" + type + ", level=" + level + ", price=" + price + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 26;
+    }
 }

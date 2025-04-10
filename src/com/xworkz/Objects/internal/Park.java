@@ -15,4 +15,9 @@ public class Park {
     public String toString() {
         return "Park [name=" + name + ", type=" + type + ", area=" + area + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

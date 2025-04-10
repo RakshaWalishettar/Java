@@ -15,4 +15,9 @@ public class LibraryBook {
     public String toString() {
         return "LibraryBook [title=" + title + ", category=" + category + ", pages=" + pages + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 50;
+    }
 }

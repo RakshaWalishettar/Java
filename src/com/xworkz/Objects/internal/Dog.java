@@ -15,4 +15,9 @@ public class Dog {
     public String toString() {
         return "Dog [breed=" + breed + ", owner=" + owner + ", age=" + age + "]";
     }
+    @Override
+    public int hashCode() {
+        System.out.println("Default hash code: " +super.hashCode());
+        return 32;
+    }
 }
