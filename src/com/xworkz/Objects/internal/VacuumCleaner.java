@@ -18,7 +18,7 @@ public class VacuumCleaner {
     @Override
     public int hashCode() {
         System.out.println("Default hash code: " +super.hashCode());
-        return 50;
+        return -7;
     }
 
 }
