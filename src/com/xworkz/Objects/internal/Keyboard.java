@@ -10,6 +10,25 @@ public class Keyboard {
         this.type = type;
         this.keys = keys;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Keyboard)
+            {
+                System.out.println("ref is keyboard, will compare...");
+                Keyboard keyboard1=this;
+                Keyboard keyboard2=(Keyboard) obj;//why should i do casting ??
+                if(keyboard1.layout.equals(keyboard2.layout) && keyboard1.type==keyboard2.type )
+                {
+                    System.out.println("both Keyboard are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

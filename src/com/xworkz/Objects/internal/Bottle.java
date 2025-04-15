@@ -10,6 +10,21 @@ public class Bottle {
         this.capacity = capacity;
         this.isReusable = isReusable;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Bottle) {
+                System.out.println("Object is an instance of Bottle");
+                Bottle other = (Bottle) obj;
+                if (this.type.equals(other.type)) {
+                    System.out.println("Both Bottle are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

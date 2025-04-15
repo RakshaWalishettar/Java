@@ -10,6 +10,21 @@ public class Book {
         this.rating = rating;
         this.value = value;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Book) {
+                System.out.println("Object is an instance of Book");
+                Book other = (Book) obj;
+                if (this.model.equals(other.model)) {
+                    System.out.println("Both Book are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

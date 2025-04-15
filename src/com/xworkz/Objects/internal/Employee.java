@@ -10,6 +10,25 @@ public class Employee {
         this.gender = gender;
         this.id = id;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Employee)
+            {
+                System.out.println("ref is beer, will compare...");
+                Employee employee1=this;
+                Employee employee2=(Employee) obj;//why should i do casting ??
+                if(employee1.name.equals(employee2.name) && employee1.gender==employee2.gender )
+                {
+                    System.out.println("both employee are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

@@ -10,6 +10,25 @@ public class HeadPhone {
         this.connectivity = connectivity;
         this.batteryLife = batteryLife;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof HeadPhone)
+            {
+                System.out.println("ref is headphone, will compare...");
+                HeadPhone headPhone1=this;
+                HeadPhone headPhone2=(HeadPhone) obj;
+                if(headPhone1.brand.equals(headPhone2.brand) && headPhone1.connectivity==headPhone2.connectivity )
+                {
+                    System.out.println("both headphone are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

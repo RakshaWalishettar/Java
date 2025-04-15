@@ -10,6 +10,25 @@ public class FireStation {
         this.zone = zone;
         this.vehicles = vehicles;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof FireStation)
+            {
+                System.out.println("ref is beer, will compare...");
+                FireStation fireStation1=this;
+                FireStation fireStation2=(FireStation) obj;//why should i do casting ??
+                if(fireStation1.location.equals(fireStation2.location) && fireStation1.zone==fireStation2.zone )
+                {
+                    System.out.println("both Firestation are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

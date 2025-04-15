@@ -10,6 +10,21 @@ public class Chair {
         this.level = level;
         this.price = price;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Chair) {
+                System.out.println("Object is an instance of Chair");
+                Chair other = (Chair) obj;
+                if (this.type.equals(other.type)) {
+                    System.out.println("Both chair are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

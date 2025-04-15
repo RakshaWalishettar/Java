@@ -10,6 +10,25 @@ public class Dog {
         this.owner = owner;
         this.age = age;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Dog)
+            {
+                System.out.println("ref is beer, will compare...");
+                Dog dog1=this;
+                Dog dog2=(Dog) obj;//why should i do casting ??
+                if(dog1.breed.equals(dog2.breed) && dog1.owner.equals(dog2.owner))
+                {
+                    System.out.println("both dog are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

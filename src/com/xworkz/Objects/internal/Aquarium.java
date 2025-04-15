@@ -12,6 +12,22 @@ public class Aquarium {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Aquarium) {
+                System.out.println("Object is an instance of Aquarium");
+                Aquarium other = (Aquarium) obj;
+                if (this.name.equals(other.name)) {
+                    System.out.println("Both aquarium are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    @Override
     public String toString() {
         return "Aquarium [name=" + name + ", zone=" + zone + ", species=" + species + "]";
     }

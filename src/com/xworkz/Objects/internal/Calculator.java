@@ -10,6 +10,21 @@ public class Calculator {
         this.modelCode = modelCode;
         this.batteryLife = batteryLife;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Calculator) {
+                System.out.println("Object is an instance of calculator");
+                Calculator other = (Calculator) obj;
+                if (this.brand.equals(other.brand)) {
+                    System.out.println("Both calculator are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

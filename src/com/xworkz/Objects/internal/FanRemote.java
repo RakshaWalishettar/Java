@@ -10,6 +10,25 @@ public class FanRemote {
         this.mode = mode;
         this.buttons = buttons;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof FanRemote)
+            {
+                System.out.println("ref is beer, will compare...");
+                FanRemote fanRemote1=this;
+                FanRemote fanRemote2=(FanRemote) obj;//why should i do casting ??
+                if(fanRemote1.brand.equals(fanRemote2.brand) && fanRemote1.mode==fanRemote2.mode )
+                {
+                    System.out.println("both FanRemote are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

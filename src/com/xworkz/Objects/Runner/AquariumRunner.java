@@ -5,10 +5,10 @@ import com.xworkz.Objects.internal.Aquarium;
 
 public class AquariumRunner {
     public static void main(String[] args) {
-        Aquarium aq = new Aquarium("AquaZone", 'T', 150);
-        System.out.println(aq);
+        Aquarium aq1 = new Aquarium("AquaZone", 'T', 150);
+        Aquarium aq2 = new Aquarium("AquaZone",'M',250);
 
-        int code = aq.hashCode(); // Get the hash code from the object
+        int code = aq1.hashCode(); // Get the hash code from the object
         System.out.println("HashCode: " + code);
-        System.out.println("Original identityHashCode: "+System.identityHashCode(aq));    }
+        System.out.println("Original identityHashCode: "+System.identityHashCode(aq1));    }
 }

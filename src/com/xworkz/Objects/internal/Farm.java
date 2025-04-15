@@ -10,6 +10,25 @@ public class Farm {
         this.cropType = cropType;
         this.acres = acres;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Farm)
+            {
+                System.out.println("ref is beer, will compare...");
+                Farm farm1=this;
+                Farm farm2=(Farm) obj;//why should i do casting ??
+                if(farm1.name.equals(farm2.name) && farm1.cropType==farm2.cropType )
+                {
+                    System.out.println("both mirrors are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

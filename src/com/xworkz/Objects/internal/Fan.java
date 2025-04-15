@@ -10,6 +10,25 @@ public class Fan {
         this.speedLevels = speedLevels;
         this.hasRemote = hasRemote;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Fan)
+            {
+                System.out.println("ref is beer, will compare...");
+                Fan fan1=this;
+                Fan fan2=(Fan) obj;//why should i do casting ??
+                if(fan1.brand.equals(fan2.brand) && fan1.speedLevels==fan2.speedLevels )
+                {
+                    System.out.println("both Fan are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

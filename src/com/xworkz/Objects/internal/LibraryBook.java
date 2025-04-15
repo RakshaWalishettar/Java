@@ -10,6 +10,25 @@ public class LibraryBook {
         this.category = category;
         this.pages = pages;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof LibraryBook)
+            {
+                System.out.println("ref is librarybook, will compare...");
+                LibraryBook libraryBook1=this;
+                LibraryBook libraryBook2=(LibraryBook) obj;//why should i do casting ??
+                if(libraryBook1.title.equals(libraryBook2.title) && libraryBook1.category==libraryBook2.category )
+                {
+                    System.out.println("both librarybook are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

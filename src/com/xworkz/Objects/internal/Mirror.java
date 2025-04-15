@@ -12,6 +12,25 @@ public class Mirror {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Mirror)
+            {
+                System.out.println("ref is beer, will compare...");
+                Mirror mirror1=this;
+                Mirror mirror2=(Mirror) obj;//why should i do casting ??
+                if(mirror1.shape.equals(mirror2.shape) && mirror1.frameType==mirror2.frameType )
+                {
+                    System.out.println("both mirrors are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    @Override
     public String toString() {
         return "Mirror [shape=" + shape + ", frameType=" + frameType + ", size=" + size + "]";
     }

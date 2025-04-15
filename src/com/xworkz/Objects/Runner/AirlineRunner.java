@@ -5,10 +5,15 @@ import com.xworkz.Objects.internal.Airline;
 
 public class AirlineRunner {
     public static void main(String[] args) {
-        Airline a = new Airline("SkyJet", 'E', 180);
-        System.out.println(a);
+        Airline a1 = new Airline("SkyJet", 'E', 180);
 
-        int code = a.hashCode(); // Get the hash code from the object
+        Airline a2=new Airline("SkyJet",'B',150);
+
+        System.out.println("the AC has:"+(a1==a2));
+        boolean same=a1.equals(a2);
+        System.out.println("both AC1 and AC2 are same :"+same);
+
+        int code = a1.hashCode(); // Get the hash code from the object
         System.out.println("HashCode: " + code);
-        System.out.println("Original identityHashCode: "+System.identityHashCode(a));    }
+        System.out.println("Original identityHashCode: "+System.identityHashCode(a1));    }
 }

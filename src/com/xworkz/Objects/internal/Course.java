@@ -10,6 +10,21 @@ public class Course {
         this.level = level;
         this.duration = duration;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Course) {
+                System.out.println("Object is an instance of Course");
+                Course other = (Course) obj;
+                if (this.courseName.equals(other.courseName)) {
+                    System.out.println("Both Course are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

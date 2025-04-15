@@ -10,6 +10,21 @@ public class Car {
         this.grade = grade;
         this.cost = cost;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Car) {
+                System.out.println("Object is an instance of Car");
+                Car other = (Car) obj;
+                if (this.brand.equals(other.brand)) {
+                    System.out.println("Both Car are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

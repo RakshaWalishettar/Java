@@ -10,6 +10,21 @@ public class Cup {
         this.size = size;
         this.capacity = capacity;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Cup) {
+                System.out.println("Object is an instance of cup");
+                Cup other = (Cup) obj;
+                if (this.material.equals(other.material)) {
+                    System.out.println("Both cup are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

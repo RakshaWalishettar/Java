@@ -10,6 +10,25 @@ public class Gym {
         this.membershipType = membershipType;
         this.trainers = trainers;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Gym)
+            {
+                System.out.println("ref is gym, will compare...");
+                Gym gym1=this;
+                Gym gym2=(Gym) obj;//why should i do casting ??
+                if(gym1.gymName.equals(gym2.gymName) && gym1.membershipType==gym2.membershipType )
+                {
+                    System.out.println("both gym are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

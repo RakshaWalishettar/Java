@@ -10,6 +10,21 @@ public class BottelCap {
         this.shape = shape;
         this.diameter = diameter;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof BottelCap) {
+                System.out.println("Object is an instance of AP");
+                BottelCap other = (BottelCap) obj;
+                if (this.material.equals(other.material)) {
+                    System.out.println("Both Park are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

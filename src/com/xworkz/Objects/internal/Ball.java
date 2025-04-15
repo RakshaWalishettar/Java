@@ -10,6 +10,21 @@ public class Ball {
         this.size = size;
         this.weight = weight;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof Ball) {
+                System.out.println("Object is an instance of AP");
+                Ball other = (Ball) obj;
+                if (this.brand.equals(other.brand)) {
+                    System.out.println("Both Park are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

@@ -10,6 +10,25 @@ public class Factory {
         this.productType = productType;
         this.workers = workers;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Factory)
+            {
+                System.out.println("ref is beer, will compare...");
+                Factory factory1=this;
+                Factory factory2=(Factory) obj;//why should i do casting ??
+                if(factory1.name.equals(factory2.name) && factory1.productType==factory2.productType )
+                {
+                    System.out.println("both faactory are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

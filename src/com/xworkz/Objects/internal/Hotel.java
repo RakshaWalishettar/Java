@@ -10,6 +10,25 @@ public class Hotel {
         this.rating = rating;
         this.rooms = rooms;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Hotel)
+            {
+                System.out.println("ref is beer, will compare...");
+                Hotel hotel1=this;
+                Hotel hotel2=(Hotel) obj;
+                if(hotel1.name.equals(hotel2.name) && hotel1.rating==hotel2.rating )
+                {
+                    System.out.println("both mirrors are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

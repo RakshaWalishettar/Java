@@ -10,6 +10,25 @@ public class Festival {
         this.type = type;
         this.days = days;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Festival)
+            {
+                System.out.println("ref is Festival, will compare...");
+                Festival festival1=this;
+                Festival festival2=(Festival) obj;//why should i do casting ??
+                if(festival1.name.equals(festival2.name) && festival1.type==festival2.type )
+                {
+                    System.out.println("both festival are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

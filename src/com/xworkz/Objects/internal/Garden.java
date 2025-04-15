@@ -10,6 +10,25 @@ public class Garden {
         this.type = type;
         this.plants = plants;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Garden)
+            {
+                System.out.println("ref is garden, will compare...");
+                Garden garden1=this;
+                Garden garden2=(Garden) obj;//why should i do casting ??
+                if(garden1.name.equals(garden2.name) && garden1.type==garden2.type )
+                {
+                    System.out.println("both garden are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

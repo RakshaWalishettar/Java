@@ -10,6 +10,21 @@ public class BookStore {
         this.section = section;
         this.booksAvailable = booksAvailable;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Reference is not null");
+            if (obj instanceof BookStore) {
+                System.out.println("Object is an instance of Bookstore");
+                BookStore other = (BookStore) obj;
+                if (this.name.equals(other.name)) {
+                    System.out.println("Both Bookstore are the same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {

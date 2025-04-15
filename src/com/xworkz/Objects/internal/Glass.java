@@ -10,6 +10,25 @@ public class Glass {
         this.thickness = thickness;
         this.price = price;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("ref is not null");
+            if(obj instanceof Glass)
+            {
+                System.out.println("ref is glass, will compare...");
+                Glass glass1=this;
+                Glass glass2=(Glass) obj;//why should i do casting ??
+                if(glass1.shape.equals(glass2.shape) && glass1.thickness==glass2.thickness )
+                {
+                    System.out.println("both glass are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
     @Override
     public String toString() {
