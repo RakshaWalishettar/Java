@@ -4,4 +4,5 @@ public interface Browser {
     void openTab();
     void browse();
     void closeTab();
+
 }

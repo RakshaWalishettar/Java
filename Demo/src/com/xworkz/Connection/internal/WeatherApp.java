@@ -4,4 +4,5 @@ public interface WeatherApp {
     void fetchTemperature();
     void fetchHumidity();
     void showForecast();
+
 }

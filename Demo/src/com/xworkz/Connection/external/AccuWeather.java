@@ -14,4 +14,5 @@ public class AccuWeather implements WeatherApp {
     public void showForecast() {
         System.out.println("Showing forecast from AccuWeather.");
     }
+
 }
