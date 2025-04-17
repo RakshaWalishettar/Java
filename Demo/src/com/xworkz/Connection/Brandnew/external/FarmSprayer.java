@@ -1,9 +1,8 @@
 package com.xworkz.Connection.Brandnew.external;
 
-import com.xworkz.Connection.Brandnew.internal1.SmartDevice;
-import com.xworkz.Connection.Brandnew.internal1.Connectivity;
+import com.xworkz.Connection.Brandnew.internal1.*;
 
-public class FarmSprayer implements SmartDevice, Connectivity {
+public class FarmSprayer implements SmartDevice, Connectivity, AirSensor, AlertSystem, NetworkManager,PowerManagement,ReportGenerator {
     public void powerOn() {
         System.out.println("FarmSprayer powered on.");
     }
@@ -22,4 +21,53 @@ public class FarmSprayer implements SmartDevice, Connectivity {
     public void checkSignal() {
         System.out.println("FarmSprayer signal checked.");
     }
+
+    @Override
+    public void measureCO2() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    @Override
+    public void measurePM25() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    @Override
+    public void measureOzone() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    public void checkThresholds() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    @Override
+    public void triggerAlert() {
+        System.out.println("Checking air quality thresholds...");
+    }
+    @Override
+    public void logAlert() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    public void generateDailyReport() {
+        System.out.println("Generating daily air quality report...");
+    }
+
+    @Override
+    public void generateWeeklyReport() {
+        System.out.println("Checking air quality thresholds...");
+    }
+
+    @Override
+    public void exportReportToPDF() {
+        System.out.println("Checking air quality thresholds...");
+    }
+    public void connectToServer() {
+        System.out.println("Connecting to air quality data server...");
+    }
+    public void checkBatteryStatus() {
+        System.out.println("Checking battery status...");
+    }
+
 }
