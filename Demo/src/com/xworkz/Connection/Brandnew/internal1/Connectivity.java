@@ -1,4 +1,4 @@
-package com.xworkz.Connection.Brandnew.internal2;
+package com.xworkz.Connection.Brandnew.internal1;
 
 public interface Connectivity {
     void enableWiFi();

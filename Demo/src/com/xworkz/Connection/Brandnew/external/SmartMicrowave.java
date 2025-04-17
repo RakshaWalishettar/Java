@@ -1,7 +1,7 @@
 package com.xworkz.Connection.Brandnew.external;
 
 import com.xworkz.Connection.Brandnew.internal1.SmartDevice;
-import com.xworkz.Connection.Brandnew.internal2.Connectivity;
+import com.xworkz.Connection.Brandnew.internal1.Connectivity;
 
 public class SmartMicrowave implements SmartDevice, Connectivity {
     public void powerOn() {

@@ -2,7 +2,7 @@ package com.xworkz.Connection.Brandnew.Runner;
 
 import com.xworkz.Connection.Brandnew.external.AirQualityMonitor;
 import com.xworkz.Connection.Brandnew.internal1.SmartDevice;
-import com.xworkz.Connection.Brandnew.internal2.Connectivity;
+import com.xworkz.Connection.Brandnew.internal1.Connectivity;
 
 public class AirQualityMonitorRunner {
     public static void main(String[] args) {
