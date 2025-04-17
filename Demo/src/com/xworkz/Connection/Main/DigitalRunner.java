@@ -9,5 +9,6 @@ public class DigitalRunner {
         alarm.setAlarm();
         alarm.snooze();
         alarm.stopAlarm();
+        alarm.Ring();
     }
 }

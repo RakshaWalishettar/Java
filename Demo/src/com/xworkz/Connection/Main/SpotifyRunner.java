@@ -9,5 +9,6 @@ public class SpotifyRunner {
         app.playEpisode();
         app.pauseEpisode();
         app.downloadEpisode();
+        app.music();
     }
 }

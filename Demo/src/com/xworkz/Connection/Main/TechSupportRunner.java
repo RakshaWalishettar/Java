@@ -9,5 +9,6 @@ public class TechSupportRunner {
         c.receiveCall();
         c.resolveIssue();
         c.endCall();
+        c.irration();
     }
 }

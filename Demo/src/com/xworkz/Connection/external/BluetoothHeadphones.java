@@ -14,5 +14,9 @@ public class BluetoothHeadphones implements Headphones {
     public void disconnect() {
         System.out.println("Bluetooth disconnected.");
     }
+    @Override
+    public void greetUser() {
+        System.out.println("Welcome! Ready to enjoy your music.");
+    }
 
 }

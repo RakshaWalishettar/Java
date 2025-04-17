@@ -9,5 +9,6 @@ public class SmartBulbRunner {
         bulb.turnOn();
         bulb.adjustSetting();
         bulb.turnOff();
+        bulb.switchButton();
     }
 }

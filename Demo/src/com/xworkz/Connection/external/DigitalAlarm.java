@@ -12,4 +12,8 @@ public class DigitalAlarm implements Alarm {
     public void stopAlarm() {
         System.out.println("Alarm stopped.");
     }
+    @Override
+    public void Ring() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

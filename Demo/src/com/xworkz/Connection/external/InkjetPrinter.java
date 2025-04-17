@@ -12,4 +12,8 @@ public class InkjetPrinter implements Printer {
     public void cancel() {
         System.out.println("Print job cancelled.");
     }
+    @Override
+    public void machine() {
+        System.out.println("Welcome!");
+    }
 }

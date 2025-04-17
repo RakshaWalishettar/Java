@@ -4,4 +4,5 @@ public interface FlightBooking {
     void searchFlights();
     void bookTicket();
     void cancelTicket();
+
 }

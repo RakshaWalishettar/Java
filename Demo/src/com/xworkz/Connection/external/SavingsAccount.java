@@ -14,4 +14,8 @@ public class SavingsAccount implements BankAccount {
     public void checkBalance() {
         System.out.println("Current balance balance");
     }
+    @Override
+    public void SavingsAccount() {
+        System.out.println("Welcome!");
+    }
 }

@@ -14,4 +14,8 @@ public class GSTInvoice implements InvoiceSystem {
     public void printInvoice() {
         System.out.println("Invoice printed.");
     }
+    @Override
+    public void user() {
+        System.out.println("Welcome!");
+    }
 }

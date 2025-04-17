@@ -4,4 +4,7 @@ public interface LanguageTranslator {
     void inputText();
     void selectLanguage();
     void translateText();
+    default void online() {
+        System.out.println("Welcome!");
+    }
 }

@@ -9,5 +9,6 @@ public class FitbitRunner {
         tracker.startWorkout();
         tracker.trackHeartRate();
         tracker.endWorkout();
+        tracker.gym();
     }
 }

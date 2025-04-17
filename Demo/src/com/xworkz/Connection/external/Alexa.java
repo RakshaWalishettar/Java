@@ -14,5 +14,8 @@ public class Alexa implements SmartSpeaker {
     public void controlDevices() {
         System.out.println("Alexa controlling smart devices.");
     }
-
+    @Override
+    public void greetUser() {
+        System.out.println("Hello! This is Alexa. How can I help you today?");
+    }
 }

@@ -9,5 +9,6 @@ public class CityHospitalRunner {
         h.admitPatient();
         h.treatPatient();
         h.dischargePatient();
+        h.greatHospital();
     }
 }

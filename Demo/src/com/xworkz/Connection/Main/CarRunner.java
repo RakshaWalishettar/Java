@@ -9,5 +9,6 @@ public class CarRunner {
         myCar.startEngine();
         myCar.accelerate();
         myCar.stopEngine();
+        myCar.greetrider();
     }
 }

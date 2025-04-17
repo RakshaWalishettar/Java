@@ -9,5 +9,6 @@ public class NescafeMachineRunner {
         machine.brewCoffee();
         machine.addMilk();
         machine.serve();
+        machine.drink();
     }
 }

@@ -9,5 +9,6 @@ public class HiMirrorRunner {
         mirror.showTime();
         mirror.displayNews();
         mirror.displayWeather();
+        mirror.sensitative();
     }
 }

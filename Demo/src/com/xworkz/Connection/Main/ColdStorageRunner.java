@@ -9,6 +9,7 @@ public class ColdStorageRunner {
         ws.storeItem();
         ws.retrieveItem();
         ws.checkInventory();
+        ws.item();
     }
 
 }

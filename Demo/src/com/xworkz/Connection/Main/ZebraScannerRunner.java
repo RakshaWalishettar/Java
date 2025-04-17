@@ -9,5 +9,6 @@ public class ZebraScannerRunner {
         scanner.scanCode();
         scanner.validateCode();
         scanner.clearScanner();
+        scanner.scanner();
     }
 }

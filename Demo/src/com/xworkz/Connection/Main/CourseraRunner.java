@@ -9,5 +9,6 @@ public class CourseraRunner {
         platform.startCourse();
         platform.submitAssignment();
         platform.takeQuiz();
+        platform.greatlearning();
     }
 }

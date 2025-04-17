@@ -9,5 +9,6 @@ public class BluetoothHeadphoneRunner {
         hp.connectBluetooth();
         hp.playAudio();
         hp.disconnect();
+        hp.greetUser();
     }
 }

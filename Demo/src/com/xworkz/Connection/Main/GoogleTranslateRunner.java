@@ -9,5 +9,6 @@ public class GoogleTranslateRunner {
         translator.inputText();
         translator.selectLanguage();
         translator.translateText();
+        translator.online();
     }
 }

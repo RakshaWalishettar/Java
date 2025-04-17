@@ -9,5 +9,6 @@ public class PaypalRunner {
         pg.authenticate();
         pg.pay();
         pg.logout();
+        pg.transaction();
     }
 }

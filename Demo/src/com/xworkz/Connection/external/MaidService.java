@@ -12,4 +12,8 @@ public class MaidService implements CleaningService {
     public void dust() {
         System.out.println("Dusting the furniture.");
     }
+    @Override
+    public void paid() {
+        System.out.println("Welcome!");
+    }
 }

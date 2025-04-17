@@ -9,5 +9,6 @@ public class SavingsAccountRunner {
         acc.deposit();
         acc.withdraw();
         acc.checkBalance();
+        acc.SavingsAccount();
     }
 }

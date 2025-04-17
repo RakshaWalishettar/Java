@@ -14,5 +14,9 @@ public class NescafeMachine implements CoffeeMachine {
     public void serve() {
         System.out.println("Serving coffee from Nescafe Machine.");
     }
+    @Override
+    public void drink() {
+        System.out.println("Welcome!");
+    }
 
 }

@@ -14,5 +14,9 @@ public class BloodTestLab implements Laboratory {
     public void generateReport() {
         System.out.println("Lab report generated.");
     }
+    @Override
+    public void greetPatient() {
+        System.out.println("Welcome to the Laboratory. Please follow safety protocols.");
+    }
 
 }

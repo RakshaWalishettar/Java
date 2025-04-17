@@ -9,5 +9,6 @@ public class PastryChefRunner {
         chef.prepareIngredients();
         chef.cook();
         chef.serveDish();
+        chef.sweet();
     }
 }

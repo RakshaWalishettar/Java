@@ -14,4 +14,8 @@ public class Indigo implements Airline {
     public void land() {
         System.out.println("Flight has landed safely.");
     }
+    @Override
+    public void cheap() {
+        System.out.println("Welcome!");
+    }
 }

@@ -9,5 +9,6 @@ public class IndigoRunner {
         airline.bookTicket();
         airline.fly();
         airline.land();
+        airline.cheap();
     }
 }

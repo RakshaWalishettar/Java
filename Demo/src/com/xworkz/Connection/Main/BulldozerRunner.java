@@ -9,5 +9,6 @@ public class BulldozerRunner {
         cm.start();
         cm.operate();
         cm.shutdown();
+        cm.greetOperator();
     }
 }

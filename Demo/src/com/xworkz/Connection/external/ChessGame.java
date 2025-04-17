@@ -12,4 +12,7 @@ public class ChessGame implements Game {
     public void end() {
         System.out.println("Chess game ended.");
     }
+    public void greatPlayer() {
+        System.out.println("Welcome, Player.");
+    }
 }

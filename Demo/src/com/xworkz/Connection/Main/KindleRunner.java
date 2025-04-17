@@ -9,5 +9,6 @@ public class KindleRunner {
         reader.openBook();
         reader.nextPage();
         reader.closeBook();
+        reader.user();
     }
 }

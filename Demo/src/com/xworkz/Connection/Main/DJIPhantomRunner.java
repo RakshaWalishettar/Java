@@ -9,5 +9,6 @@ public class DJIPhantomRunner {
         drone.takeOff();
         drone.fly();
         drone.land();
+        drone.battery();
     }
 }

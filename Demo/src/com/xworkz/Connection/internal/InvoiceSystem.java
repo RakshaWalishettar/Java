@@ -4,4 +4,7 @@ public interface InvoiceSystem {
     void generateInvoice();
     void sendInvoice();
     void printInvoice();
+    default void user() {
+        System.out.println("Welcome!");
+    }
 }

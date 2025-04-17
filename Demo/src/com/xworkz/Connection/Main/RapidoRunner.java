@@ -9,5 +9,6 @@ public class RapidoRunner {
         ride.bookRide();
         ride.startRide();
         ride.endRide();
+        ride.online();
     }
 }

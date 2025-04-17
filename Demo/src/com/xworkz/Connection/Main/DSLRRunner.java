@@ -9,5 +9,6 @@ public class DSLRRunner {
         cam.capturePhoto();
         cam.recordVideo();
         cam.switchMode();
+        cam.reel();
     }
 }

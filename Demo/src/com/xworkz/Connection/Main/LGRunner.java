@@ -9,5 +9,6 @@ public class LGRunner {
         wm.startWash();
         wm.rinse();
         wm.spin();
+        wm.user();
     }
 }

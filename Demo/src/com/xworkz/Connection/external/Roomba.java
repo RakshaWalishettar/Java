@@ -14,4 +14,8 @@ public class Roomba implements CleaningRobot {
         public void emptyDustbin() {
             System.out.println("Roomba's dustbin emptied.");
         }
+        @Override
+        public void machine() {
+            System.out.println("Welcome!");
+        }
 }

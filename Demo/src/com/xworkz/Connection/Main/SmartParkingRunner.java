@@ -9,5 +9,6 @@ public class SmartParkingRunner {
         parking.scanTicket();
         parking.openGate();
         parking.closeGate();
+        parking.vehicals();
     }
 }

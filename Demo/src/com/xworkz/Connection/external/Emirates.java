@@ -12,4 +12,8 @@ public class Emirates implements AirlineService {
     public void boardFlight() {
         System.out.println("Boarded Emirates flight.");
     }
+    @Override
+    public void flightlanding() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

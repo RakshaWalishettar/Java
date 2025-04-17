@@ -14,4 +14,8 @@ public class TechSupport implements CallCenter {
     public void endCall() {
         System.out.println("Call ended.");
     }
+    @Override
+    public void irration() {
+        System.out.println("Welcome!");
+    }
 }

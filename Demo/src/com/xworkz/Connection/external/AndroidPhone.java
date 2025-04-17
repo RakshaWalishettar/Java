@@ -12,4 +12,8 @@ public class AndroidPhone implements Smartphone {
     public void useApp() {
         System.out.println("Opening app on Android.");
     }
+    @Override
+    public void greetUser() {
+        System.out.println("Welcome! I am your smart speaker.");
+    }
 }

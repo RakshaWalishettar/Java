@@ -9,5 +9,6 @@ public class IntelliJRUnner {
         ide.writeCode();
         ide.debug();
         ide.buildProject();
+        ide.software();
     }
 }

@@ -14,4 +14,8 @@ public class HeartMonitor implements MedicalDevice {
     public void stopMonitoring() {
         System.out.println("Stopped monitoring.");
     }
+    @Override
+    public void hospital() {
+        System.out.println("Welcome!");
+    }
 }

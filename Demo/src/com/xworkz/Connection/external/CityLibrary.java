@@ -12,4 +12,8 @@ public class CityLibrary implements Library {
     public void searchCatalog() {
         System.out.println("Searching catalog...");
     }
+    @Override
+    public void greatScilence() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

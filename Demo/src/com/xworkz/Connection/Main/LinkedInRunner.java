@@ -9,5 +9,6 @@ public class LinkedInRunner {
         jp.postJob();
         jp.applyJob();
         jp.scheduleInterview();
+        jp.fresher();
     }
 }

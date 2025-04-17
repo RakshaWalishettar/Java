@@ -14,5 +14,8 @@ public class Rapido implements RideSharing {
     public void endRide() {
         System.out.println("Ride ended with Uber.");
     }
+    public void online() {
+        System.out.println("Welcome!");
+    }
 
 }

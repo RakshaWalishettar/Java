@@ -14,4 +14,8 @@ public class PlayStation implements GameConsole {
     public void powerOff() {
         System.out.println("PlayStation powered off.");
     }
+    @Override
+    public void online() {
+        System.out.println("Welcome!");
+    }
 }

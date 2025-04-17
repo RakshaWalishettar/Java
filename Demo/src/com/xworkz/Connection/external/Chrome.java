@@ -12,6 +12,9 @@ public class Chrome implements Browser {
     public void closeTab() {
         System.out.println("Tab closed.");
     }
+    public void information() {
+        System.out.println("Welcome, wt can i help.");
+    }
 
 
 }

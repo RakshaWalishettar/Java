@@ -14,4 +14,8 @@ public class GoogleTranslate implements LanguageTranslator {
     public void translateText() {
         System.out.println("Translating text in Google Translate.");
     }
+    @Override
+    public void online() {
+        System.out.println("Welcome!");
+    }
 }

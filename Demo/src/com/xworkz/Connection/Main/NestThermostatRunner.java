@@ -9,5 +9,6 @@ public class NestThermostatRunner {
         thermostat.increaseTemperature();
         thermostat.decreaseTemperature();
         thermostat.displayTemperature();
+        thermostat.bottle();
     }
 }

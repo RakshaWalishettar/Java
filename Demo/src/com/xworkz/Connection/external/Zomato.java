@@ -14,4 +14,8 @@ public class Zomato implements FoodDelivery {
     public void receiveOrder() {
         System.out.println("Order received from Zomato.");
     }
+    @Override
+    public void deliveryfood() {
+        System.out.println("Welcome!");
+    }
 }

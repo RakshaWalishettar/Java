@@ -9,5 +9,6 @@ public class McDonaldsRunner {
         r.takeOrder();
         r.prepareFood();
         r.serveFood();
+        r.delivery();
     }
 }

@@ -9,5 +9,6 @@ public class SamsungFridgeRunner {
         fridge.checkInventory();
         fridge.coolItems();
         fridge.notifyExpiry();
+        fridge.sendMessage();
     }
 }

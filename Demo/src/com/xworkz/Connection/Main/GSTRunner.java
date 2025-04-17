@@ -9,5 +9,6 @@ public class GSTRunner {
         invoice.generateInvoice();
         invoice.sendInvoice();
         invoice.printInvoice();
+        invoice.user();
     }
 }

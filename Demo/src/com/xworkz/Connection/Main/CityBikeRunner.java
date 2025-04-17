@@ -9,5 +9,6 @@ public class CityBikeRunner {
         bike.unlockBike();
         bike.rideBike();
         bike.lockBike();
+        bike.greatUser();
     }
 }

@@ -14,4 +14,8 @@ public class Netflix implements StreamingService {
     public void stopContent() {
         System.out.println("Stopping Netflix playback.");
     }
+    @Override
+    public void online() {
+        System.out.println("Welcome!");
+    }
 }

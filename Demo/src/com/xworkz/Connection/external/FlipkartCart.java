@@ -14,5 +14,9 @@ public class FlipkartCart implements ShoppingCart {
     public void checkout() {
         System.out.println("Checkout completed.");
     }
+    @Override
+    public void shopping() {
+        System.out.println("Welcome!");
+    }
 
 }

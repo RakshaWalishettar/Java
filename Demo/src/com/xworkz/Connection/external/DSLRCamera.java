@@ -12,4 +12,8 @@ public class DSLRCamera implements Camera {
     public void switchMode() {
         System.out.println("Switched from photo to video mode.");
     }
+    @Override
+    public void reel() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

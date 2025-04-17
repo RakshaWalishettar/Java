@@ -14,4 +14,8 @@ public class Coursera implements OnlineLearning {
     public void takeQuiz() {
         System.out.println("Taking quiz on Coursera.");
     }
+    @Override
+    public void greatlearning() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

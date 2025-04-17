@@ -4,4 +4,7 @@ public interface RideService {
     void bookRide();
     void trackRide();
     void cancelRide();
+    default void booking() {
+        System.out.println("Welcome!");
+    }
 }

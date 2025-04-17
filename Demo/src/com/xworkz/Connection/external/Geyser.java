@@ -12,6 +12,10 @@ public class Geyser implements WaterHeater {
     public void turnOff() {
         System.out.println("Geyser turned off.");
     }
+    @Override
+    public void hot() {
+        System.out.println("Welcome!");
+    }
 
 
 }

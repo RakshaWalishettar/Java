@@ -12,4 +12,8 @@ public class ColdStorage implements Warehouse {
     public void checkInventory() {
         System.out.println("Cold storage inventory checked.");
     }
+    @Override
+    public void item() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

@@ -12,4 +12,8 @@ public class PastryChef implements Chef {
     public void serveDish() {
         System.out.println("Pastry served!");
     }
+    @Override
+    public void sweet() {
+        System.out.println("Welcome!");
+    }
 }

@@ -9,5 +9,6 @@ public class AccuWeatherRunner {
         weather.fetchTemperature();
         weather.fetchHumidity();
         weather.showForecast();
+        weather.greetUser();
     }
 }

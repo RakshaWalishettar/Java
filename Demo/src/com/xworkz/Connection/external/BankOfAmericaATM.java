@@ -14,4 +14,8 @@ public class BankOfAmericaATM implements ATM {
     public void ejectCard() {
         System.out.println("Card ejected.");
     }
+    @Override
+    public void greetUser() {
+        System.out.println("Welcome!");
+    }
 }

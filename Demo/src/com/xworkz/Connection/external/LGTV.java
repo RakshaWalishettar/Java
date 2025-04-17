@@ -14,4 +14,8 @@ public class LGTV implements SmartTV {
     public void turnOff() {
         System.out.println("LG TV turned off.");
     }
+    @Override
+    public void user() {
+        System.out.println("Welcome!");
+    }
 }

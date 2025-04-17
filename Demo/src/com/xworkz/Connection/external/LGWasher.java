@@ -12,4 +12,8 @@ public class LGWasher implements WashingMachine {
     public void spin() {
         System.out.println("Spinning at high speed.");
     }
+    @Override
+    public void user() {
+        System.out.println("Welcome!");
+    }
 }

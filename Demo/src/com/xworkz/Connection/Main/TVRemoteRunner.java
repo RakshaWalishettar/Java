@@ -9,6 +9,7 @@ public class TVRemoteRunner {
         remote.turnOn();
         remote.changeChannel();
         remote.turnOff();
+        remote.buttons();
     }
 
 }

@@ -9,5 +9,6 @@ public class VLCRunner {
         player.play();
         player.pause();
         player.stop();
+        player.viedo();
     }
 }

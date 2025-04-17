@@ -14,5 +14,8 @@ public class WindowsOS implements OperatingSystem {
     public void shutdown() {
         System.out.println("Windows is shutting down...");
     }
+    public void subject() {
+        System.out.println("Welcome!");
+    }
 
 }

@@ -9,5 +9,6 @@ public class ChromeRunner {
         browser.openTab();
         browser.browse();
         browser.closeTab();
+        browser.information();
     }
 }

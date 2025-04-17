@@ -14,4 +14,8 @@ public class Bulldozer implements ConstructionMachine {
     public void shutdown() {
         System.out.println("Bulldozer shutdown.");
     }
+    @Override
+    public void greetOperator() {
+        System.out.println("Welcome, operator. Ready to begin construction.");
+    }
 }

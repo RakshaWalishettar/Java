@@ -14,5 +14,9 @@ public class SmartParking implements ParkingSystem {
     public void closeGate() {
         System.out.println("Gate closed by SmartParking.");
     }
+    @Override
+    public void vehicals() {
+        System.out.println("Welcome!");
+    }
 
 }

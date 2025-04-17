@@ -9,5 +9,6 @@ public class PlayStationRunner {
         console.powerOn();
         console.playGame();
         console.powerOff();
+        console.online();
     }
 }

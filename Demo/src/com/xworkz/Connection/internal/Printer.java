@@ -4,4 +4,7 @@ public interface Printer {
     void print();
     void scan();
     void cancel();
+    default void machine() {
+        System.out.println("Welcome!");
+    }
 }

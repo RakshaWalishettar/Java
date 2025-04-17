@@ -14,5 +14,9 @@ public class BikeMechanic implements Mechanic {
     public void testDrive() {
         System.out.println("Test-driving the bike...");
     }
+    @Override
+    public void greetUser() {
+        System.out.println("Welcome!");
+    }
 
 }

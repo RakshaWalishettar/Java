@@ -9,5 +9,6 @@ public class HDFCBankRunner {
         bank.transferFunds();
         bank.checkBalance();
         bank.downloadStatement();
+        bank.app();
     }
 }

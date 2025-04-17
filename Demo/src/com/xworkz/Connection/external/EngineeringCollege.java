@@ -14,4 +14,8 @@ public class EngineeringCollege implements University {
     public void declareResults() {
         System.out.println("Results declared.");
     }
+    @Override
+    public void idScanner() {
+        System.out.println("Welcome!");
+    }
 }

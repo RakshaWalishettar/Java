@@ -9,5 +9,6 @@ public class XEConverterRunner {
         converter.setSourceCurrency();
         converter.setTargetCurrency();
         converter.convertAmount();
+        converter.online();
     }
 }

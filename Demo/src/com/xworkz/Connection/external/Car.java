@@ -14,4 +14,7 @@ public class Car implements Vehicle {
     public void accelerate() {
         System.out.println("Car is accelerating.");
     }
+    public void greetrider() {
+        System.out.println("Welcome, rider. Ready to start.");
+    }
 }

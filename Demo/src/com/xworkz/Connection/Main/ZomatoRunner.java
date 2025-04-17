@@ -9,5 +9,6 @@ public class ZomatoRunner {
         fd.placeOrder();
         fd.trackOrder();
         fd.receiveOrder();
+        fd.deliveryfood();
     }
 }

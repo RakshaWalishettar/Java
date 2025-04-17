@@ -12,4 +12,8 @@ public class Hammer implements Tool {
     public void putDown() {
         System.out.println("Hammer put down.");
     }
+    @Override
+    public void sharp() {
+        System.out.println("Welcome!");
+    }
 }

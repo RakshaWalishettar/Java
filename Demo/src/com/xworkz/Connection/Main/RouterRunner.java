@@ -9,5 +9,6 @@ public class RouterRunner {
         router.connect();
         router.sendData();
         router.disconnect();
+        router.recive();
     }
 }

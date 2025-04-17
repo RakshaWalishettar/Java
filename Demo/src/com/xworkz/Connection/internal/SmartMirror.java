@@ -4,4 +4,7 @@ public interface SmartMirror {
     void showTime();
     void displayNews();
     void displayWeather();
+    default void sensitative() {
+        System.out.println("Welcome!");
+    }
 }

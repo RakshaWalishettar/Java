@@ -12,5 +12,9 @@ public class TVRemote implements RemoteControl {
     public void turnOff() {
         System.out.println("TV turned off.");
     }
+    @Override
+    public void buttons() {
+        System.out.println("Welcome!");
+    }
 
 }

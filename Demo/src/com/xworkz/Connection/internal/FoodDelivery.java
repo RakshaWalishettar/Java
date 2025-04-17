@@ -4,4 +4,7 @@ public interface FoodDelivery {
     void placeOrder();
     void trackOrder();
     void receiveOrder();
+    default void deliveryfood() {
+        System.out.println("Welcome!");
+    }
 }

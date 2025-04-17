@@ -9,5 +9,6 @@ public class AndriodRunner {
         phone.makeCall();
         phone.sendText();
         phone.useApp();
+        phone.greetUser();
     }
 }

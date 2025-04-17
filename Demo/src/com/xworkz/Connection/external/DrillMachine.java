@@ -14,5 +14,9 @@ public class DrillMachine implements PowerTool {
     public void turnOff() {
         System.out.println("Drill machine turned off.");
     }
+    @Override
+    public void machine() {
+        System.out.println("Welcome, how  can i help.");
+    }
 
 }

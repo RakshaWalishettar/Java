@@ -12,4 +12,7 @@ public class CityBike implements CycleRental {
     public void lockBike() {
         System.out.println("Bike locked at new station.");
     }
+    public void greatUser() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

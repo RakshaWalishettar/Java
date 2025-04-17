@@ -14,4 +14,8 @@ public class Fitbit implements FitnessTracker {
     public void endWorkout() {
         System.out.println("Workout ended on Fitbit.");
     }
+    @Override
+    public void gym() {
+        System.out.println("Welcome!");
+    }
 }

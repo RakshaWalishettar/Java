@@ -9,5 +9,6 @@ public class ChessRunner {
         game.start();
         game.play();
         game.end();
+        game.greatPlayer();
     }
 }

@@ -9,5 +9,6 @@ public class EmiratesRunner {
         airline.bookTicket();
         airline.checkIn();
         airline.boardFlight();
+        airline.flightlanding();
     }
 }

@@ -9,5 +9,6 @@ public class MaidServiceRunner {
         clean.sweep();
         clean.mop();
         clean.dust();
+        clean.paid();
     }
 }

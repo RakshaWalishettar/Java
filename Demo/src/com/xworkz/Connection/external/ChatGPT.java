@@ -12,5 +12,8 @@ public class ChatGPT implements AIModel {
     public void evaluate() {
         System.out.println("Evaluation complete.");
     }
+    public void greatUser() {
+        System.out.println("Welcome, User.");
+    }
 
 }

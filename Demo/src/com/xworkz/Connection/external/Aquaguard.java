@@ -14,4 +14,8 @@ public class Aquaguard implements WaterDispenser {
     public void stopDispensing() {
         System.out.println("Stopped dispensing from Aquaguard.");
     }
+    @Override
+    public void greetUser() {
+        System.out.println("Welcome! .");
+    }
 }

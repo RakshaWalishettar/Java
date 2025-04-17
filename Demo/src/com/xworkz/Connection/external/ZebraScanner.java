@@ -14,5 +14,9 @@ public class ZebraScanner implements BarcodeScanner {
     public void clearScanner() {
         System.out.println("Clearing Zebra Scanner.");
     }
+    @Override
+    public void scanner() {
+        System.out.println("Welcome!");
+    }
 
 }

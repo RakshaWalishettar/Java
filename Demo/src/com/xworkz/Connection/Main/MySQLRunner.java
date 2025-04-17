@@ -9,5 +9,6 @@ public class MySQLRunner {
         db.connect();
         db.query();
         db.disconnect();
+        db.store();
     }
 }

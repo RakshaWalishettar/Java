@@ -12,5 +12,9 @@ public class MySQLDatabase implements Database {
     public void disconnect() {
         System.out.println("Disconnected from MySQL.");
     }
+    @Override
+    public void store() {
+        System.out.println("Welcome!");
+    }
 
 }

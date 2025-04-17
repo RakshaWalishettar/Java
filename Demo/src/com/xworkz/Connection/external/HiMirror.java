@@ -14,5 +14,9 @@ public class HiMirror implements SmartMirror {
     public void displayWeather() {
         System.out.println("Weather displayed on HiMirror.");
     }
+    @Override
+    public void sensitative() {
+        System.out.println("Welcome!");
+    }
 
 }

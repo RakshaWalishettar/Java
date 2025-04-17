@@ -9,5 +9,6 @@ public class CityLibraryRunner {
         lib.borrowBook();
         lib.searchCatalog();
         lib.returnBook();
+        lib.greatScilence();
     }
 }

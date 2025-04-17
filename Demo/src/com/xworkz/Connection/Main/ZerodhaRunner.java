@@ -9,5 +9,6 @@ public class ZerodhaRunner {
         trading.buyStock();
         trading.sellStock();
         trading.viewPortfolio();
+        trading.profit();
     }
 }

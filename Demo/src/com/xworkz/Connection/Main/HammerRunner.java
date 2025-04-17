@@ -9,5 +9,6 @@ public class HammerRunner {
         tool.pickUp();
         tool.use();
         tool.putDown();
+        tool.sharp();
     }
 }

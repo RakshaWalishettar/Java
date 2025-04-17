@@ -9,5 +9,6 @@ public class BikeMachineRunner {
         m.inspect();
         m.repair();
         m.testDrive();
+        m.greetUser();
     }
 }

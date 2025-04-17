@@ -9,5 +9,6 @@ public class OlaRunner {
         ride.bookRide();
         ride.startTrip();
         ride.endTrip();
+        ride.booking();
     }
 }

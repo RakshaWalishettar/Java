@@ -14,4 +14,8 @@ public class Router implements NetworkDevice {
     public void disconnect() {
         System.out.println("Router disconnected.");
     }
+    @Override
+    public void recive() {
+        System.out.println("Welcome!");
+    }
 }

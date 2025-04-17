@@ -12,4 +12,8 @@ public class LinkedIn implements JobPortal {
     public void scheduleInterview() {
         System.out.println("Interview scheduled.");
     }
+    @Override
+    public void fresher() {
+        System.out.println("Welcome!");
+    }
 }

@@ -14,5 +14,9 @@ public class DJIPhantom implements Drone {
     public void land() {
         System.out.println("DJI Phantom landing.");
     }
+    @Override
+    public void battery() {
+        System.out.println("Welcome, how  can i help.");
+    }
 
 }

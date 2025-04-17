@@ -9,5 +9,6 @@ public class FlipkartCartRunner {
         cart.addItem();
         cart.removeItem();
         cart.checkout();
+        cart.shopping();
     }
 }

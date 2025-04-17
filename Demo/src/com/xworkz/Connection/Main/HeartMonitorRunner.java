@@ -9,5 +9,6 @@ public class HeartMonitorRunner {
         device.startMonitoring();
         device.recordData();
         device.stopMonitoring();
+        device.hospital();
     }
 }

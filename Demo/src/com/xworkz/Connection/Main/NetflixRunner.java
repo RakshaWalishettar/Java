@@ -9,5 +9,6 @@ public class NetflixRunner {
         service.playContent();
         service.pauseContent();
         service.stopContent();
+        service.online();
     }
 }

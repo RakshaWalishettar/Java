@@ -12,4 +12,8 @@ public class SmartBulb implements SmartDevice {
     public void turnOff() {
         System.out.println("Smart bulb turned off.");
     }
+    @Override
+    public void switchButton() {
+        System.out.println("Welcome!");
+    }
 }

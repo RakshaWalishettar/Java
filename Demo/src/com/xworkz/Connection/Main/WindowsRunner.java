@@ -9,5 +9,6 @@ public class WindowsRunner {
         os.boot();
         os.runProcess();
         os.shutdown();
+        os.subject();
     }
 }

@@ -9,5 +9,6 @@ public class InkjetPrinterRunner {
         p.print();
         p.scan();
         p.cancel();
+        p.machine();
     }
 }

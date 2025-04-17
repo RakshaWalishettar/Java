@@ -9,5 +9,6 @@ public class AmazonRunner {
         ds.pickUp();
         ds.track();
         ds.deliver();
+        ds.greetCustomer();
     }
 }

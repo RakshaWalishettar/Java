@@ -12,5 +12,8 @@ public class AmazonDelivery implements DeliveryService {
     public void deliver() {
         System.out.println("Package delivered.");
     }
-
+    @Override
+    public void greetCustomer() {
+        System.out.println("Hello! Thank you for choosing Amazon Delivery.");
+    }
 }

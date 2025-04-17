@@ -14,5 +14,8 @@ public class CCTV implements Surveillance {
     public void stopRecording() {
         System.out.println("CCTV recording stopped.");
     }
+    public void greetUser() {
+        System.out.println("Welcome, User.");
+    }
 
 }

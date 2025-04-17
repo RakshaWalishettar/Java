@@ -14,5 +14,9 @@ public class PetrolPump implements FuelDispenser {
     public void stopPumping() {
         System.out.println("Pumping stopped.");
     }
+    @Override
+    public void liquid() {
+        System.out.println("Welcome!");
+    }
 
 }

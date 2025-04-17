@@ -8,5 +8,6 @@ public class ChatGPTRunner {
         model.train();
         model.predict();
         model.evaluate();
+        model.greatUser();
     }
 }

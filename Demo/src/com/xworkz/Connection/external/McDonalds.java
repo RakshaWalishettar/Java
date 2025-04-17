@@ -12,4 +12,8 @@ public class McDonalds implements Restaurant {
     public void serveFood() {
         System.out.println("Food served. Enjoy!");
     }
+    @Override
+    public void delivery() {
+        System.out.println("Welcome!");
+    }
 }

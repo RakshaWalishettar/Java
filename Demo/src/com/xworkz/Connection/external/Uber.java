@@ -12,4 +12,8 @@ public class Uber implements RideService {
         public void cancelRide() {
             System.out.println("Uber ride cancelled.");
         }
+        @Override
+        public void booking() {
+            System.out.println("Welcome!");
+        }
 }

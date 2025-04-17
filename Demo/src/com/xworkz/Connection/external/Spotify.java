@@ -12,4 +12,8 @@ public class Spotify implements PodcastApp {
     public void downloadEpisode() {
         System.out.println("Episode downloaded for offline listening.");
     }
+    @Override
+    public void music() {
+        System.out.println("Welcome!");
+    }
 }

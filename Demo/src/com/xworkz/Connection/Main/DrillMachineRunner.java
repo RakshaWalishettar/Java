@@ -9,5 +9,6 @@ public class DrillMachineRunner {
         tool.turnOn();
         tool.drill();
         tool.turnOff();
+        tool.machine();
     }
 }

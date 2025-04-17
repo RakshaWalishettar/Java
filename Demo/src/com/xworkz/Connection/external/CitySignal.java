@@ -14,5 +14,9 @@ public class CitySignal implements TrafficSignal {
     public void showGreen() {
         System.out.println("Traffic light is Green.");
     }
+    @Override
+    public void rUles() {
+        System.out.println("Welcome, how  can i help.");
+    }
 
 }

@@ -14,5 +14,9 @@ public class SamsungFridge implements SmartFridge {
     public void notifyExpiry() {
         System.out.println("Notifying expiry items from Samsung Fridge.");
     }
+    @Override
+    public void sendMessage() {
+        System.out.println("Welcome!");
+    }
 
 }

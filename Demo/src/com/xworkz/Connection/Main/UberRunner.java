@@ -9,5 +9,6 @@ public class UberRunner {
         ride.bookRide();
         ride.trackRide();
         ride.cancelRide();
+        ride.booking();
     }
 }

@@ -2,7 +2,7 @@ package com.xworkz.Connection.external;
 
 import com.xworkz.Connection.internal.WeatherApp;
 
-public class AccuWeather implements WeatherApp {
+public class AccuWeather implements WeatherApp  {
     public void fetchTemperature() {
         System.out.println("Temperature fetched from AccuWeather.");
     }
@@ -13,6 +13,11 @@ public class AccuWeather implements WeatherApp {
 
     public void showForecast() {
         System.out.println("Showing forecast from AccuWeather.");
+
+    }
+    @Override
+    public void greetUser() {
+        System.out.println("Hello! Welcome to AccuWeather.");
     }
 
 }

@@ -9,5 +9,6 @@ public class BloodTestLabRunner {
         lab.collectSample();
         lab.testSample();
         lab.generateReport();
+        lab.greetPatient();
     }
 }

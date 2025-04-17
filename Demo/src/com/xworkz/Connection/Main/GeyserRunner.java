@@ -9,5 +9,6 @@ public class GeyserRunner {
         geyser.turnOn();
         geyser.heatWater();
         geyser.turnOff();
+        geyser.hot();
     }
 }

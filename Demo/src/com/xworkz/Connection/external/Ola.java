@@ -14,5 +14,9 @@ public class Ola implements TaxiService {
     public void endTrip() {
         System.out.println("Uber trip ended.");
     }
+    @Override
+    public void booking() {
+        System.out.println("Welcome!");
+    }
 
 }

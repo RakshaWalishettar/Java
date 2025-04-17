@@ -9,5 +9,9 @@ public class AlexaRunner {
         speaker.playMusic();
         speaker.answerQuestion();
         speaker.controlDevices();
+
+        System.out.println("=================================");
+
+        speaker.greetUser();
     }
 }

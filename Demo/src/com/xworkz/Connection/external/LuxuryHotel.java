@@ -14,4 +14,8 @@ public class LuxuryHotel implements Hotel {
     public void checkOut() {
         System.out.println("Guest checked out.");
     }
+    @Override
+    public void stay() {
+        System.out.println("Welcome!");
+    }
 }

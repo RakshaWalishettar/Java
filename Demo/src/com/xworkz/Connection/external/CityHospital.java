@@ -14,4 +14,8 @@ public class CityHospital implements Hospital {
     public void dischargePatient() {
         System.out.println("Patient discharged.");
     }
+    @Override
+    public void greatHospital() {
+        System.out.println("Welcome, how  can i help.");
+    }
 }

@@ -9,5 +9,6 @@ public class EngineeringCollegeRunner {
         u.enrollStudent();
         u.conductExam();
         u.declareResults();
+        u.idScanner();
     }
 }

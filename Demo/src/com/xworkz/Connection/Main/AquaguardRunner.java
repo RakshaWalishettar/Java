@@ -9,5 +9,6 @@ public class AquaguardRunner {
         dispenser.dispenseHotWater();
         dispenser.dispenseColdWater();
         dispenser.stopDispensing();
+        dispenser.greetUser();
     }
 }

@@ -9,5 +9,6 @@ public class LuxuryHotelRunner {
         hotel.checkIn();
         hotel.roomService();
         hotel.checkOut();
+        hotel.stay();
     }
 }

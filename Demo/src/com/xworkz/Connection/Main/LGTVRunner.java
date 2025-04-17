@@ -9,5 +9,6 @@ public class LGTVRunner {
         tv.turnOn();
         tv.changeChannel();
         tv.turnOff();
+        tv.user();
     }
 }

@@ -12,6 +12,10 @@ public class Paypal implements PaymentGateway {
     public void logout() {
         System.out.println("User logged out from PayPal.");
     }
+    @Override
+    public void transaction() {
+        System.out.println("Welcome!");
+    }
 
 
 

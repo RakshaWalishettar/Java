@@ -14,4 +14,8 @@ public class FedEx implements Logistics {
     public void deliver() {
         System.out.println("Package delivered to destination.");
     }
+    @Override
+    public void Package() {
+        System.out.println("Welcome!");
+    }
 }

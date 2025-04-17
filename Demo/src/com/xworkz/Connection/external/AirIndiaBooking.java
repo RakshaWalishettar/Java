@@ -6,6 +6,7 @@ public class AirIndiaBooking implements FlightBooking {
     public void searchFlights() {
         System.out.println("Searching Air India flights...");
     }
+    @Override
     public void bookTicket() {
         System.out.println("Flight ticket booked.");
     }

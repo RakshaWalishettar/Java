@@ -9,5 +9,6 @@ public class BankOfAmericaATMRunner {
         atm.insertCard();
         atm.withdrawCash();
         atm.ejectCard();
+        atm.greetUser();
     }
 }

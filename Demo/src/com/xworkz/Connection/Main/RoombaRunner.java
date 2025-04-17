@@ -9,5 +9,6 @@ public class RoombaRunner {
         robo.startCleaning();
         robo.returnToDock();
         robo.emptyDustbin();
+        robo.machine();
     }
 }

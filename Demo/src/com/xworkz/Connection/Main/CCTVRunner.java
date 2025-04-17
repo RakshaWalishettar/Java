@@ -9,5 +9,6 @@ public class CCTVRunner {
         cam.startRecording();
         cam.detectMotion();
         cam.stopRecording();
+        cam.greetUser();
     }
 }

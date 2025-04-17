@@ -14,4 +14,8 @@ public class HDFCBank implements OnlineBanking {
     public void downloadStatement() {
         System.out.println("Downloading statement from HDFC Bank.");
     }
+    @Override
+    public void app() {
+        System.out.println("Welcome!");
+    }
 }

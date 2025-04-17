@@ -9,5 +9,6 @@ public class PetrolPumpRunner {
         pump.selectFuelType();
         pump.pumpFuel();
         pump.stopPumping();
+        pump.liquid();
     }
 }

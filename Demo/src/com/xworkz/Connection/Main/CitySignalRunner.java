@@ -9,5 +9,6 @@ public class CitySignalRunner {
         signal.showRed();
         signal.showYellow();
         signal.showGreen();
+        signal.rUles();
     }
 }

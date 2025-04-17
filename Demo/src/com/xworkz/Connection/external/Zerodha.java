@@ -14,5 +14,9 @@ public class Zerodha implements StockTrading {
     public void viewPortfolio() {
         System.out.println("Viewing portfolio on Zerodha.");
     }
+    @Override
+    public void profit() {
+        System.out.println("Welcome!");
+    }
 
 }
